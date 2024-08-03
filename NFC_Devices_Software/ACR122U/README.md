@@ -1,4 +1,4 @@
-# ACR122U [WIP]
+# ACR122U
  ![ACR122U](https://i.ibb.co/jb65wj7/ACR122U.jpg)
 
 ## Drivers
