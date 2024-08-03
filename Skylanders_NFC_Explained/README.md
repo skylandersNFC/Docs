@@ -1,4 +1,4 @@
---- Skylanders NFC Explained ---
+# Skylanders NFC Explained (WIP - Needs refactoring)
 
 ######################
 
