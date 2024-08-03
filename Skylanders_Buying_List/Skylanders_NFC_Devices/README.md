@@ -11,7 +11,7 @@
 
 ----------------------------------------------------------
 
-**PN532 V2.0**: (**~6$**): [WIP] [https://www.aliexpress.com/item/1005006298012093.html](https://www.aliexpress.com/item/1005006298012093.html)
+**PN532 V2.0**: (**~6$**): [NO UID Block] [https://www.aliexpress.com/item/1005006298012093.html](https://www.aliexpress.com/item/1005006298012093.html)
 
  ![PN532 V2.0](https://i.ibb.co/zbPYtzR/PN532.jpg)
 
