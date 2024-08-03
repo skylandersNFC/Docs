@@ -1,6 +1,6 @@
 # Skylanders Ultimate NFC Pack
 ---------------------------------------------------
--> ![Skylanders Ultimate NFC Pack](https://i.ibb.co/2qC1ZmB/Skylanders-Ultimate-NFC-Pack.jpg) <-
+![Skylanders Ultimate NFC Pack](https://i.ibb.co/2qC1ZmB/Skylanders-Ultimate-NFC-Pack.jpg)
 
 ---------------------------------------------------
 ## -> MEGA <-
