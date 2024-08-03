@@ -1,10 +1,11 @@
 A collection of Skylanders NFC documents and guides.
-
 ---
 
 **[ACR122U_Manual_Driver](https://skylandersnfc.github.io/Docs/ACR122U_Manual_Driver)**
 
 **[Debunking_Skylanders_NFC](https://skylandersnfc.github.io/Docs/Debunking_Skylanders_NFC)**
+
+**[NFC_Devices_Software](https://skylandersnfc.github.io/Docs/NFC_Devices_Software)**
 
 **[Play_with_Heartbreaker](https://skylandersnfc.github.io/Docs/Play_with_Heartbreaker)**
 
