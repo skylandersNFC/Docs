@@ -1,4 +1,4 @@
-# Debunking Skylanders NFC Card Myths and How to Write Them #
+# Debunking Skylanders NFC (WIP - Needs Refactoring)
 Greetings,
 
 So, there is still quite a lot of drama around those NFC cards and how to write on them. Here, I will try to debunk some of the things I've found. 
