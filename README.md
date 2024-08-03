@@ -1,4 +1,4 @@
-# SkyLibrary
+# SkyDocuments
 
 A collection of Skylanders NFC documents and guides.
 
