@@ -1,6 +1,6 @@
-# NS106 [WIP]
+# NS106
  ![NFCWSCM](https://i.ibb.co/Xt2tnmr/NFCWSCM.jpg)
 
 ## Software
 
-**NFC-122 Smart Card Tool:** [https://github.com/skylandersNFC/NFC-122-Smart-Card-Tool](https://github.com/skylandersNFC/NFC-122-Smart-Card-Tool)
+**NFC Copy 2023:** [https://github.com/skylandersNFC/NFC-Copy](https://github.com/skylandersNFC/NFC-Copy)
