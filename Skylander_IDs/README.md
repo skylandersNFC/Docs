@@ -737,7 +737,9 @@ Skylanders, Spyro, Activision, and other intellectual properties are owned by Ac
 |Template Land Vehicle | 5999        | 16384|
 |Template Air Vehicle  | 6999        | 16384|
 |Template Sea Vehicle  | 7999        | 16384|
+
 ### Trap Team DEBUG Characters
+
 |Skylander    | CharacterID | VariantID|
 |-------------|-------------|----------|
 |DEBUG Core   | 9990        | 12288|
