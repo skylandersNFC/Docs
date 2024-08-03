@@ -5,7 +5,7 @@
  ![ACR122U](https://i.ibb.co/jb65wj7/ACR122U.jpg)
 
 ----------------------------------------------------------
-**NS106**: (**~10$**): [WIP] [https://www.aliexpress.com/item/1005005815511447.html](https://www.aliexpress.com/item/1005005815511447.html)
+**NS106**: (**~10$**): [https://www.aliexpress.com/item/1005005815511447.html](https://www.aliexpress.com/item/1005005815511447.html)
 
  ![NFCWSCM](https://i.ibb.co/Xt2tnmr/NFCWSCM.jpg)
 
