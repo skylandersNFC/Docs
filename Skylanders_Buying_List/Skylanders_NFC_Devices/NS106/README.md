@@ -3,4 +3,4 @@
 
 ## Software
 
-**NFC-122 Smart Card Tool:** https://github.com/skylandersNFC/NFC-122-Smart-Card-Tool
+**NFC-122 Smart Card Tool:** [https://github.com/skylandersNFC/NFC-122-Smart-Card-Tool](https://github.com/skylandersNFC/NFC-122-Smart-Card-Tool)
