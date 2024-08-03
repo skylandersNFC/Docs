@@ -1,4 +1,4 @@
-A collection of Skylanders NFC documents and guides.
+### A collection of Skylanders NFC documents and guides.
 ---
 
 **[ACR122U_Manual_Driver](https://skylandersnfc.github.io/Docs/ACR122U_Manual_Driver)**
