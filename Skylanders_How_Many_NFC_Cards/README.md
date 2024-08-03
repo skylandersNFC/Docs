@@ -1,6 +1,7 @@
 ## Skylanders - How Many NFC Cards Do I Really Need? 
+
 *A pragmatic guide to writing Skylanders on NFC cards*
-***
+---
 ### 1. Spyro's Adventure
 1) Figures - 32 cards
 2) Magic Items - 8 cards + 1 card re-used
@@ -10,9 +11,11 @@
    - As for Sidekicks, I wouldn't even bother.
 4) Chase Variants - 0 cards
    - Nothing special here.
-***
+---
+
  **Spyro's Adventure TOTAL CARDS : 41** 
-***
+ 
+---
 ### 2. Giants
 1) Giants - 8 cards
 2) New (Series 1)  - 8 cards
@@ -25,9 +28,11 @@
    - Potentially, replace some of the previous dumps with Legendary variants. I would also skip the Sidekicks.
 7) Chase Variants - 0 cards
    - Nope
-***
+---
+
  **Giants TOTAL CARDS : 20** 
-***
+ 
+---
 ### 3. Swap Force
 1) Swappers - 16 X 2 = 32 cards
 2) New (Series 1) - 16 cards
@@ -43,9 +48,11 @@
    - Nothing that special about this "Gear Head VVind Up"
 8) Chase Variants - 0 cards
    - Nope
-***
+---
+
  **Swap Force TOTAL CARDS : 56** 
-***
+ 
+---
 
 ### 4. Trap Team
 1) Trap Masters - 18 cards
@@ -64,9 +71,11 @@
    - Nope
 9) Traps - 46 cards
    - There are 46 trappable villains in total. You can either flash them already trapped or trap them yourself.
-***
+---
+
  **Trap Team TOTAL CARDS : 96** 
-***
+ 
+---
 
 ### 5. SuperChargers
 1) SuperChargers - 20 cards
@@ -81,9 +90,11 @@
 6) Eon's Elite - 6 cards
    - Again, you don't really need them since you already have the normal version, but they are cool.
 7) Chase Variants - 0 cards
-***
+---
+
  **SuperChargers TOTAL CARDS : 50** 
-***
+ 
+---
 
 ### 6. Imaginators
 1) Senseis - 20 cards
@@ -99,8 +110,10 @@
    - Nothing that speicla about "Goldie" but why not.
 8) Chase Variants - 0 cards
    - Nope
-***
+---
+
  **Imaginators TOTAL CARDS : 48** 
-***
+ 
+---
 
 ## TOTAL NUMBER OF CARDS NEEDED: 311
