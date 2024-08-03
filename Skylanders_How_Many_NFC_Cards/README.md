@@ -14,7 +14,7 @@
      
 ---
  **Spyro's Adventure TOTAL CARDS : 41** 
----
+
 ### 2. Giants
 1) Giants - 8 cards
 2) New (Series 1)  - 8 cards
@@ -30,7 +30,6 @@
      
 ---
  **Giants TOTAL CARDS : 20** 
----
 
 ### 3. Swap Force
 1) Swappers - 16 X 2 = 32 cards
@@ -50,7 +49,6 @@
      
 ---
  **Swap Force TOTAL CARDS : 56** 
----
 
 ### 4. Trap Team
 1) Trap Masters - 18 cards
@@ -72,7 +70,6 @@
      
 ---
  **Trap Team TOTAL CARDS : 96** 
----
 
 ### 5. SuperChargers
 1) SuperChargers - 20 cards
@@ -90,7 +87,6 @@
    
 ---
  **SuperChargers TOTAL CARDS : 50** 
----
 
 ### 6. Imaginators
 1) Senseis - 20 cards
@@ -109,6 +105,5 @@
      
 ---
  **Imaginators TOTAL CARDS : 48** 
----
 
 ## TOTAL NUMBER OF CARDS NEEDED: 311
