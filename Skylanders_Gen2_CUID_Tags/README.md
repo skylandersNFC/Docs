@@ -1,4 +1,4 @@
-# » Writing & Reading Skylander Tags Using Android Phones
+# » Writing Gen2 CUID Skylander Tags Using Android Phones
 ## » Before Starting
 Check if your phone isn't listed on the [Incompatible Devices List](https://github.com/ikarus23/MifareClassicTool/blob/master/INCOMPATIBLE_DEVICES.md).
 ###

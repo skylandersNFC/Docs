@@ -4,6 +4,7 @@ Greetings,
 So, there is still quite a lot of drama around those NFC cards and how to write on them. Here, I will try to debunk some of the things I've found. 
 
 First, look for these parameters in the listing of the cards: 
+
  ![Alt Tag](https://i.ibb.co/nB9p8p9/image.png)
 The first column is required, the second column is good to have (but not necessary), and the third column should be avoided like the plague. 
 

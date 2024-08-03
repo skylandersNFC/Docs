@@ -1,9 +1,9 @@
 # Play with Heartbreaker Buckshot on Emulators
 
-## %red% ** Heartbreaker Buckshot on CEMU POP:** %% 
+## Heartbreaker Buckshot on CEMU POP:
  [![Alt Tag](https://i.ibb.co/8sKVHNx/image.png)](https://streamable.com/rp0tu9) 
 
-## %green% **Heartbreaker Buckshot on RPCS3:** %% 
+## Heartbreaker Buckshot on RPCS3:
  [![Alt Tag](https://i.ibb.co/KDMBCBM/image.png)](https://streamable.com/psn32t) 
 
 All thx to "ItsSecretNate" and "Maffama'iks" (@maff), who told me about the process.
