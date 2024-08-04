@@ -4,9 +4,9 @@
 
 ## Compatibility List
 
-**Compatible Devices:** [https://github.com/ikarus23/MifareClassicTool/blob/master/COMPATIBLE_DEVICES.md](https://github.com/ikarus23/MifareClassicTool/blob/master/COMPATIBLE_DEVICES.md)
+**Compatible Devices:** [https://skylandersnfc.github.io/Docs/NFC_Devices_Software/AndroidPhone/COMPATIBLE_DEVICES](https://skylandersnfc.github.io/Docs/NFC_Devices_Software/AndroidPhone/COMPATIBLE_DEVICES)
 
-**Incompatible Devices:** [https://github.com/ikarus23/MifareClassicTool/blob/master/INCOMPATIBLE_DEVICES.md](https://github.com/ikarus23/MifareClassicTool/blob/master/INCOMPATIBLE_DEVICES.md)
+**Incompatible Devices:** [https://skylandersnfc.github.io/Docs/NFC_Devices_Software/AndroidPhone/INCOMPATIBLE_DEVICES](https://skylandersnfc.github.io/Docs/NFC_Devices_Software/AndroidPhone/INCOMPATIBLE_DEVICES)
 
 ## Software
 
