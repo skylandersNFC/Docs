@@ -4,7 +4,9 @@
 
 **Price: ~20$**
 
-**AliExpress:** [https://www.aliexpress.com/item/1005007059981151.html](https://www.aliexpress.com/item/1005007059981151.html)
+**Buy:** [https://www.aliexpress.com/item/1005007059981151.html](https://www.aliexpress.com/item/1005007059981151.html)
+
+**Software:** [https://skylandersnfc.github.io/Docs/NFC_Devices_Software/ACR122U/](https://skylandersnfc.github.io/Docs/NFC_Devices_Software/ACR122U/)
 
  [![ACR122U](https://raw.githubusercontent.com/skylandersNFC/Docs/main/NFC_Devices_Software/images/ACR122U.jpg)](https://skylandersnfc.github.io/Docs/NFC_Devices_Software/ACR122U)
 
@@ -13,17 +15,21 @@
 
 **Price: ~10$**
 
-**AliExpress:** [https://www.aliexpress.com/item/1005005815511447.html](https://www.aliexpress.com/item/1005005815511447.html)
+**Buy:** [https://www.aliexpress.com/item/1005005815511447.html](https://www.aliexpress.com/item/1005005815511447.html)
+
+**Software:** [https://skylandersnfc.github.io/Docs/NFC_Devices_Software/NS106/](https://skylandersnfc.github.io/Docs/NFC_Devices_Software/NS106/)
 
 [![NFCWSCM](https://raw.githubusercontent.com/skylandersNFC/Docs/main/NFC_Devices_Software/images/NS106.jpg)](https://skylandersnfc.github.io/Docs/NFC_Devices_Software/NS106)
 
 ----------------------------------------------------------
 
-## **PN532 V2.0**: (No Imaginators)
+## **PN532 V2.0**: (No Imaginators) *
 
 **Price: ~6$**
 
-**AliExpress:** [https://www.aliexpress.com/item/1005006298012093.html](https://www.aliexpress.com/item/1005006298012093.html)
+**Buy:** [https://www.aliexpress.com/item/1005006298012093.html](https://www.aliexpress.com/item/1005006298012093.html)
+
+**Software:** [https://skylandersnfc.github.io/Docs/NFC_Devices_Software/PN532/](https://skylandersnfc.github.io/Docs/NFC_Devices_Software/PN532/)
 
 [![PN532 V2.0](https://raw.githubusercontent.com/skylandersNFC/Docs/main/NFC_Devices_Software/images/PN532.jpg)](https://skylandersnfc.github.io/Docs/NFC_Devices_Software/PN532)
 
@@ -33,6 +39,22 @@
 
 **Price: ~3$**
 
-**AliExpress:** [https://www.aliexpress.com/item/1005007032592382.html](https://www.aliexpress.com/item/1005007032592382.html)
+**Buy:** [https://www.aliexpress.com/item/1005007032592382.html](https://www.aliexpress.com/item/1005007032592382.html)
+
+**Software:** [https://skylandersnfc.github.io/Docs/NFC_Devices_Software/RC522/](https://skylandersnfc.github.io/Docs/NFC_Devices_Software/RC522/)
 
 [![RC522](https://raw.githubusercontent.com/skylandersNFC/Docs/main/NFC_Devices_Software/images/RC522.jpg)](https://skylandersnfc.github.io/Docs/NFC_Devices_Software/RC522)
+
+----------------------------------------------------------
+
+## **Android Phone**: (No Imaginators) *
+
+**Price: ~0$** (assuming you already have one)
+
+**Compatible Devices:** [https://github.com/ikarus23/MifareClassicTool/blob/master/COMPATIBLE_DEVICES.md](https://github.com/ikarus23/MifareClassicTool/blob/master/COMPATIBLE_DEVICES.md)
+
+**Incompatible Devices:** [https://github.com/ikarus23/MifareClassicTool/blob/master/INCOMPATIBLE_DEVICES.md](https://github.com/ikarus23/MifareClassicTool/blob/master/INCOMPATIBLE_DEVICES.md)
+
+**Software:** [https://github.com/ikarus23/MifareClassicTool/](https://github.com/ikarus23/MifareClassicTool/)
+
+[![Android Phone](https://raw.githubusercontent.com/skylandersNFC/Docs/main/NFC_Devices_Software/images/AndroidPhone.png)](#)
