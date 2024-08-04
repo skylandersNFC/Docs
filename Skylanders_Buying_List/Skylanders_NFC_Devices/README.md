@@ -35,7 +35,7 @@
 
 ----------------------------------------------------------
 
-## **RC522**: (WIP - Require Arduino Nano)
+## **RC522**: [Require Arduino Nano] (WIP)
 
 **Price: ~3$**
 
@@ -58,3 +58,8 @@
 **Software:** [https://github.com/ikarus23/MifareClassicTool/](https://github.com/ikarus23/MifareClassicTool/)
 
 [![Android Phone](https://raw.githubusercontent.com/skylandersNFC/Docs/main/NFC_Devices_Software/images/AndroidPhone.png)](#)
+
+----------------------------------------------------------
+(*) You can still makes Imaginators (even with Android Phones) if you have Gen2 cards, but the process is more complex.
+
+More info here: [https://skylandersnfc.github.io/Docs/Skylanders_Gen2_CUID_Tags/](https://skylandersnfc.github.io/Docs/Skylanders_Gen2_CUID_Tags/)
