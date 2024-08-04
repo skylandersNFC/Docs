@@ -55,7 +55,7 @@
 
 **Incompatible Devices:** [https://github.com/ikarus23/MifareClassicTool/blob/master/INCOMPATIBLE_DEVICES.md](https://github.com/ikarus23/MifareClassicTool/blob/master/INCOMPATIBLE_DEVICES.md)
 
-**Software:** [https://github.com/ikarus23/MifareClassicTool/](https://github.com/ikarus23/MifareClassicTool/)
+**Software:** [https://skylandersnfc.github.io/Docs/NFC_Devices_Software/AndroidPhone/](https://skylandersnfc.github.io/Docs/NFC_Devices_Software/AndroidPhone/)
 
 [![Android Phone](https://raw.githubusercontent.com/skylandersNFC/Docs/main/NFC_Devices_Software/images/AndroidPhone.png)](#)
 
