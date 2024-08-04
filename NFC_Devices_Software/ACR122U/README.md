@@ -1,5 +1,5 @@
-# ACR122U
- ![ACR122U](https://i.ibb.co/jb65wj7/ACR122U.jpg)
+# ACR122U (All Skylanders)
+ [![ACR122U](https://raw.githubusercontent.com/skylandersNFC/Docs/main/NFC_Devices_Software/images/ACR122U.jpg)](https://skylandersnfc.github.io/Docs/NFC_Devices_Software/ACR122U)
 
 ## Drivers
 **ASC Driver 4.2.8.0:** [https://www.acs.com.hk/en/driver/3/acr122u-usb-nfc-reader/](https://www.acs.com.hk/en/driver/3/acr122u-usb-nfc-reader/)
