@@ -11,12 +11,16 @@
 
 ----------------------------------------------------------
 
-**PN532 V2.0**: (**~6$**): [NO UID Block] [https://www.aliexpress.com/item/1005006298012093.html](https://www.aliexpress.com/item/1005006298012093.html)
+**PN532 V2.0**: (**~6$**): [https://www.aliexpress.com/item/1005006298012093.html](https://www.aliexpress.com/item/1005006298012093.html)
+
+**NO UID Changing - Meaning you can't do Imaginators with this Writer**
 
  ![PN532 V2.0](https://i.ibb.co/zbPYtzR/PN532.jpg)
 
 ----------------------------------------------------------
 
-**RC522**: (**~3$**): [WIP] [https://www.aliexpress.com/item/1005007032592382.html](https://www.aliexpress.com/item/1005007032592382.html)
+**RC522**: (**~3$**): [https://www.aliexpress.com/item/1005007032592382.html](https://www.aliexpress.com/item/1005007032592382.html)
+
+**[WIP] - And require Arduino Nano**
 
  ![RC522](https://i.ibb.co/d7pYpRb/RC522.jpg)
