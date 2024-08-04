@@ -53,7 +53,7 @@
 
 **Software:** [https://skylandersnfc.github.io/Docs/NFC_Devices_Software/AndroidPhone/](https://skylandersnfc.github.io/Docs/NFC_Devices_Software/AndroidPhone/)
 
-[![Android Phone](https://raw.githubusercontent.com/skylandersNFC/Docs/main/NFC_Devices_Software/images/AndroidPhone.png)](#)
+[![Android Phone](https://raw.githubusercontent.com/skylandersNFC/Docs/main/NFC_Devices_Software/images/AndroidPhone.png)](https://skylandersnfc.github.io/Docs/NFC_Devices_Software/AndroidPhone/)
 
 ----------------------------------------------------------
 (*) You can still makes Imaginators (even with Android Phones) if you have Gen2 cards, but the process is more complex.
