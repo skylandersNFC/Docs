@@ -4,9 +4,3 @@
 ## Software
 
 **NFC Copy 2023:** [https://github.com/skylandersNFC/NFC-Copy](https://github.com/skylandersNFC/NFC-Copy)
-
-----------------------------------------------------------
-
-(*) You can still makes Imaginators (even with Android Phones) if you have Gen2 cards, but the process is more complex.
-
-More info here: [https://skylandersnfc.github.io/Docs/Skylanders_Gen2_CUID_Tags/](https://skylandersnfc.github.io/Docs/Skylanders_Gen2_CUID_Tags/)
