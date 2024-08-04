@@ -51,10 +51,6 @@
 
 **Price: ~0$** (assuming you already have one)
 
-**Compatible Devices:** [https://github.com/ikarus23/MifareClassicTool/blob/master/COMPATIBLE_DEVICES.md](https://github.com/ikarus23/MifareClassicTool/blob/master/COMPATIBLE_DEVICES.md)
-
-**Incompatible Devices:** [https://github.com/ikarus23/MifareClassicTool/blob/master/INCOMPATIBLE_DEVICES.md](https://github.com/ikarus23/MifareClassicTool/blob/master/INCOMPATIBLE_DEVICES.md)
-
 **Software:** [https://skylandersnfc.github.io/Docs/NFC_Devices_Software/AndroidPhone/](https://skylandersnfc.github.io/Docs/NFC_Devices_Software/AndroidPhone/)
 
 [![Android Phone](https://raw.githubusercontent.com/skylandersNFC/Docs/main/NFC_Devices_Software/images/AndroidPhone.png)](#)
