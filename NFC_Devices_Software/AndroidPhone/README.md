@@ -1,4 +1,4 @@
-# Compatible Android Phone
+# Android Phone (No Imaginators) *
 
 [![Android Phone](https://raw.githubusercontent.com/skylandersNFC/Docs/main/NFC_Devices_Software/images/AndroidPhone.png)](#)
 
@@ -11,3 +11,9 @@
 ## Software
 
 **MIFARE Classic Tool (MCT):** [https://github.com/ikarus23/MifareClassicTool/](https://github.com/ikarus23/MifareClassicTool/)
+
+----------------------------------------------------------
+
+(*) You can still makes Imaginators (even with Android Phones) if you have Gen2 cards, but the process is more complex.
+
+More info here: [https://skylandersnfc.github.io/Docs/Skylanders_Gen2_CUID_Tags/](https://skylandersnfc.github.io/Docs/Skylanders_Gen2_CUID_Tags/)
