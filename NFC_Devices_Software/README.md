@@ -12,7 +12,7 @@
 [![PN532 V2.0](https://raw.githubusercontent.com/skylandersNFC/Docs/main/NFC_Devices_Software/images/PN532.jpg)](https://skylandersnfc.github.io/Docs/NFC_Devices_Software/PN532)
 
 
-## [RC522](https://skylandersnfc.github.io/Docs/NFC_Devices_Software/RC522) (WIP)
+## [RC522](https://skylandersnfc.github.io/Docs/NFC_Devices_Software/RC522) [Require Arduino Nano] (WIP)
 [![RC522](https://raw.githubusercontent.com/skylandersNFC/Docs/main/NFC_Devices_Software/images/RC522.jpg)](https://skylandersnfc.github.io/Docs/NFC_Devices_Software/RC522)
 
 ##  [Android Phone](https://skylandersnfc.github.io/Docs/NFC_Devices_Software/AndroidPhone) (No Imaginators) *
