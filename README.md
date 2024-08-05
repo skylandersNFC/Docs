@@ -11,9 +11,9 @@
 
 **[Skylander_IDs](https://skylandersnfc.github.io/Docs/Skylander_IDs)** (Texthead)
 
-**[Skylanders_Buying_List](https://skylandersnfc.github.io/Docs/Skylanders_Buying_List)** (MoltenLavaCore)
+**[Skylanders_Buying_List](https://skylandersnfc.github.io/Docs/Skylanders_Buying_List)** 
 
-**[Skylanders_Debug_Toys_IDs](https://skylandersnfc.github.io/Docs/Skylanders_Debug_Toys_IDs)**
+**[Skylanders_Debug_Toys_IDs](https://skylandersnfc.github.io/Docs/Skylanders_Debug_Toys_IDs)** (MoltenLavaCore)
 
 **[Skylanders_Gen2_CUID_Tags](https://skylandersnfc.github.io/Docs/Skylanders_Gen2_CUID_Tags)** (Zillion)
 
