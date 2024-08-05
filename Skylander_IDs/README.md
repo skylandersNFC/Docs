@@ -27,6 +27,7 @@ Skylanders, Spyro, Activision, and other intellectual properties are owned by Ac
 #### [Unusable IDs (Documentation only)](#unusable-ids-documentation-only-1)
 
 ## Info
+* All values are decimal (base-10)
 ### Spyro's Adventure
 
 |Skylander                         | CharacterID | VariantID|
