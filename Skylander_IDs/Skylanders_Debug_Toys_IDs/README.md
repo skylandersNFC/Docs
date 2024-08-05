@@ -1,4 +1,6 @@
-| Id    | Variant | Name                                        | Series           | Element |
+* All values are hexadecimal (base-16)
+
+| CharacterID     | VariantID | Name                            | Series           | Element |
 |-------|---------|---------------------------------------------|------------------|---------|
 | 0071  | ????    | Sniper                                      | Giants           | Life    |
 | 02BB  | 5208    | Goldie (Invincible)                         | Imaginators      | Magic   |
