@@ -1,4 +1,6 @@
-| Id    | Variant | Name                                        | Series           | Element |
+* All values are hexadecimal (base-16)
+
+| CharacterID     | VariantID | Name                            | Series           | Element |
 |-------|---------|---------------------------------------------|------------------|---------|
 | 0000  | 0000    | Whirlwind                                   | Spyros Adventure | Air     |
 | 0000  | 1801    | Whirlwind (S2)                              | Giants           | Air     |
