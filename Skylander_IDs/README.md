@@ -24,6 +24,7 @@ Skylanders, Spyro, Activision, and other intellectual properties are owned by Ac
 #### [Skylanders 2016](#skylanders-2016-1)
 #### [SuperChargers Template Vehicles](#superchargers-template-vehicles-1)
 #### [Trap Team DEBUG Characters](#trap-team-debug-characters-1)
+#### [Unusable IDs (Documentation only)](#unusable-ids-documentation-only-1)
 
 ## Info
 ### Spyro's Adventure
@@ -396,8 +397,8 @@ Skylanders, Spyro, Activision, and other intellectual properties are owned by Ac
 |Gnarly Barkley            | 540         | 13314|
 |Thumpling (Sidekick)      | 541         | 4096|
 |Thumpling (Mini)          | 541         | 12288|
-|Minijini (Sidekick)       | 542         | 4096|
-|Minijini (Mini)           | 542         | 12288|
+|Mini-Jini (Sidekick)       | 542         | 4096|
+|Mini-Jini (Mini)           | 542         | 12288|
 |Eye-Small (Sidekick)      | 543         | 4096|
 |Eye-Small (Mini)          | 543         | 12288|
 
@@ -699,7 +700,7 @@ Skylanders, Spyro, Activision, and other intellectual properties are owned by Ac
 |Skylander             | CharacterID | VariantID|
 |----------------------|-------------|----------|
 |Chef Pepper Jack      | 3440        | 16384|
-|Stratosphere          | 3441        | 16384|
+|Stratosfear          | 3441        | 16384|
 |Cap'n Cluck           | 3442        | 16384|
 |Wolfgang              | 3443        | 16384|
 |Threatpack            | 3444        | 16384|
@@ -777,3 +778,15 @@ Skylanders, Spyro, Activision, and other intellectual properties are owned by Ac
 |DEBUG Core   | 9990        | 12288|
 |DEBUG Giant  | 9991        | 12288|
 |DEBUG Ranger | 9992        | 12288|
+
+### Unusable IDs (Documentation only)
+
+|Skylander               | Character ID | Variant ID|
+|------------------------|--------------|-----------|
+|TestTitan               | 98           | NULL      |
+|DEBUG Minion (Internal) | 99           | NULL      |
+|Sniper                  | 113          | NULL      |
+|TrollMech (TestTitan)   | 150          | NULL      |
+|Harvester               | 475          | NULL      |
+
+Note that Sniper and Harvester share the same Character IDs as Shroomboom and Tuff Luck respectively. These IDs are the numerical IDs for the internal files for these characters, so they don't possess an actual valid toy ID nor can be given NFC dumps to become playable
