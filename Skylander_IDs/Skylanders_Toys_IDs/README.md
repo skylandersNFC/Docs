@@ -1,4 +1,5 @@
 * All values are hexadecimal (base-16)
+* Use this if you want to convert them to decimal (base-10) : [https://www.binaryhexconverter.com/hex-to-decimal-converter](https://www.binaryhexconverter.com/hex-to-decimal-converter)
 
 | CharacterID     | VariantID | Name                            | Series           | Element |
 |-------|---------|---------------------------------------------|------------------|---------|
