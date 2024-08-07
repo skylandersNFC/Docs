@@ -5,6 +5,8 @@
 
 **[Debunking_Skylanders_NFC](https://skylandersnfc.github.io/Docs/Debunking_Skylanders_NFC)**
 
+**[Know_Your_Magic_Cards](https://skylandersnfc.github.io/Docs/Know_Your_Magic_Cards)**
+
 **[NFC_Devices_Software](https://skylandersnfc.github.io/Docs/NFC_Devices_Software)**
 
 **[Play_with_Heartbreaker](https://skylandersnfc.github.io/Docs/Play_with_Heartbreaker)**
