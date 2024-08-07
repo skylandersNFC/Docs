@@ -4,4 +4,6 @@
 
 ## Software
 
-**TODO:** [#](#)
+[MFRC522](https://github.com/miguelbalboa/rfid)
+
+[Easy MFRC522 Library](https://github.com/pablo-sampaio/easy_mfrc522)
