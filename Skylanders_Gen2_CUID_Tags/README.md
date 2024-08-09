@@ -29,4 +29,4 @@ tmp - Don't touch it, it is used only by the app.
 > ### 6 - Mark the check-boxes like in this screenshot and then press the 'Select Dump' button, select your dump and when asked select all the sectors, EXCLUDING > > sector 0, now put your tag on the reader and click 'write'.
 > ![Screenshot_MIFARE_Classic_Tool](https://user-images.githubusercontent.com/77107077/155374053-62645082-ca42-4799-b4e5-c6ad3304aa1f.jpg)
 > ### 7 - Now repeat step 6 but write to ONLY sector 0.
-> ### 8 - Your tag should be ready, but sometimes it won't work due to dump's UID not being written. In this case you should do it manually but if can't that means your tags aren't UID (Re)Writable.
+> ### 8 - Your tag should be ready, but sometimes it might not work due to issues with Sector 0 SAK and ATAQ not being written properly. After the last flash, those blocks will become Read-Only, so there's nothing you can do about it. If that's your case, you'll need to try again with a new tag. The last time I tried this, only 5 out of 10 tags worked and the rest got wrong SAK and ATAQ, so this process with Gen2 cards is not considered reliable by any means.
