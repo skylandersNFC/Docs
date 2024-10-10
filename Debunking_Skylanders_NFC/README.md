@@ -95,9 +95,9 @@ Just use **[Yet Another Mifare Tool (YAMT)](https://github.com/skylandersNFC/Yet
 
 With **UID Re-Writable** cards you can get all the Skylanders you want (including **Imaginators**) and you can **re-write** them all you want.
 
-With **UID locked** cards you can get **only the older** Skylanders (**without** Imaginators) and you can **re-write** them with **only older** Skylanders.
+With **UID locked** cards you can get **only older** Skylanders (**without** Imaginators) and you can **re-write** them with **only older** Skylanders.
 
-With **Gen2** cards you can get **older Skylanders** and **Imaginators**, but you **can't re-write** them with **another** Imaginators.
+With **Gen2** cards you can get **older Skylanders** and **Imaginators**, but you can **re-write** them with **only older** Skylanders.
 
 
 ## TL;DR Android ##
