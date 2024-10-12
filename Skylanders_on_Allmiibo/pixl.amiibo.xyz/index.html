@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+      <meta charset="utf-8">
+      <title>Pixl.js</title>
+      <link rel="stylesheet" href="assets/styles.css">
+   </head>
+   <body>
+      <div id="app">
+         <div id="app">
+            <div class="action-right">
+               <div class="international el-dropdown">
+                  <div aria-haspopup="list" aria-controls="dropdown-menu-5310" role="button" tabindex="0" class=" el-dropdown-selfdefine">
+                     <button type="button" class="el-button el-button--primary el-button--mini">
+                        <!----><i class="el-icon-setting"></i><span>Language</span>
+                     </button>
+                  </div>
+                  <ul class="el-dropdown-menu el-popper" style="display: none;" id="dropdown-menu-5310">
+                     <li tabindex="-1" class="el-dropdown-menu__item el-dropdown-menu__item--divided" enabled="language==='zh_CN'">
+                        <!---->
+                        简体中文
+                     </li>
+                     <li tabindex="-1" class="el-dropdown-menu__item el-dropdown-menu__item--divided" enabled="language==='zh_TW'">
+                        <!---->
+                        繁體中文(臺灣)
+                     </li>
+                     <li tabindex="-1" class="el-dropdown-menu__item el-dropdown-menu__item--divided" enabled="language==='en'">
+                        <!---->
+                        English
+                     </li>
+                     <li tabindex="-1" class="el-dropdown-menu__item el-dropdown-menu__item--divided" enabled="language==='es'">
+                        <!---->
+                        Español
+                     </li>
+                     <li tabindex="-1" class="el-dropdown-menu__item el-dropdown-menu__item--divided" enabled="language==='ru_RU'">
+                        <!---->
+                        Русский
+                     </li>
+                     <li tabindex="-1" class="el-dropdown-menu__item el-dropdown-menu__item--divided" enabled="language==='de'">
+                        <!---->
+                        Deutsch
+                     </li>
+                  </ul>
+               </div>
+            </div>
+            <h1 class="header">Pixl.js</h1>
+            <div class="el-row">
+               <div class="el-col el-col-14">
+                  <div class="action-left">
+                     <div class="el-button-group">
+                        <button disabled="disabled" type="button" class="el-button el-button--primary el-button--mini is-disabled">
+                           <!----><i class="el-icon-upload"></i><span>Upload</span>
+                        </button>
+                     </div>
+                     <div class="el-button-group">
+                        <button disabled="disabled" type="button" class="el-button el-button--default el-button--mini is-disabled">
+                           <!----><i class="el-icon-plus"></i><span>New Folder</span>
+                        </button>
+                        <button disabled="disabled" type="button" class="el-button el-button--danger el-button--mini is-disabled">
+                           <!----><i class="el-icon-delete"></i><span>Delete</span>
+                        </button>
+                     </div>
+                     <div class="el-button-group">
+                        <button disabled="disabled" type="button" class="el-button el-button--default el-button--mini is-disabled">
+                           <!----><i class="el-icon-top"></i><span>Parent Folder</span>
+                        </button>
+                        <button disabled="disabled" type="button" class="el-button el-button--default el-button--mini is-disabled">
+                           <!----><i class="el-icon-refresh"></i><span>Refresh</span>
+                        </button>
+                     </div>
+                  </div>
+               </div>
+               <div class="el-col el-col-10">
+                  <div class="action-right">
+                     <!----> 
+                     <div class="el-button-group">
+                        <button disabled="disabled" type="button" class="el-button el-button--info el-button--mini is-disabled">
+                           <!----><i class="el-icon-cpu"></i><span>DFU</span>
+                        </button>
+                        <button type="button" class="el-button el-button--mini">
+                           <!----><i class="el-icon-connection"></i><span>Connect</span>
+                        </button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="el-row">
+               <div class="el-col el-col-24">
+                  <div class="folder-path">
+                     <div aria-label="Breadcrumb" role="navigation" class="el-breadcrumb"><span class="el-breadcrumb__item" aria-current="page"><span role="link" class="el-breadcrumb__inner"></span><span role="presentation" class="el-breadcrumb__separator">/</span></span></div>
+                  </div>
+               </div>
+            </div>
+            <div>
+               <div class="el-table el-table--fit" element-loading-text="loading…" element-loading-spinner="el-icon-loading" style="width: 100%;">
+                  <div class="hidden-columns">
+                     <div></div>
+                     <div></div>
+                     <div></div>
+                     <div></div>
+                     <div></div>
+                     <div></div>
+                  </div>
+                  <div class="el-table__header-wrapper">
+                     <table cellspacing="0" cellpadding="0" border="0" class="el-table__header" style="width: 960px;">
+                        <colgroup>
+                           <col name="el-table_1_column_1" width="42">
+                           <col name="el-table_1_column_2" width="320">
+                           <col name="el-table_1_column_3" width="150">
+                           <col name="el-table_1_column_4" width="80">
+                           <col name="el-table_1_column_5" width="328">
+                           <col name="el-table_1_column_6" width="40">
+                           <col name="gutter" width="0">
+                        </colgroup>
+                        <thead class="has-gutter">
+                           <tr class="">
+                              <th colspan="1" rowspan="1" class="el-table_1_column_1   el-table-column--selection  is-leaf el-table__cell">
+                                 <div class="cell">
+                                    <label class="el-checkbox is-disabled">
+                                       <span class="el-checkbox__input is-disabled"><span class="el-checkbox__inner"></span><input type="checkbox" aria-hidden="false" disabled="disabled" class="el-checkbox__original" value=""></span><!---->
+                                    </label>
+                                 </div>
+                              </th>
+                              <th colspan="1" rowspan="1" class="el-table_1_column_2 ascending    is-leaf is-sortable el-table__cell">
+                                 <div class="cell">Name<span class="caret-wrapper"><i class="sort-caret ascending"></i><i class="sort-caret descending"></i></span></div>
+                              </th>
+                              <th colspan="1" rowspan="1" class="el-table_1_column_3     is-leaf is-sortable el-table__cell">
+                                 <div class="cell">Size<span class="caret-wrapper"><i class="sort-caret ascending"></i><i class="sort-caret descending"></i></span></div>
+                              </th>
+                              <th colspan="1" rowspan="1" class="el-table_1_column_4     is-leaf is-sortable el-table__cell">
+                                 <div class="cell">Type<span class="caret-wrapper"><i class="sort-caret ascending"></i><i class="sort-caret descending"></i></span></div>
+                              </th>
+                              <th colspan="1" rowspan="1" class="el-table_1_column_5     is-leaf is-sortable el-table__cell">
+                                 <div class="cell">Remark<span class="caret-wrapper"><i class="sort-caret ascending"></i><i class="sort-caret descending"></i></span></div>
+                              </th>
+                              <th colspan="1" rowspan="1" class="el-table_1_column_6     is-hidden is-leaf el-table__cell">
+                                 <div class="cell"></div>
+                              </th>
+                              <th class="el-table__cell gutter" style="width: 0px; display: none;"></th>
+                           </tr>
+                        </thead>
+                     </table>
+                  </div>
+                  <div class="el-table__body-wrapper is-scrolling-none">
+                     <table cellspacing="0" cellpadding="0" border="0" class="el-table__body" style="width: 960px;">
+                        <colgroup>
+                           <col name="el-table_1_column_1" width="42">
+                           <col name="el-table_1_column_2" width="320">
+                           <col name="el-table_1_column_3" width="150">
+                           <col name="el-table_1_column_4" width="80">
+                           <col name="el-table_1_column_5" width="328">
+                           <col name="el-table_1_column_6" width="40">
+                        </colgroup>
+                        <tbody>
+                           <!---->
+                        </tbody>
+                     </table>
+                     <div class="el-table__empty-block" style="height: 100%; width: 960px;"><span class="el-table__empty-text">No Data</span></div>
+                     <!---->
+                  </div>
+                  <!----><!---->
+                  <div class="el-table__fixed-right" style="width: 40px; height: 119px;">
+                     <div class="el-table__fixed-header-wrapper">
+                        <table cellspacing="0" cellpadding="0" border="0" class="el-table__header" style="width: 960px;">
+                           <colgroup>
+                              <col name="el-table_1_column_1" width="42">
+                              <col name="el-table_1_column_2" width="320">
+                              <col name="el-table_1_column_3" width="150">
+                              <col name="el-table_1_column_4" width="80">
+                              <col name="el-table_1_column_5" width="328">
+                              <col name="el-table_1_column_6" width="40">
+                           </colgroup>
+                           <thead class="">
+                              <tr class="">
+                                 <th colspan="1" rowspan="1" class="el-table_1_column_1   el-table-column--selection  is-hidden is-leaf el-table__cell">
+                                    <div class="cell">
+                                       <label class="el-checkbox is-disabled">
+                                          <span class="el-checkbox__input is-disabled"><span class="el-checkbox__inner"></span><input type="checkbox" aria-hidden="false" disabled="disabled" class="el-checkbox__original" value=""></span><!---->
+                                       </label>
+                                    </div>
+                                 </th>
+                                 <th colspan="1" rowspan="1" class="el-table_1_column_2 ascending    is-hidden is-leaf is-sortable el-table__cell">
+                                    <div class="cell">Name<span class="caret-wrapper"><i class="sort-caret ascending"></i><i class="sort-caret descending"></i></span></div>
+                                 </th>
+                                 <th colspan="1" rowspan="1" class="el-table_1_column_3     is-hidden is-leaf is-sortable el-table__cell">
+                                    <div class="cell">Size<span class="caret-wrapper"><i class="sort-caret ascending"></i><i class="sort-caret descending"></i></span></div>
+                                 </th>
+                                 <th colspan="1" rowspan="1" class="el-table_1_column_4     is-hidden is-leaf is-sortable el-table__cell">
+                                    <div class="cell">Type<span class="caret-wrapper"><i class="sort-caret ascending"></i><i class="sort-caret descending"></i></span></div>
+                                 </th>
+                                 <th colspan="1" rowspan="1" class="el-table_1_column_5     is-hidden is-leaf is-sortable el-table__cell">
+                                    <div class="cell">Remark<span class="caret-wrapper"><i class="sort-caret ascending"></i><i class="sort-caret descending"></i></span></div>
+                                 </th>
+                                 <th colspan="1" rowspan="1" class="el-table_1_column_6     is-leaf el-table__cell">
+                                    <div class="cell"></div>
+                                 </th>
+                              </tr>
+                           </thead>
+                        </table>
+                     </div>
+                     <div class="el-table__fixed-body-wrapper" style="top: 59px;">
+                        <table cellspacing="0" cellpadding="0" border="0" class="el-table__body" style="width: 960px;">
+                           <colgroup>
+                              <col name="el-table_1_column_1" width="42">
+                              <col name="el-table_1_column_2" width="320">
+                              <col name="el-table_1_column_3" width="150">
+                              <col name="el-table_1_column_4" width="80">
+                              <col name="el-table_1_column_5" width="328">
+                              <col name="el-table_1_column_6" width="40">
+                           </colgroup>
+                           <tbody>
+                              <!---->
+                           </tbody>
+                        </table>
+                        <!---->
+                     </div>
+                     <!---->
+                  </div>
+                  <div class="el-table__fixed-right-patch" style="width: 0px; height: 59px;"></div>
+                  <div class="el-table__column-resize-proxy" style="display: none;"></div>
+               </div>
+            </div>
+            <div class="el-dialog__wrapper" style="display: none;">
+               <div role="dialog" aria-modal="true" aria-label="Properties" class="el-dialog" style="margin-top: 15vh; width: 30%;">
+                  <div class="el-dialog__header"><span class="el-dialog__title">Properties</span><button type="button" aria-label="Close" class="el-dialog__headerbtn"><i class="el-dialog__close el-icon el-icon-close"></i></button></div>
+                  <!---->
+                  <div class="el-dialog__footer">
+                     <span class="dialog-footer">
+                        <button type="button" class="el-button el-button--default">
+                           <!----><!----><span>Cancel</span>
+                        </button>
+                        <button type="button" class="el-button el-button--primary">
+                           <!----><!----><span>OK</span>
+                        </button>
+                     </span>
+                  </div>
+               </div>
+            </div>
+            <div class="el-dialog__wrapper" style="display: none;">
+               <div role="dialog" aria-modal="true" aria-label="Upload" class="el-dialog" style="margin-top: 15vh; width: 30%;">
+                  <div class="el-dialog__header"><span class="el-dialog__title">Upload</span><button type="button" aria-label="Close" class="el-dialog__headerbtn"><i class="el-dialog__close el-icon el-icon-close"></i></button></div>
+                  <!---->
+                  <div class="el-dialog__footer"><span class="dialog-footer"></span></div>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <script type="text/javascript" src="assets/manifest.js">
+	  </script><script type="text/javascript" src="assets/vendor.js">
+	  </script><script type="text/javascript" src="assets/index.js"></script>
+   </body>
+</html>
