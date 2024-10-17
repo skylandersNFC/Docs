@@ -1,9 +1,9 @@
 # Helpdesk ROMs
-## For Cemu, RPCS3, Dolphin and PC
+## For Cemu, RPCS3, Dolphin and Windows PC
 
 > **Whats the difference between US and EU ROMs?**
 > 
-> Almost nothing just in the EU ROMs there are some European languages added.
+> Almost nothing just in the EU roms there are some European languages added.
 
 ## Cemu
 
@@ -100,25 +100,25 @@
 > Extract it first, then get this custom **[Cemu-Skylanders-Emulated-Portal](https://github.com/skylandersNFC/Cemu-Skylanders-Emulated-Portal)** version to run it.
 
 ### EU
-> [Skylanders: Giants](https://archive.org/download/skylanders-wua/EU/Skylanders%20Giants%20%28EU%29%20%28v0%29.wua) (WUA)
+> [Skylanders: Giants (EU) [WUA]](https://archive.org/download/skylanders-wua/EU/Skylanders%20Giants%20%28EU%29%20%28v0%29.wua) (Archive.org)
 > 
-> [Skylanders - Giants (Europe)](https://myrient.erista.me/files/Redump/Nintendo%20-%20Wii%20U%20-%20WUX/Skylanders%20-%20Giants%20%28Europe%29%20%28En%2CFr%2CDe%2CEs%2CIt%2CNl%2CSv%2CNo%2CDa%2CFi%29.zip) (WUX)
+> [Skylanders: Giants (EU) [WUX]](https://myrient.erista.me/files/Redump/Nintendo%20-%20Wii%20U%20-%20WUX/Skylanders%20-%20Giants%20%28Europe%29%20%28En%2CFr%2CDe%2CEs%2CIt%2CNl%2CSv%2CNo%2CDa%2CFi%29.zip) (Myrient.erista.me)
 
-> [Skylanders: Swap Force](https://archive.org/download/skylanders-wua/EU/Skylanders%20SWAP%20Force%20%28EU%29%20%28v16%29.wua) (WUA)
+> [Skylanders: Swap Force (EU) [WUA]](https://archive.org/download/skylanders-wua/EU/Skylanders%20SWAP%20Force%20%28EU%29%20%28v16%29.wua) (Archive.org)
 > 
-> [Skylanders - Swap Force (Europe)](https://myrient.erista.me/files/Redump/Nintendo%20-%20Wii%20U%20-%20WUX/Skylanders%20-%20Swap%20Force%20%28Europe%29%20%28En%2CFr%2CDe%2CEs%2CIt%2CNl%2CSv%2CNo%2CDa%2CFi%29.zip) (WUX)
+> [Skylanders: Swap Force (EU) [WUX]](https://myrient.erista.me/files/Redump/Nintendo%20-%20Wii%20U%20-%20WUX/Skylanders%20-%20Swap%20Force%20%28Europe%29%20%28En%2CFr%2CDe%2CEs%2CIt%2CNl%2CSv%2CNo%2CDa%2CFi%29.zip) (Myrient.erista.me)
 
-> [Skylanders: Trap Team](https://archive.org/download/skylanders-wua/EU/Skylanders%20Trap%20Team%20%28EU%29%20%28v16%29.wua) (WUA)
+> [Skylanders: Trap Team (EU) [WUA]](https://archive.org/download/skylanders-wua/EU/Skylanders%20Trap%20Team%20%28EU%29%20%28v16%29.wua) (Archive.org)
 > 
-> [Skylanders - Trap Team (Europe)](https://myrient.erista.me/files/Redump/Nintendo%20-%20Wii%20U%20-%20WUX/Skylanders%20-%20Trap%20Team%20%28Europe%29%20%28En%2CFr%2CDe%2CEs%2CIt%2CNl%2CSv%2CNo%2CDa%2CFi%29.zip) (WUX)
+> [Skylanders: Trap Team (EU) [WUX]](https://myrient.erista.me/files/Redump/Nintendo%20-%20Wii%20U%20-%20WUX/Skylanders%20-%20Trap%20Team%20%28Europe%29%20%28En%2CFr%2CDe%2CEs%2CIt%2CNl%2CSv%2CNo%2CDa%2CFi%29.zip) (Myrient.erista.me)
 
-> [Skylanders: SuperChargers](https://archive.org/download/skylanders-wua/EU/Skylanders%20SuperChargers%20%28EU%29%20%28v97%29.wua) (WUA)
+> [Skylanders: SuperChargers (EU) [WUA]](https://archive.org/download/skylanders-wua/EU/Skylanders%20SuperChargers%20%28EU%29%20%28v97%29.wua) (Archive.org)
 > 
-> [Skylanders - SuperChargers (Europe)](https://myrient.erista.me/files/Redump/Nintendo%20-%20Wii%20U%20-%20WUX/Skylanders%20-%20SuperChargers%20%28Europe%29%20%28En%2CFr%2CDe%2CEs%2CIt%2CNl%2CSv%2CNo%2CDa%2CFi%29.zip) (WUX)
+> [Skylanders: SuperChargers (EU) [WUX]](https://myrient.erista.me/files/Redump/Nintendo%20-%20Wii%20U%20-%20WUX/Skylanders%20-%20SuperChargers%20%28Europe%29%20%28En%2CFr%2CDe%2CEs%2CIt%2CNl%2CSv%2CNo%2CDa%2CFi%29.zip) (Myrient.erista.me)
 
-> [Skylanders: Imaginators](https://archive.org/download/skylanders-wua/EU/Skylanders%E2%84%A2%20Imaginators%20%28EU%29%20%28v16%29.wua) (WUA)
+> [Skylanders: Imaginators (EU) [WUA]](https://archive.org/download/skylanders-wua/EU/Skylanders%E2%84%A2%20Imaginators%20%28EU%29%20%28v16%29.wua) (Archive.org)
 > 
-> [Skylanders - Imaginators (Europe)](https://myrient.erista.me/files/Redump/Nintendo%20-%20Wii%20U%20-%20WUX/Skylanders%20-%20Imaginators%20%28Europe%29%20%28En%2CFr%2CDe%2CEs%2CIt%2CNl%2CSv%2CNo%2CDa%2CFi%29.zip) (WUX)
+> [Skylanders: Imaginators (EU) [WUX]](https://myrient.erista.me/files/Redump/Nintendo%20-%20Wii%20U%20-%20WUX/Skylanders%20-%20Imaginators%20%28Europe%29%20%28En%2CFr%2CDe%2CEs%2CIt%2CNl%2CSv%2CNo%2CDa%2CFi%29.zip) (Myrient.erista.me)
 
 ### JP
 > **[Skylanders: Spyro's Adventure (JP) [WUA]](https://archive.org/download/skylanders-wua/JP/Skylanders%20Spyro%27s%20Adventure%20%28JP%29%20%28v0%29.wua)** (Archive.org)
