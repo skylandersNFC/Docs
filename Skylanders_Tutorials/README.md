@@ -100,7 +100,18 @@
 > TimaRainbow's YouTube - How to fix the A toy on the portal of power has a problem without resetting figure!
 > [https://www.youtube.com/watch?v=MqQOD6vWubo](https://www.youtube.com/watch?v=MqQOD6vWubo)
 
-### Skylander Portals
+### Skylanders Portals
 
 > Sheriff Crazy Gaming's YouTube - Skylander Portal Breakdown and Identification!
 > [https://www.youtube.com/watch?v=gPGs-qa1Zj0](https://www.youtube.com/watch?v=gPGs-qa1Zj0)
+
+### Emulating Skylanders
+
+> TheBiemGamer- How to play Skylanders on PC with or without a portal of power! 
+> [https://www.youtube.com/watch?v=1qj-6uMvm3g](https://www.youtube.com/watch?v=1qj-6uMvm3g)
+
+> TheBiemGamer - Skylanders on Cemu WITHOUT a Portal of Power! 
+> [https://www.youtube.com/watch?v=Fw-JhDFvP1M](https://www.youtube.com/watch?v=Fw-JhDFvP1M)
+
+> Manyyy - Skylanders on Cemu WITHOUT portal of power! 
+> [https://www.youtube.com/watch?v=l0FMlL9YdtE](https://www.youtube.com/watch?v=l0FMlL9YdtE)
