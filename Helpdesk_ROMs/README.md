@@ -15,10 +15,6 @@
 > 
 > Might be offline or slow. Use **[Free Download Manager](https://www.freedownloadmanager.org/)** to download faster.
 
-> **[Skylanders - Giants (USA) [WUX]](https://myrient.erista.me/files/Redump/Nintendo%20-%20Wii%20U%20-%20WUX/Skylanders%20-%20Giants%20%28USA%29%20%28En%2CFr%2CEs%2CPt%29.zip)** (Myrient.erista.me)
-> 
-> Extract it first, then get this custom **[Cemu-Skylanders-Emulated-Portal](https://github.com/skylandersNFC/Cemu-Skylanders-Emulated-Portal)** version to run it.
-
 > **[[Nintendo Wii U] Skylanders Games Collection [WUA]](https://gofile.io/d/1h0F1s)** (GoFile.io)
 > 
 > Password: "**skylanders**"
@@ -26,6 +22,10 @@
 > **[[Nintendo Wii U] Skylanders Games Collection [WUA].torrent](https://github.com/skylandersNFC/Docs/raw/refs/heads/main/Helpdesk_ROMs/torrents/WiiU_Skylanders_Games_Collection.torrent)** (Peer-to-peer Network)
 > 
 > Require **qBittorrent** installed or other torrent client.
+
+> **[Skylanders - Giants (USA) [WUX]](https://myrient.erista.me/files/Redump/Nintendo%20-%20Wii%20U%20-%20WUX/Skylanders%20-%20Giants%20%28USA%29%20%28En%2CFr%2CEs%2CPt%29.zip)** (Myrient.erista.me)
+> 
+> Extract it first, then get this custom **[Cemu-Skylanders-Emulated-Portal](https://github.com/skylandersNFC/Cemu-Skylanders-Emulated-Portal)** version to run it.
 
 **Skylanders: Swap Force (US)**
 
@@ -33,11 +33,6 @@
 > 
 > Might be offline or slow. Use **[Free Download Manager](https://www.freedownloadmanager.org/)** to download faster.
 
-> **[Skylanders - Swap Force (USA) [WUX]](https://myrient.erista.me/files/Redump/Nintendo%20-%20Wii%20U%20-%20WUX/Skylanders%20-%20Swap%20Force%20%28USA%29%20%28En%2CFr%2CEs%2CPt%29.zip)** (Myrient.erista.me)
-> 
-> Extract it first, then get this custom **[Cemu-Skylanders-Emulated-Portal](https://github.com/skylandersNFC/Cemu-Skylanders-Emulated-Portal)** version to run it.
-
-
 > **[[Nintendo Wii U] Skylanders Games Collection [WUA]](https://gofile.io/d/1h0F1s)** (GoFile.io)
 > 
 > Password: "**skylanders**"
@@ -46,6 +41,9 @@
 > 
 > Require **qBittorrent** installed or other torrent client.
 
+> **[Skylanders - Swap Force (USA) [WUX]](https://myrient.erista.me/files/Redump/Nintendo%20-%20Wii%20U%20-%20WUX/Skylanders%20-%20Swap%20Force%20%28USA%29%20%28En%2CFr%2CEs%2CPt%29.zip)** (Myrient.erista.me)
+> 
+> Extract it first, then get this custom **[Cemu-Skylanders-Emulated-Portal](https://github.com/skylandersNFC/Cemu-Skylanders-Emulated-Portal)** version to run it.
 
 **Skylanders: Trap Team (US)**
 
@@ -53,10 +51,6 @@
 > 
 > Might be offline or slow. Use **[Free Download Manager](https://www.freedownloadmanager.org/)** to download faster.
 
-> **[Skylanders - Trap Team (USA) [WUX]](https://myrient.erista.me/files/Redump/Nintendo%20-%20Wii%20U%20-%20WUX/Skylanders%20-%20Trap%20Team%20%28USA%29%20%28En%2CFr%2CEs%2CPt%29.zip)** (Myrient.erista.me)
-> 
-> Extract it first, then get this custom **[Cemu-Skylanders-Emulated-Portal](https://github.com/skylandersNFC/Cemu-Skylanders-Emulated-Portal)** version to run it.
-
 > **[[Nintendo Wii U] Skylanders Games Collection [WUA]](https://gofile.io/d/1h0F1s)** (GoFile.io)
 > 
 > Password: "**skylanders**"
@@ -65,6 +59,9 @@
 > 
 > Require **qBittorrent** installed or other torrent client.
 
+> **[Skylanders - Trap Team (USA) [WUX]](https://myrient.erista.me/files/Redump/Nintendo%20-%20Wii%20U%20-%20WUX/Skylanders%20-%20Trap%20Team%20%28USA%29%20%28En%2CFr%2CEs%2CPt%29.zip)** (Myrient.erista.me)
+> 
+> Extract it first, then get this custom **[Cemu-Skylanders-Emulated-Portal](https://github.com/skylandersNFC/Cemu-Skylanders-Emulated-Portal)** version to run it.
      
 **Skylanders: SuperChargers (US)**
 
@@ -72,10 +69,6 @@
 > 
 > Might be offline or slow. Use **[Free Download Manager](https://www.freedownloadmanager.org/)** to download faster.
 
-> **[Skylanders - SuperChargers (USA) [WUX]](https://myrient.erista.me/files/Redump/Nintendo%20-%20Wii%20U%20-%20WUX/Skylanders%20-%20SuperChargers%20%28USA%29%20%28En%2CFr%2CEs%2CPt%29.zip)** (Myrient.erista.me)
-> 
-> Extract it first, then get this custom **[Cemu-Skylanders-Emulated-Portal](https://github.com/skylandersNFC/Cemu-Skylanders-Emulated-Portal)** version to run it.
-
 > **[[Nintendo Wii U] Skylanders Games Collection [WUA]](https://gofile.io/d/1h0F1s)** (GoFile.io)
 > 
 > Password: "**skylanders**"
@@ -84,6 +77,9 @@
 > 
 > Require **qBittorrent** installed or other torrent client.
 
+> **[Skylanders - SuperChargers (USA) [WUX]](https://myrient.erista.me/files/Redump/Nintendo%20-%20Wii%20U%20-%20WUX/Skylanders%20-%20SuperChargers%20%28USA%29%20%28En%2CFr%2CEs%2CPt%29.zip)** (Myrient.erista.me)
+> 
+> Extract it first, then get this custom **[Cemu-Skylanders-Emulated-Portal](https://github.com/skylandersNFC/Cemu-Skylanders-Emulated-Portal)** version to run it.
 
 **Skylanders: Imaginators (US)**
 
@@ -91,10 +87,6 @@
 > 
 > Might be offline or slow. Use **[Free Download Manager](https://www.freedownloadmanager.org/)** to download faster.
 
-> **[Skylanders - Imaginators (USA) [WUX]](https://myrient.erista.me/files/Redump/Nintendo%20-%20Wii%20U%20-%20WUX/Skylanders%20-%20Imaginators%20%28USA%29%20%28En%2CFr%2CEs%2CPt%29.zip)** (Myrient.erista.me)
-> 
-> Extract it first, then get this custom **[Cemu-Skylanders-Emulated-Portal](https://github.com/skylandersNFC/Cemu-Skylanders-Emulated-Portal)** version to run it.
-
 > **[[Nintendo Wii U] Skylanders Games Collection [WUA]](https://gofile.io/d/1h0F1s)** (GoFile.io)
 > 
 > Password: "**skylanders**"
@@ -103,22 +95,30 @@
 > 
 > Require **qBittorrent** installed or other torrent client.
 
+> **[Skylanders - Imaginators (USA) [WUX]](https://myrient.erista.me/files/Redump/Nintendo%20-%20Wii%20U%20-%20WUX/Skylanders%20-%20Imaginators%20%28USA%29%20%28En%2CFr%2CEs%2CPt%29.zip)** (Myrient.erista.me)
+> 
+> Extract it first, then get this custom **[Cemu-Skylanders-Emulated-Portal](https://github.com/skylandersNFC/Cemu-Skylanders-Emulated-Portal)** version to run it.
+
 ### EU
-- [Skylanders: Giants](https://archive.org/download/skylanders-wua/EU/Skylanders%20Giants%20%28EU%29%20%28v0%29.wua)
-    - Backup link: [Skylanders - Giants (Europe)](https://myrient.erista.me/files/Redump/Nintendo%20-%20Wii%20U%20-%20WUX/Skylanders%20-%20Giants%20%28Europe%29%20%28En%2CFr%2CDe%2CEs%2CIt%2CNl%2CSv%2CNo%2CDa%2CFi%29.zip)
-         - Require **[Cemu-Skylanders-Emulated-Portal](https://github.com/skylandersNFC/Cemu-Skylanders-Emulated-Portal)**
-- [Skylanders: Swap Force](https://archive.org/download/skylanders-wua/EU/Skylanders%20SWAP%20Force%20%28EU%29%20%28v16%29.wua)
-    - Backup link: [Skylanders - Swap Force (Europe)](https://myrient.erista.me/files/Redump/Nintendo%20-%20Wii%20U%20-%20WUX/Skylanders%20-%20Swap%20Force%20%28Europe%29%20%28En%2CFr%2CDe%2CEs%2CIt%2CNl%2CSv%2CNo%2CDa%2CFi%29.zip)
-         - Require **[Cemu-Skylanders-Emulated-Portal](https://github.com/skylandersNFC/Cemu-Skylanders-Emulated-Portal)**
-- [Skylanders: Trap Team](https://archive.org/download/skylanders-wua/EU/Skylanders%20Trap%20Team%20%28EU%29%20%28v16%29.wua)
-    - Backup link: [Skylanders - Trap Team (Europe)](https://myrient.erista.me/files/Redump/Nintendo%20-%20Wii%20U%20-%20WUX/Skylanders%20-%20Trap%20Team%20%28Europe%29%20%28En%2CFr%2CDe%2CEs%2CIt%2CNl%2CSv%2CNo%2CDa%2CFi%29.zip)
-         - Require **[Cemu-Skylanders-Emulated-Portal](https://github.com/skylandersNFC/Cemu-Skylanders-Emulated-Portal)**
-- [Skylanders: SuperChargers](https://archive.org/download/skylanders-wua/EU/Skylanders%20SuperChargers%20%28EU%29%20%28v97%29.wua)
-    - Backup link: [Skylanders - SuperChargers (Europe)](https://myrient.erista.me/files/Redump/Nintendo%20-%20Wii%20U%20-%20WUX/Skylanders%20-%20SuperChargers%20%28Europe%29%20%28En%2CFr%2CDe%2CEs%2CIt%2CNl%2CSv%2CNo%2CDa%2CFi%29.zip)
-         - Require **[Cemu-Skylanders-Emulated-Portal](https://github.com/skylandersNFC/Cemu-Skylanders-Emulated-Portal)**
-- [Skylanders: Imaginators](https://archive.org/download/skylanders-wua/EU/Skylanders%E2%84%A2%20Imaginators%20%28EU%29%20%28v16%29.wua)
-    - Backup link: [Skylanders - Imaginators (Europe)](https://myrient.erista.me/files/Redump/Nintendo%20-%20Wii%20U%20-%20WUX/Skylanders%20-%20Imaginators%20%28Europe%29%20%28En%2CFr%2CDe%2CEs%2CIt%2CNl%2CSv%2CNo%2CDa%2CFi%29.zip)
-         - Require **[Cemu-Skylanders-Emulated-Portal](https://github.com/skylandersNFC/Cemu-Skylanders-Emulated-Portal)**
+> [Skylanders: Giants](https://archive.org/download/skylanders-wua/EU/Skylanders%20Giants%20%28EU%29%20%28v0%29.wua) (WUA)
+> 
+> [Skylanders - Giants (Europe)](https://myrient.erista.me/files/Redump/Nintendo%20-%20Wii%20U%20-%20WUX/Skylanders%20-%20Giants%20%28Europe%29%20%28En%2CFr%2CDe%2CEs%2CIt%2CNl%2CSv%2CNo%2CDa%2CFi%29.zip) (WUX)
+
+> [Skylanders: Swap Force](https://archive.org/download/skylanders-wua/EU/Skylanders%20SWAP%20Force%20%28EU%29%20%28v16%29.wua) (WUA)
+> 
+> [Skylanders - Swap Force (Europe)](https://myrient.erista.me/files/Redump/Nintendo%20-%20Wii%20U%20-%20WUX/Skylanders%20-%20Swap%20Force%20%28Europe%29%20%28En%2CFr%2CDe%2CEs%2CIt%2CNl%2CSv%2CNo%2CDa%2CFi%29.zip) (WUX)
+
+> [Skylanders: Trap Team](https://archive.org/download/skylanders-wua/EU/Skylanders%20Trap%20Team%20%28EU%29%20%28v16%29.wua) (WUA)
+> 
+> [Skylanders - Trap Team (Europe)](https://myrient.erista.me/files/Redump/Nintendo%20-%20Wii%20U%20-%20WUX/Skylanders%20-%20Trap%20Team%20%28Europe%29%20%28En%2CFr%2CDe%2CEs%2CIt%2CNl%2CSv%2CNo%2CDa%2CFi%29.zip) (WUX)
+
+> [Skylanders: SuperChargers](https://archive.org/download/skylanders-wua/EU/Skylanders%20SuperChargers%20%28EU%29%20%28v97%29.wua) (WUA)
+> 
+> [Skylanders - SuperChargers (Europe)](https://myrient.erista.me/files/Redump/Nintendo%20-%20Wii%20U%20-%20WUX/Skylanders%20-%20SuperChargers%20%28Europe%29%20%28En%2CFr%2CDe%2CEs%2CIt%2CNl%2CSv%2CNo%2CDa%2CFi%29.zip) (WUX)
+
+> [Skylanders: Imaginators](https://archive.org/download/skylanders-wua/EU/Skylanders%E2%84%A2%20Imaginators%20%28EU%29%20%28v16%29.wua) (WUA)
+> 
+> [Skylanders - Imaginators (Europe)](https://myrient.erista.me/files/Redump/Nintendo%20-%20Wii%20U%20-%20WUX/Skylanders%20-%20Imaginators%20%28Europe%29%20%28En%2CFr%2CDe%2CEs%2CIt%2CNl%2CSv%2CNo%2CDa%2CFi%29.zip) (WUX)
 
 ### JP
 > **[Skylanders: Spyro's Adventure (JP) [WUA]](https://archive.org/download/skylanders-wua/JP/Skylanders%20Spyro%27s%20Adventure%20%28JP%29%20%28v0%29.wua)** (Archive.org)
