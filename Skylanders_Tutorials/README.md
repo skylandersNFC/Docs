@@ -107,7 +107,7 @@
 
 ### Emulating Skylanders
 
-> TheBiemGamer- How to play Skylanders on PC with or without a portal of power! 
+> TheBiemGamer - How to play Skylanders on PC with or without a portal of power! 
 > [https://www.youtube.com/watch?v=1qj-6uMvm3g](https://www.youtube.com/watch?v=1qj-6uMvm3g)
 
 > TheBiemGamer - Skylanders on Cemu WITHOUT a Portal of Power! 
