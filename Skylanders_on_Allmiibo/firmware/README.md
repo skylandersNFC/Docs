@@ -1,4 +1,4 @@
-### Changes compared to **[solosky/pixl.js 2.11.1](https://github.com/solosky/pixl.js/releases/tag/2.11.1)**
+### Changes compared to **[solosky/pixl.js](https://github.com/solosky/pixl.js)**
  - Enabled custom mode for card emulation, utilizing the UID and ATQA from the card dump and setting SAK to 0x08.
    - _This is necessary for the Nintendo Switch to recognize the emulated card._
  - Updated the card emulator logo.
