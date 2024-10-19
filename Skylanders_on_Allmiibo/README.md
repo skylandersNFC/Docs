@@ -37,11 +37,11 @@ There are **two simple ways** to update the firmware on your **Allmiibo** device
 ### Using a Computer :
 
 1. For Skylanders, to make them compatible with **Nintendo Switch** and have the **99 slots Card Emulation** feature, we use a **slightly modified firmware**.
-- You can get the latest custom version here: **[2.11.1 Skylanders LCD](https://github.com/skylandersNFC/Docs/raw/refs/heads/main/Skylanders_on_Allmiibo/firmware/2.11.1_Skylanders_LCD.zip)** or **[2.11.1 Skylanders OLED](https://github.com/skylandersNFC/Docs/raw/refs/heads/main/Skylanders_on_Allmiibo/firmware/2.11.1_Skylanders_OLED.zip)**.
+- You can get the latest custom version here: **[Allmiibo Skylanders Firmware](https://github.com/skylandersNFC/Docs/tree/main/Skylanders_on_Allmiibo/firmware)**.
    - This custom version of the firmware was provided by anonymous user. Thank you kindly for your work.
 2. Download the **appropriate** firmware (**LCD** or **OLED**) based on your device.
 - If you're unsure which version you have, refer to "**[How to Determine Your Model (LCD or OLED)](https://skylandersnfc.github.io/Docs/Skylanders_on_Allmiibo/#how-to-determine-your-model-lcd-or-oled-)**".
-3. **Extract** the downloaded ZIP file, and inside **you’ll find another archive** named "**pixjs_ota_vXXX.zip**". This is the file you'll need.
+3. **Extract** the downloaded ZIP file, and inside **you’ll find another archive** named "**pixjs_ota_vX.zip**". This is the file you'll need.
 4. Ensure that **Bluetooth** is **enabled** on your computer/laptop.
 5. Open **Google Chrome** and navigate to **[https://pixl.amiibo.xyz/](https://pixl.amiibo.xyz/)**.
 - Other browsers may **not** support **[Bluetooth](https://caniuse.com/web-bluetooth)** connections for this process.
@@ -71,7 +71,7 @@ There are **two simple ways** to update the firmware on your **Allmiibo** device
 5. Check the "**File**" menu on the bottom left.
 - If you see a "**chameleon**" folder - **DELETE IT**. It will be recreated by the new custom firmware.
 6. Go to "**Firmware**" menu on the bottom right.
-7. You can get the latest custom firmware from here: **[2.11.1 Skylanders LCD](https://github.com/skylandersNFC/Docs/raw/refs/heads/main/Skylanders_on_Allmiibo/firmware/2.11.1_Skylanders_LCD.zip)** or **[2.11.1 Skylanders OLED](https://github.com/skylandersNFC/Docs/raw/refs/heads/main/Skylanders_on_Allmiibo/firmware/2.11.1_Skylanders_OLED.zip)**.
+7. You can get the latest custom firmware from here: **[Allmiibo Skylanders Firmware](https://github.com/skylandersNFC/Docs/tree/main/Skylanders_on_Allmiibo/firmware)**.
 - Download the **appropriate** firmware (**LCD** or **OLED**) based on your device.
 - If you're unsure which version you have, refer to "**[How to Determine Your Model (LCD or OLED)](https://skylandersnfc.github.io/Docs/Skylanders_on_Allmiibo/#how-to-determine-your-model-lcd-or-oled-)**".
 8. On "**(1) File**" select the correct firmware file which you have just downloaded.
