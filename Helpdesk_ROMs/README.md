@@ -206,11 +206,20 @@
 ## Windows PC
 
 ### US
-- [Skylanders: Spyro's Adventure](https://archive.org/details/skylandersspyrosadventureusaenfrdeesitnlsvnodafi) + [iphlpapi.dll (SecuRom Cracker)](https://mega.nz/file/db5VXCxY#UtGUsbD-EuA_D8mUAWwPrdr13jKKdUBm10yS_P6UJHc)
+> **[Skylanders: Spyro's Adventure](https://archive.org/details/skylandersspyrosadventureusaenfrdeesitnlsvnodafi)** (Archive.org)
+> 
+> Might be offline or slow. Also require **[iphlpapi.dll (SecuRom Cracker)](https://mega.nz/file/db5VXCxY#UtGUsbD-EuA_D8mUAWwPrdr13jKKdUBm10yS_P6UJHc)**  
+
+> **[Skylanders: Spyro's Adventure](https://gofile.io/d/zKdgZ4)** (GoFile.io)
+> 
+> Password: "**skylanders**"
 
 ### EU
-- [Skylanders: Spyro's Adventure](https://archive.org/details/skylanders-spyros-adventure-eu/) + [iphlpapi.dll (SecuRom Cracker)](https://mega.nz/file/db5VXCxY#UtGUsbD-EuA_D8mUAWwPrdr13jKKdUBm10yS_P6UJHc)
+> **[Skylanders: Spyro's Adventure](https://archive.org/details/skylanders-spyros-adventure-eu/)** (Archive.org)
+> 
+> Might be offline or slow. Also require **[iphlpapi.dll (SecuRom Cracker)](https://mega.nz/file/db5VXCxY#UtGUsbD-EuA_D8mUAWwPrdr13jKKdUBm10yS_P6UJHc)**
 
+----
 
 > **How do I fix the "Please insert the original disc instead of a backup (1000)" error? (Method by u/Giocher85)**
 > 1. Download the game ISO.
