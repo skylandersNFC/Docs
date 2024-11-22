@@ -1,0 +1,350 @@
+WEBVTT
+
+00:00:00.040 --> 00:00:03.383
+This is how we write imaginators with your Android phone
+
+00:00:03.443 --> 00:00:04.159
+Using a Gen 2 tags
+
+00:00:04.160 --> 00:00:06.480
+or in this case
+
+00:00:06.480 --> 00:00:07.560
+Gen 2 key fobs.
+
+00:00:08.000 --> 00:00:10.649
+You can also use cards, round tags and so on.
+
+00:00:10.708 --> 00:00:12.240
+But they need to be
+
+00:00:12.240 --> 00:00:12.640
+a Gen 2.
+
+00:00:13.039 --> 00:00:15.936
+On my Android phone I have the Mifare Classic Tool application
+
+00:00:15.999 --> 00:00:19.840
+and I already have some dumps imported here.
+
+00:00:20.280 --> 00:00:22.160
+They are file format MCT.
+
+00:00:22.520 --> 00:00:24.480
+So how did I get those?
+
+00:00:25.000 --> 00:00:28.120
+I've transferred some original NFC dumps to my phone.
+
+00:00:28.680 --> 00:00:32.420
+They are inside my "Downloads" folder and now using the "Tools".
+
+00:00:32.490 --> 00:00:36.372
+And "Import/Export/Convert files" menu.
+
+00:00:36.442 --> 00:00:37.359
+I went to "Import dumps", I went to ".bin/.mfd/.dump".
+
+00:00:37.479 --> 00:00:40.521
+And now I see inside my "Downloads" folder,
+
+00:00:40.606 --> 00:00:45.759
+those are the original dump files.
+
+00:00:46.200 --> 00:00:49.875
+That's the original format.
+
+00:00:49.940 --> 00:00:52.959
+And when I imported them with the program, they were converted to MCT format.
+
+00:00:53.320 --> 00:00:56.050
+Those are the files that I'm using now.
+
+00:00:56.109 --> 00:00:57.000
+And the original dumps,
+
+00:00:57.200 --> 00:00:59.080
+they're from the Ultimate NFC Pack.
+
+00:00:59.640 --> 00:01:01.560
+Pretty much they're the most proper ones.
+
+00:01:01.960 --> 00:01:05.240
+I only have a creation crystals for Skylanders Imaginators.
+
+00:01:05.640 --> 00:01:08.967
+What I'm going to do, I'm going to use this
+
+00:01:09.044 --> 00:01:10.359
+"Write Tag" option.
+
+00:01:10.800 --> 00:01:14.103
+I'm going to "Write Dump (Clone)"
+
+00:01:14.173 --> 00:01:17.616
+and I'm going to "Show Options", Because I need to click here on this
+
+00:01:17.687 --> 00:01:20.919
+"Advanced: Enable writing to manufacturer block"
+
+00:01:21.440 --> 00:01:23.520
+I need to have this option selected.
+
+00:01:24.080 --> 00:01:26.348
+I need to get one of the tags,
+
+00:01:26.411 --> 00:01:29.120
+and it needs to be registered with the NFC writer.
+
+00:01:29.560 --> 00:01:33.160
+See on the bottom it says "New UID found".
+
+00:01:33.600 --> 00:01:35.040
+Now this tag is registered.
+
+00:01:35.480 --> 00:01:37.320
+I use this menu to select them.
+
+00:01:37.880 --> 00:01:41.419
+Right now we are doing the first dump - Fire Acorn
+
+00:01:41.493 --> 00:01:45.180
+Select the dump and now the process here
+
+00:01:45.253 --> 00:01:46.360
+it's done in 3 steps.
+
+00:01:46.760 --> 00:01:50.286
+The first step is flashing all the other sectors,
+
+00:01:50.354 --> 00:01:51.439
+but not sector 0.
+
+00:01:51.880 --> 00:01:53.880
+You just deselect sector 0.
+
+00:01:54.320 --> 00:01:57.366
+We don't want to flash sector 0 on the first run,
+
+00:01:57.435 --> 00:02:00.135
+so we flash it from 1 to 15
+
+00:02:00.204 --> 00:02:01.520
+Which is the last sector.
+
+00:02:02.000 --> 00:02:04.120
+I click OK, it asks for keys.
+
+00:02:04.560 --> 00:02:08.024
+Those are empty tags,
+
+00:02:08.093 --> 00:02:08.439
+so the keys will be standard keys.
+
+00:02:08.880 --> 00:02:12.480
+I click start mapping and it says "3 keys loaded".
+
+00:02:12.920 --> 00:02:15.160
+All the sectors here are now recognized.
+
+00:02:15.600 --> 00:02:19.680
+It says "Warning: The Access conditions will be irreversible"
+
+00:02:20.040 --> 00:02:20.800
+That's OK.
+
+00:02:20.920 --> 00:02:22.840
+You click "Write as much as possible"
+
+00:02:23.280 --> 00:02:26.280
+Click that and now you are done with this step.
+
+00:02:26.720 --> 00:02:30.804
+Now some people recommended that you just re-register the tag
+
+00:02:30.876 --> 00:02:34.244
+see that the tag was re-registered
+
+00:02:34.316 --> 00:02:37.541
+And now I go to the second part
+
+00:02:37.613 --> 00:02:38.759
+and the second part is a bit tricky.
+
+00:02:39.200 --> 00:02:43.040
+Right now we have from sector 1 to sector 15.
+
+00:02:43.480 --> 00:02:45.440
+We need sector 0 as well.
+
+00:02:45.840 --> 00:02:48.486
+We go back again, we go to the same menu
+
+00:02:48.552 --> 00:02:49.279
+"Write Dump"
+
+00:02:49.840 --> 00:02:51.880
+We go to the "Show options"
+
+00:02:52.240 --> 00:02:56.160
+we go to the "Advanced: Enable writing to manufacturer block".
+
+00:02:56.560 --> 00:02:59.600
+Now we click "Select dump" and use the same dump.
+
+00:03:00.000 --> 00:03:01.640
+You need to be very careful here.
+
+00:03:02.080 --> 00:03:04.160
+You cannot use another dump.
+
+00:03:04.640 --> 00:03:05.400
+Go there.
+
+00:03:05.880 --> 00:03:09.182
+Now from all this, you just click "select none"
+
+00:03:09.250 --> 00:03:12.553
+and you select "Sector 0",
+
+00:03:12.620 --> 00:03:13.160
+the only sector that we were missing.
+
+00:03:13.640 --> 00:03:15.240
+And now this is the important part.
+
+00:03:15.680 --> 00:03:19.280
+Now I'm going to use again the standard keys.
+
+00:03:19.720 --> 00:03:21.080
+And now look at this.
+
+00:03:21.600 --> 00:03:25.126
+It says on sector 0 there are several blocks,
+
+00:03:25.194 --> 00:03:28.179
+and on sector 0, block 0 and block 3
+
+00:03:28.246 --> 00:03:29.400
+will be filled with data.
+
+00:03:29.919 --> 00:03:33.624
+And it says on sector 0, block 0
+
+00:03:33.714 --> 00:03:35.159
+The UID will be changed.
+
+00:03:35.680 --> 00:03:40.025
+The UID, BCC, SAK, ATAQ and everything else
+
+00:03:40.105 --> 00:03:42.600
+will be filled with data in this order.
+
+00:03:43.080 --> 00:03:45.837
+And now that's a bit of an issue because now
+
+00:03:45.900 --> 00:03:48.720
+the card is registered with its original UID.
+
+00:03:49.200 --> 00:03:52.319
+If we go down here and remember, the original UID
+
+00:03:52.384 --> 00:03:53.359
+was shown here.
+
+00:03:53.800 --> 00:03:56.949
+And now when I click write as much as possible,
+
+00:03:57.016 --> 00:03:59.964
+the first thing it will going to do, it will
+
+00:04:00.031 --> 00:04:01.840
+overwrite the original UID.
+
+00:04:02.240 --> 00:04:05.366
+The moment it overwrites the UID, the tag will disconnect
+
+00:04:05.421 --> 00:04:07.889
+and I won't be able to write the other things
+
+00:04:07.944 --> 00:04:09.480
+like the rest of the blocks.
+
+00:04:09.880 --> 00:04:10.840
+Look at this.
+
+00:04:11.200 --> 00:04:14.254
+Now I click "write as much as possible"
+
+00:04:14.319 --> 00:04:15.879
+And let's look at the bottom here
+
+00:04:16.360 --> 00:04:19.279
+I click on it and now the UID was instantly
+
+00:04:19.347 --> 00:04:22.946
+rewritten and the tag disconnected
+
+00:04:23.014 --> 00:04:24.439
+and that was not a whole Sector 0 write.
+
+00:04:24.760 --> 00:04:25.920
+What I need to do?
+
+00:04:26.360 --> 00:04:29.720
+I need to just re-register this tag again.
+
+00:04:30.120 --> 00:04:33.277
+Now I go back there and I go "Select Dump"
+
+00:04:33.356 --> 00:04:36.119
+With "Advanced Manufacturer enabled"
+
+00:04:36.640 --> 00:04:39.970
+I go here again on the same thing and now
+
+00:04:40.051 --> 00:04:41.920
+I also use "Select None".
+
+00:04:42.400 --> 00:04:45.925
+I then select "Sector 0" and now with the new UID
+
+00:04:46.001 --> 00:04:49.297
+because now I have the new UID
+
+00:04:49.373 --> 00:04:50.599
+from the NFC dump itself.
+
+00:04:51.080 --> 00:04:55.235
+I continue this step and now it will actually write
+
+00:04:55.317 --> 00:04:57.680
+the BCC, SAK, ATAQ and so on.
+
+00:04:58.160 --> 00:04:59.800
+And now they are finally written.
+
+00:05:00.080 --> 00:05:03.660
+See data successfully written and now if I try to
+
+00:05:03.733 --> 00:05:06.803
+read the tag again or write to this tag,
+
+00:05:06.876 --> 00:05:10.676
+I won't be able to because now the keys are
+
+00:05:10.749 --> 00:05:11.480
+completely different.
+
+00:05:11.840 --> 00:05:13.840
+I will select all of them for the test.
+
+00:05:14.320 --> 00:05:17.468
+I'm trying to recognize this tag and it says
+
+00:05:17.535 --> 00:05:21.152
+"No valid key found", because this tag already
+
+00:05:21.219 --> 00:05:22.760
+have a proper creation crystal on it.
+
