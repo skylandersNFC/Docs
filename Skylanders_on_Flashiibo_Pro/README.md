@@ -8,7 +8,7 @@
 
 ## Where to get Flashiibo Pro
 
-[https://www.amazon.com/Flashiibo-Emulator-Expandable-Unlimited-Rewrite/dp/B0CQWRPJL2](https://www.amazon.com/Flashiibo-Emulator-Expandable-Unlimited-Rewrite/dp/B0CQWRPJL2)
+[https://www.amazon.com/dp/B0CQWRPJL2](https://www.amazon.com/dp/B0CQWRPJL2)
 
 ## Introduction
 
