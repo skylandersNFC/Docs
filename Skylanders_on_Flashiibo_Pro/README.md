@@ -4,7 +4,7 @@
 
 ## What is Flashiibo Pro
 
-[https://www.flashiibo.com/home](https://www.flashiibo.com/home)
+[https://www.flashiibo.com](https://www.flashiibo.com)
 
 ## Where to get Flashiibo Pro
 
