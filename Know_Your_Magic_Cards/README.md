@@ -77,6 +77,7 @@ _Disadvantages of Gen2 Magic Cards:_
 * **Some** Gen2 CUID tags will have `SAK: 08` and `ATQA: 0004`. Those will be recognized as "**Unknown Mifare Classic IC, possibly cloned**".
 * However **others** Gen2 CUID tags have `SAK: 81` and `ATQA: 0004`. Those will be recognized as "**Unknown IC**" or "**Not a MIFARE Classic tag!**" and might not work for Skylanders.
 * Read more about it here: **[Mifare Classic - SAK Swapping Explained](https://gist.github.com/equipter/3022aea4e371e585ff6e46de637e7769)**
+* And more about the different SAK and ATQA types here: **[ISO/IEC 14443 Type A](https://nfc-tools.github.io/resources/standards/iso14443A/)**
 
 ## **Type 3**: **GEN3** Cards *
 
