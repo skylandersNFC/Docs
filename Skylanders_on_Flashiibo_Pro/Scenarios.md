@@ -1,4 +1,4 @@
-**Game Scenario 1**
+**Test Scenario 1**
 
 •    Objective: Load any older Skylander (pre-Imaginators). These lack the extra encryption layer and don't require specific UID or signature blocks.
 
@@ -9,7 +9,7 @@
 •    Result: **PASS ✅**
 
 ________________________________________
-**Game Scenario 2**
+**Test Scenario 2**
 
 •    Objective: Ensure character progress saves correctly. Data should auto-flash to a temporary file linked to the current slot. This firmware supports only 8 slots.
 
@@ -20,7 +20,7 @@ ________________________________________
 •    Result: **PASS ✅**
 
 ________________________________________
-**Game Scenario 3**
+**Test Scenario 3**
 
 •    Objective: Test compatibility of two older Skylanders in multiplayer (requires second player and second emulating device).
 
@@ -31,7 +31,7 @@ ________________________________________
 •    Result: **FAILED ❌**
 
 ________________________________________
-**Game Scenario 4**
+**Test Scenario 4**
 
 •    Objective: Use a magic item with one Skylander. Ensure stability for 45 seconds (duration of magic effect). Past issues involved repeated reinitialization.
 
@@ -42,7 +42,7 @@ ________________________________________
 •    Result: **FAILED ❌**
 
 ________________________________________
-**Game Scenario 5**
+**Test Scenario 5**
 
 •    Objective: Test an adventure pack for proper initial load and unlock functionality. These typically work without issues.
 
@@ -53,7 +53,7 @@ ________________________________________
 •    Result: **FAILED ❌**
 
 ________________________________________
-**Game Scenario 6**
+**Test Scenario 6**
 
 •    Objective: Test a swapper Skylander (top and bottom parts), requiring two emulating devices. Past issues involved initialization failures, particularly with the top part.
 
@@ -64,7 +64,7 @@ ________________________________________
 •    Result: **FAILED ❌**
 
 ________________________________________
-**Game Scenario 7**
+**Test Scenario 7**
 
 •    Objective: Use a Life Trap inside Soda Springs on the first Sheep Creep encounter.
 
@@ -75,7 +75,7 @@ ________________________________________
 •    Result: **FAILED ❌**
 
 ________________________________________
-**Game Scenario 8**
+**Test Scenario 8**
 
 •    Objective: Test a SuperCharger with its vehicle.
 
@@ -86,7 +86,7 @@ ________________________________________
 •    Result: **FAILED ❌**
 
 ________________________________________
-**Game Scenario 9**
+**Test Scenario 9**
 
 •    Objective: Test an Imaginator (Sensei). Requires 100% mirror dump with all signature blocks for its protection layer.
 
@@ -97,7 +97,7 @@ ________________________________________
 •    Result: **FAILED ❌**
 
 ________________________________________
-**Game Scenario 10**
+**Test Scenario 10**
 
 •    Objective: Test two Imaginators in multiplayer (requires second player and second emulating device).
 
