@@ -4,6 +4,8 @@
 
 **Installation:** Place the [keys.txt](https://github.com/skylandersNFC/Docs/blob/main/Skylanders_Cemu_Decryption_Keys/keys.txt) file inside your main Cemu directory (where "Cemu.exe" is located)
 
+**Note:** If you have the same issues even with the included keys, use this customized version of Cemu instead: [Cemu-Skylanders-Emulated-Portal](https://github.com/skylandersNFC/Cemu-Skylanders-Emulated-Portal)
+
 **Preview:**
 
 > 2d55fb6f445d484ea74e8f73b7d9f22e # Skylanders: Spyro's Adventure [JPN]
