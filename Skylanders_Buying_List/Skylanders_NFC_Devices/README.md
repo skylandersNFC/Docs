@@ -1,23 +1,5 @@
 # Skylanders NFC Devices
 
-## [Allmiibo](https://skylandersnfc.github.io/Docs/Skylanders_on_Allmiibo/) (All Skylanders)
-
-[![Allmiibo](https://raw.githubusercontent.com/skylandersNFC/Docs/main/Skylanders_Buying_List/Skylanders_NFC_Devices/images/Allmiibo.jpg)](https://skylandersnfc.github.io/Docs/Skylanders_on_Allmiibo/)
- 
-**Price:**
-- **~15$** _(for existing AliExpress users)_
-- **~8$** _(welcome deal for new users)_
-
-**Info:** [Allmiibo](https://allmiibo.com/)
-
-**Buy:** [Where to Buy Allmiibo](https://skylandersnfc.github.io/Docs/Skylanders_on_Allmiibo/#where-to-buy-allmiibo-)
-
-**Guide:** [Skylanders on Allmiibo](https://skylandersnfc.github.io/Docs/Skylanders_on_Allmiibo/)
-
-**NFC Dumps:** [Skylanders Ultimate NFC Pack](https://skylandersnfc.github.io/Skylanders-Ultimate-NFC-Pack/)
-
-----------------------------------------------------------
-
 ## [ACR122U](https://skylandersnfc.github.io/Docs/Skylanders_Buying_List/Skylanders_NFC_Devices/ACR122U) (All Skylanders)
 
  [![ACR122U](https://raw.githubusercontent.com/skylandersNFC/Docs/main/Skylanders_Buying_List/Skylanders_NFC_Devices/images/ACR122U.jpg)](https://skylandersnfc.github.io/Docs/Skylanders_Buying_List/Skylanders_NFC_Devices/ACR122U)
@@ -93,6 +75,24 @@
 **NFC Dumps:** [Skylanders Ultimate NFC Pack](https://skylandersnfc.github.io/Skylanders-Ultimate-NFC-Pack/)
 
 **NFC Cards:** [Mifare S50 1K Gen1 UID Re-Writable](https://skylandersnfc.github.io/Docs/Skylanders_Buying_List/Skylanders_NFC_Cards/#gen1-uid-tags-for-external-nfc-devices-acr122u-ns106-ns122-pn532-v20)
+
+----------------------------------------------------------
+
+## [Allmiibo](https://skylandersnfc.github.io/Docs/Skylanders_on_Allmiibo/) (All Skylanders)
+
+[![Allmiibo](https://raw.githubusercontent.com/skylandersNFC/Docs/main/Skylanders_Buying_List/Skylanders_NFC_Devices/images/Allmiibo.jpg)](https://skylandersnfc.github.io/Docs/Skylanders_on_Allmiibo/)
+ 
+**Price:**
+- **~15$** _(for existing AliExpress users)_
+- **~8$** _(welcome deal for new users)_
+
+**Info:** [Allmiibo](https://allmiibo.com/)
+
+**Buy:** [Where to Buy Allmiibo](https://skylandersnfc.github.io/Docs/Skylanders_on_Allmiibo/#where-to-buy-allmiibo-)
+
+**Guide:** [Skylanders on Allmiibo](https://skylandersnfc.github.io/Docs/Skylanders_on_Allmiibo/)
+
+**NFC Dumps:** [Skylanders Ultimate NFC Pack](https://skylandersnfc.github.io/Skylanders-Ultimate-NFC-Pack/)
 
 ----------------------------------------------------------
 
