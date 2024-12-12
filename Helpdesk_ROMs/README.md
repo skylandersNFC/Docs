@@ -1,4 +1,4 @@
-# Helpdesk ROMs
+# Skylanders ROMs
 ## For Cemu, RPCS3, Dolphin and Windows PC
 
 > **Whats the difference between US and EU ROMs?**
@@ -226,3 +226,17 @@
 > 2. Install the game. You can either extract the contents of the ISO using a tool like 7-zip, mount the ISO through a drive emulator like WinCDEmu or Daemon Tools, or just straight up burn it on a real cd. I recommend the former option, as you probably already have a zip archiver installed on your pc. If you’ve extracted the ISO’s contents, run “setup.exe”. If you have mounted/burnt the ISO, just run it.
 > 3. Once the installation is finished, paste iphlpapi.dll into the game’s main folder. You can download it from mega [here](https://mega.nz/file/db5VXCxY#UtGUsbD-EuA_D8mUAWwPrdr13jKKdUBm10yS_P6UJHc). This is a generic securom cracker made by a user that went by the name virusek. You may need to set an antivirus exception.
 > 4. Plug in the portal and just run the game as you had an original CD in your drive. Note: if you’re on win8 or 10, you may need to run the game in win7 or XP compatibility mode.
+
+----
+
+# LEGO Dimensions ROMs
+
+### US
+
+**Wii U: [Lego Dimensions [WUA]](https://archive.org/details/lego-dimensions-us)**
+
+### EU
+
+**Wii U: [LEGO Dimensions [Unpacked]](https://archive.org/details/lego-dimensions-wii-u-eur)**
+
+**PS3: [LEGO Dimensions [Unpacked]](https://archive.org/details/lego-dimensions-ps3-eur)**
