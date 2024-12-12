@@ -233,10 +233,6 @@
 
 ### US
 
-**Wii U: [Lego Dimensions [WUA]](https://archive.org/details/lego-dimensions-us)**
+**Wii U: [Lego Dimensions (EU) [WUA]](https://archive.org/details/lego-dimensions-us)**
 
-### EU
-
-**Wii U: [LEGO Dimensions [Unpacked]](https://archive.org/details/lego-dimensions-wii-u-eur)**
-
-**PS3: [LEGO Dimensions [Unpacked]](https://archive.org/details/lego-dimensions-ps3-eur)**
+**PS3: [LEGO Dimensions (US) [Unpacked]](https://archive.org/details/lego-dimensions-ps3-eur)**
