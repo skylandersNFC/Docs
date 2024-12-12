@@ -231,8 +231,6 @@
 
 # LEGO Dimensions ROMs
 
-### US
-
 **Wii U: [Lego Dimensions (US) [WUA]](https://archive.org/details/lego-dimensions-us)**
 
 **PS3: [LEGO Dimensions (EU) [Unpacked]](https://archive.org/details/lego-dimensions-ps3-eur)**
