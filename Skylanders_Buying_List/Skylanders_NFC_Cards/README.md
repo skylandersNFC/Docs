@@ -9,7 +9,7 @@
  ![Color: UID 13.56mh](https://raw.githubusercontent.com/skylandersNFC/Docs/main/Skylanders_Buying_List/Skylanders_NFC_Cards/images/Gen1_Cards.jpg)
 
 ----------------------------------------------------------
-### Gen1 UID Re-Writable Cards: https://www.amazon.co.uk/dp/B0DBHB7HFW
+### Gen1 UID Re-Writable Cards: [https://www.amazon.co.uk/dp/B0DBHB7HFW](https://www.amazon.co.uk/dp/B0DBHB7HFW)
 
 ### > You can change the amazon link from co.uk, to .de or whatever your region is. It should still work.
 
