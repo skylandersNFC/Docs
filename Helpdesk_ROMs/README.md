@@ -206,13 +206,13 @@
 ## Windows PC
 
 ### US
-> **[Skylanders: Spyro's Adventure](https://archive.org/details/skylandersspyrosadventureusaenfrdeesitnlsvnodafi)** (Archive.org)
+> **[Skylanders: Spyro's Adventure](https://archive.org/details/skylandersspyrosadventureusaenfrdeesitnlsvnodafi)** (ISO version - Archive.org)
 > 
-> Might be offline or slow. Also require **[iphlpapi.dll (SecuRom Cracker)](https://mega.nz/file/db5VXCxY#UtGUsbD-EuA_D8mUAWwPrdr13jKKdUBm10yS_P6UJHc)**  
+> For Windows 7, 10. Require **[iphlpapi.dll (SecuROM Cracker)](https://mega.nz/file/db5VXCxY#UtGUsbD-EuA_D8mUAWwPrdr13jKKdUBm10yS_P6UJHc)**  
 
-> **[Skylanders: Spyro's Adventure](https://gofile.io/d/zKdgZ4)** (GoFile.io)
-> 
-> Password: "**skylanders**"
+> **[Skylanders: Spyro's Adventure](https://archive.org/details/spyro-pc-dvd)** (MDF/MDS version - Archive.org)
+>
+> For Windows 11, where the iphlpapi.dll (SecuROM Cracker) won't work. You need to mount the **SPYRO_DVD.mdf with Alcohol 120%**
 
 ### EU
 > **[Skylanders: Spyro's Adventure](https://archive.org/details/skylanders-spyros-adventure-eu/)** (Archive.org)
