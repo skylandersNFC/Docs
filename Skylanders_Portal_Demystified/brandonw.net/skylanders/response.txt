@@ -1,0 +1,20 @@
+Mr. Mayer,
+I have and do intend to comply with your request (attached) to cease research into how the game Skylanders: Spyro's Adventure and its USB peripherals work.
+
+However, I would like to address some inaccuracies in your letter dated October 26th, 2011.
+
+You have indicated that I am collaborating with others to reverse engineer and hack the Skylanders game, and publishing the findings to the website http://www.rarewarecentral.com/forums/showthread.php?t=6113, which is not correct. I have no affiliation with the maintainers of the site nor the original poster. The original poster of the thread (whom you have quoted) has stated a desire to work on an "iPod/iPhone app which will let you trick the Wii into thinking the app is the portal and allow you to select any character you want."
+
+I have made no attempt to help this person nor sent any material to him/her towards this end. I have made one (and only one) post to the thread consisting of no text and only a picture. This post is completely irrelevant to the topic at hand and can in no way be construed as collaborating with this person.
+ 
+You have also indicated that I am distributing to the public a "zip" file containing extensive data concerning my "hacking" activities. This "zip" file was placed in its location for my temporary use and was not intended for public consumption. The general public was unaware of this file's existence during the brief time it was located on the server, and I am aware of no evidence to the contrary.
+
+I currently have no intention nor have I had any intention to create or distribute iOS software for any purpose, let alone for the circumvention of Skylanders' access control systems. To my knowledge, I do not even have the tools necessary to produce iOS software. I have expressed no desire to make publicly available measures to circumvent Skylanders' access control systems. In fact, the partial documentation previously made available by me at the website http://www.brandonw.net/consoles/skylanders/ intentionally did not contain the encryption key vital to the access control measures in place in the Skylanders game.
+
+This research project was for my own personal knowledge and to satisfy my own curiosity as to how the game interacts with its USB peripheral. I have expressed no desire to release to the public tools that circumvent Skylanders' access control measures, and I continue to express no desire toward that end. I do not and did not have any intention to harm Activision or cause harm to its products or investments.
+
+I re-iterate that I have and do intend to comply with your request to cease any and all research and development into how the game Skylanders: Spyro's Adventure works. Any and all publicly accessible documentation and/or source code has been removed to the best of my knowledge and ability.
+
+Please confirm your receipt of this letter at your earliest convenience.
+
+Brandon Wilson
