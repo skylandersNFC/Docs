@@ -14,33 +14,11 @@
 
 Flashiibo Pro’s main purpose is to emulate NTAG215 which is the NFC technology amiibo figures use. However, it’s capable of emulating other NFC/RFID technologies.
 
-For example, it’s also capable of emulating MiFare Classic 1K, the NFC/RFID technology Skylanders use. Unfortunately, the Skylanders use a slight variation of the technology that the official Flashiibo Pro firmware doesn't yet support. So a special third-party firmware has to be used, see section below.
-
-In the future official Flashiibo firmware may support Skylanders out of the box, but for now this hacky solution is the only way.
+For example, it’s also capable of emulating MiFare Classic 1K, the NFC/RFID technology Skylanders use. You may follow the following instructions to emulate Skylanders.
 
 ## Install the Unofficial Firmware
 
-### Using Android / iPhone
-
-1. Download the firmware here: [Unofficial Skylanders Firmware](https://downloads.flashiibo.com/Unofficial_Skylander_Firmware_OTA_2.11.2.zip)
-2. Download nRF Device Firmware Update app for [Android](https://play.google.com/store/apps/details?id=no.nordicsemi.android.dfu&hl=en_US&gl=US) or [iPhone](https://apps.apple.com/us/app/nrf-device-firmware-update/id1624454660)
-3. Open the downloaded app (named DFU), and select the downloaded firmware.
-4. Keep Flashiibo Pro's charging cable plugged in, then select "Firmware Update" in Settings.
-5. Make sure the Phone you use to perform the update is close to Flashiibo Pro being updated, within a foot to ensure a stable connection.
-6. On your Android or iPhone, choose device "Flashiibo DFU" or "pixl dfu", and then tap Upload.
-7. Wait for the upload to finish. Do NOT turn off your phone or Flashiibo Pro or interrupt the process.
-8. Now your device is likely in a different language (Germany if you had English before). You can perform a settings reset to restore the language to English. The following button sequence can be used to reset the settings.
-   
-   - 2nd Gen Pro with Buttons: Up, Middle, Up, Up, Up, Middle, Down, Middle
-   - 1st Gen Pro with a Stick: Left, Middle, Left, Left, Left, Middle, Right, Middle
-
-### Using PC / Mac
-
-Firmware update on PC / Mac is not supported yet.
-
-### Restoring the Official Firmware
-
-If you wish to forego skylander support and restore the official firmware, follow the [instructions here](https://www.flashiibo.com/manual/pro#h.8xhnoivovyc).
+Make sure you are on firmware version 46p or later. See firmware upgrade instructions [here](https://www.flashiibo.com/manual/pro/firmware).
 
 ## Upload Skylander Dumps
 
