@@ -28,12 +28,12 @@ You can do this via the [https://protools.flashiibo.com](https://protools.flashi
     
     - If it’s your first time accessing this menu, it may take a while to initialize.
     - The device will also create a “chameleon” folder with two subfolders: “dumps” and “slots”.
-02. Return to the main menu and select the “BLE File Transfer” option.
+02. Return to the main menu and select the “User Manual” option.
 03. Open [https://protools.flashiibo.com](https://protools.flashiibo.com) and connect it to your Flashiibo Pro device.
 04. Click the “Refresh” button, and you should see “E:/ \[External Flash]” storage appears.
 05. Inside this storage, locate the “chameleon” folder and its “dumps” subfolder.
     
-    - These were automatically created in Step 1 when the “Card Emulation” menu was initialized.
+    - These were automatically created in Step 1 when the “RFID Slots (Beta)” menu was initialized.
     - If you skipped Step 1, you can manually create these folders.
 06. In the “chameleon/dumps” folder, click the blue “Upload” button.
 07. Select the desired dumps from the [Skylanders Ultimate NFC Pack](https://skylandersnfc.github.io/Skylanders-Ultimate-NFC-Pack/).
