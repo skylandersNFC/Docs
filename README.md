@@ -7,6 +7,8 @@
 
 **[Debunking_Skylanders_NFC](https://skylandersnfc.github.io/Docs/Debunking_Skylanders_NFC)** (SkylandersNFC)
 
+**[Heartbreaker_Buckshot_RAM](https://skylandersnfc.github.io/Docs/Heartbreaker_Buckshot_RAM)** (Texthead)
+
 **[Helpdesk_ROMs](https://skylandersnfc.github.io/Docs/Helpdesk_ROMs)** (TheBiemGamer)
 
 **[Know_Your_Game_Tags](https://skylandersnfc.github.io/Docs/Know_Your_Game_Tags)** (SkylandersNFC)
