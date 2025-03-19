@@ -64,6 +64,17 @@
 
 ## GEN2 CUID (Intended for [Android Phone](https://skylandersnfc.github.io/Docs/Skylanders_Buying_List/Skylanders_NFC_Devices/#android-phone-imaginators-with-gen2-tags-only))
 
+### Gen2 CUID Coin Cards: 
+![Gen2 CUID Coin Cards](https://raw.githubusercontent.com/skylandersNFC/Docs/main/Skylanders_Buying_List/Skylanders_NFC_Cards/images/Gen2_Coin_Cards.jpg)
+
+**Price:** ~5$ for 15 tags
+
+**Buy:** [https://www.aliexpress.com/item/1005008154408726.html](https://www.aliexpress.com/item/1005008154408726.html)
+
+**Note:** _Those are mainly for writing with Android phone, but can be used with external NFC devices as well._
+
+----------------------------------------------------------
+
 ### Gen2 CUID KeyFobs: 
 ![Gen2 CUID KeyFobs](https://raw.githubusercontent.com/skylandersNFC/Docs/main/Skylanders_Buying_List/Skylanders_NFC_Cards/images/Gen2_KeyFobs.jpg)
 
