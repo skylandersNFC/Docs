@@ -75,9 +75,6 @@
 
 
 ### JP
-> **[Skylanders: Spyro's Adventure (JP) [WUA]](https://archive.org/download/skylanders-wua/JP/Skylanders%20Spyro%27s%20Adventure%20%28JP%29%20%28v0%29.wua)** (Archive.org)
- 
-* Might be offline or slow. Use **[Free Download Manager](https://www.freedownloadmanager.org/)** to download faster.
 
 > **[[Nintendo Wii U] Skylanders Games Collection [WUA]](https://gofile.io/d/1h0F1s)** (GoFile.io)
 
@@ -87,6 +84,9 @@
 
 * Require **qBittorrent** installed or other torrent client.
 
+> **[Skylanders: Spyro's Adventure (JP) [WUA]](https://archive.org/download/skylanders-wua/JP/Skylanders%20Spyro%27s%20Adventure%20%28JP%29%20%28v0%29.wua)** (Archive.org)
+ 
+* Might be offline or slow. Use **[Free Download Manager](https://www.freedownloadmanager.org/)** to download faster.
 ------
 
 > **Cemu Format Compatibility**
