@@ -1,4 +1,4 @@
-# Know Your Game Tags
+# The AIO NFC Games Page (a.k.a. Know Your Game Tags)
 
 | Game Name | NFC Tag | Total capacity | Features | Where to Buy ? | NFC Dumps ? | How to Write ?
 |-----------|---------|---------------|----------|----------------|------------|------------|
