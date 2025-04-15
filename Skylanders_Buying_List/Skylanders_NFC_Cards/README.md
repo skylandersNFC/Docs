@@ -11,6 +11,7 @@
 
 **Note:** _You can change the amazon link from co.uk, to .de or whatever your region is. It should still work._
 
+**Second Note:** _Purchasing those cards has become unpredictable lately. There’s about a 50/50 chance that the seller will ship the correct item._
 
 ----------------------------------------------------------
 
@@ -25,7 +26,7 @@
 
 ![Color: UID 13.56mh](https://raw.githubusercontent.com/skylandersNFC/Docs/main/Skylanders_Buying_List/Skylanders_NFC_Cards/images/Gen1_Cards.jpg)
 
-**Second Note:** _Purchasing those AliExpress cards has become unpredictable lately. There’s about a 50/50 chance that the seller will ship the correct item._
+**Second Note:** _Purchasing those cards has become unpredictable lately. There’s about a 50/50 chance that the seller will ship the correct item._
 
 ----------------------------------------------------------
 
