@@ -11,7 +11,7 @@
 
 Original idea and implementation was provided by Shizzy (@shizzy._.)
 
-You can find the round image assets in the [Ultimate NFC Pack](https://skylandersnfc.github.io/Skylanders-Ultimate-NFC-Pack/) (Covers folder).
+You can find the round image assets in the [Skylanders Image Generator](https://skylandersnfc.github.io/Skylanders-Image-Generator/) (Coins Generator).
 
 ---
 
