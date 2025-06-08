@@ -1,7 +1,12 @@
 # Skylanders Coin Cards Printing
 
+## Holographic Paper Example
+
 ![Skylanders Coin Cards Printing](images/Skylanders_Round_Tags.jpg)
 
+## Normal Paper Example
+
+![Skylanders Coin Cards Printing](images/Skylanders_Round_Tags_Normal_Paper.jpg)
 ---
 
 Original idea and implementation was provided by Shizzy (@shizzy._.)
