@@ -1,5 +1,11 @@
 # Skylanders Prices Sorted
 
+**Note:** The table below is outdated.
+
+For the most up-to-date information, check out **[The BEST Skylanders Collection Tracker and Pricing Guide](https://www.youtube.com/watch?v=SoRV5rJwJ4g)**.
+
+## Archived Prices
+
 | Name                              | Price   |
 | --------------------------------- | ------- |
 | Ro-Bow                            | $365.00 |
