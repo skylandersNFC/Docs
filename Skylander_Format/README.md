@@ -1,8 +1,10 @@
-# Skylander Format
-
 Source: [https://github.com/NefariousTechSupport/Runes/blob/master/Docs/SkylanderFormat.md](https://github.com/NefariousTechSupport/Runes/blob/master/Docs/SkylanderFormat.md)
 
-Last Updated: **Oct 22, 2024**
+Last Updated: **Jul 1, 2025**
+
+---
+
+# Skylander Format
 
 ## tfbSpyroTag_TagHeader
 
@@ -11,7 +13,7 @@ The header is 0x20 bytes long.
 | Offset | Type                   | Description
 |--------|------------------------|---------------
 |  0000  | `uint32_t`             | Non-Unique Identifier for this toy, internally referred to as the serial number
-|  0010  | `kTfbSpyroTag_ToyType` | (24 bit int) The Character ID of this Skylander (see [kTfbSpyroTag_ToyType.hpp](../include/kTfbSpyroTag_ToyType.hpp))
+|  0010  | `kTfbSpyroTag_ToyType` | (24 bit int) The Character ID of this Skylander (see [kTfbSpyroTag_ToyType.hpp](../source/kTfbSpyroTag_ToyType.hpp))
 |  0013  | `uint8_t`              | [Error byte](#error-byte)
 |  0014  | `uint64_t`             | The Trading Card ID, [Web Code](#web-code) is derived from this, internally this is separated into 2 `uint32_t`s, presumably to get around alignment issues
 |  001C  | `uint16_t`             | The Variant ID of this Skylander (see [here](#variant-id) to understand how this works)
@@ -23,12 +25,12 @@ The Variant ID is a 16 bit long bit field. Note that with the way some tags were
 
 | Shift | Mask | Type                  | Description
 |-------|------|-----------------------|-------------
-| 0x00  | 00FF | `kTfbSpyroTag_DecoID` | The [Deco ID](../include/kTfbSpyroTag_DecoID.hpp)
+| 0x00  | 00FF | `kTfbSpyroTag_DecoID` | The [Deco ID](../source/kTfbSpyroTag_DecoID.hpp)
 | 0x08  | 0001 | `bool`                | Whether or not this Skylander is a SuperCharger
 | 0x09  | 0001 | `bool`                | Whether or not this Skylander possesses LightCore technology; includes LightCores, Giants, Battle Pieces, certain TT expansions, and Creation Crystals
 | 0x0A  | 0001 | `bool`                | Whether or not this Skylander is an in-game variant
 | 0x0B  | 0001 | `bool`                | Whether or not this Skylander is reposed, normally meaning it has a Wow Pow (decided from the year code)
-| 0x0C  | 000F | `ESkylandersGame`     | [Year code](../include/ESkylandersGame.hpp)
+| 0x0C  | 000F | `ESkylandersGame`     | [Year code](../source/ESkylandersGame.hpp)
 
 ### Web Code
 
@@ -45,8 +47,6 @@ Moreover, you can look at `Runes::PortalTag::StoreHeader()` [here](../source/Por
 * The 0x40 bytes from offset 0x00 is the Magic Moment Data (encompasses the actual trapped villain).
 * The 0x110 bytes from 0x40 is the Remaining Data (contains caches of previously trapped villains).
 
-NOTE: Some of this information may be incorrect and is actively being worked on.
-
 |  St_Off  | Block  | Bl_Off | Type                       | Description
 |----------|--------|--------|----------------------------|---------------
 |  0x0000  | 08/24  |  0x00  | `uint8_t`                  | Set to 1 if this Trap contains a pre-trapped variant villain, but not required for it to load
@@ -56,7 +56,7 @@ NOTE: Some of this information may be incorrect and is actively being worked on.
 |  0x000A  | 08/24  |  0x0C  | `uint16_t`                 | crc16-ccitt/false checksum of 0x110 bytes from 0x40 (so blocks 0D/29 -> 23/3F excluding access control blocks)
 |  0x000C  | 08/24  |  0x0A  | `uint16_t`                 | crc16-ccitt/false checksum of 0x30 bytes starting from 0x10 (so blocks 09/25 -> 0C/28 excluding access control blocks)
 |  0x000E  | 08/24  |  0x0E  | `uint16_t`                 | crc16-ccitt/false checksum of the first 14 bytes of this struct + the bytes "05 00" at the end
-|  0x0010  | 09/25  |  0x00  | `kTfbSpyroTag_VillainType` | ID of the currently trapped villain (See [kTfbSpyroTag_VillainType.hpp](../include//kTfbSpyroTag_VillainType.hpp)). Note that any villain can be put in any trap
+|  0x0010  | 09/25  |  0x00  | `kTfbSpyroTag_VillainType` | ID of the currently trapped villain (See [kTfbSpyroTag_VillainType.hpp](../source/kTfbSpyroTag_VillainType.hpp)). Note that any villain can be put in any trap
 |  0x0011  | 09/25  |  0x01  | `uint8_t`                  | Whether or not the villain is evolved (set to 1 if so)
 |  0x0012  | 09/25  |  0x02  | `uint8_t`                  | Villain Hat value
 |  0x0013  | 09/25  |  0x03  | `uint8_t`                  | [Villain Trinket value](#trinket-value)
@@ -122,11 +122,11 @@ NOTE: Some of this information may be incorrect and is actively being worked on.
 |  0x0E  | 08/24  |  0x0E  | `uint16_t`             | crc16-ccitt/false checksum of the first 14 bytes of this struct + the bytes "05 00" at the end
 |  0x10  | 09/25  |  0x00  | `uint24_t`             | [Vehicle Flags](#vehicle-flags)
 |  0x13  | 09/25  |  0x03  | `uint8_t`              | 2011 [Platform bitfield](#platform-bitfield)
-|  0x16  | 09/25  |  0x06  | `uint8_t`              | `(1 << (dataRegionCount - 1)) - 1`. Since `dataRegionCount` is always set to 2 on core figures, this always evaluates to 1. When set, this value is bitwise OR'd with whatever was originally stored
+|  0x16  | 09/25  |  0x06  | `uint8_t`              | [Region Count Identifier](#region-count-identifier)
 |  0x17  | 09/25  |  0x07  | `uint8_t`              | 2013 [Platform bitfield](#platform-bitfield)
-|  0x18  | 09/25  |  0x08  | `uint8_t`              | [Vehicle Decoration](#vehicle-decorationneon)
+|  0x18  | 09/25  |  0x08  | `uint8_t`              | [Vehicle Decoration](#vehicle-decoration)
 |  0x19  | 09/25  |  0x09  | `uint8_t`              | [Vehicle Topper](#vehicle-topper)
-|  0x1A  | 09/25  |  0x0A  | `uint8_t`              | [Vehicle Neon](#vehicle-decorationneon)
+|  0x1A  | 09/25  |  0x0A  | `uint8_t`              | [Vehicle Neon](#vehicle-neon)
 |  0x1B  | 09/25  |  0x0B  | `uint8_t`              | [Vehicle Shout](#vehicle-shout)
 |  0x3E  | 0C/28  |  0x0E  | `uint16_t`             | [ModFlags](#vehicle-mod-flags)
 |  0x40  | 0D/29  |  0x00  | `uint8_t`              | Minute value of the last time this figure was placed on the portal
@@ -134,7 +134,45 @@ NOTE: Some of this information may be incorrect and is actively being worked on.
 |  0x42  | 0D/29  |  0x02  | `uint8_t`              | Day value of the last time this figure was placed on the portal
 |  0x43  | 0D/29  |  0x03  | `uint8_t`              | Month value of the last time this figure was placed on the portal
 |  0x44  | 0D/29  |  0x04  | `uint16_t`             | Year value of the last time this figure was placed on the portal
-|  0x4C  | 0D/29  |  0x0C  | `uint24_t`             | Something related to last used platform/game
+|  0x4C  | 0D/29  |  0x0C  | `uint8_t[3]`           | Last game build diagnostics. First byte is the build year (from 2000); second byte is build month; third byte is build day
+|  0x4F  | 0D/29  |  0x0F  | `uint8_t`              | No. times owner changed. Normally increments by 1 when ownership is changed (capped at 255)
+|  0x50  | 0E/2A  |  0x00  | `uint8_t`              | Minute value of the last time this figure was reset (if never reset then the first time they were placed on a portal)
+|  0x51  | 0E/2A  |  0x01  | `uint8_t`              | Hour value of the last time this figure was reset (if never reset then the first time they were placed on a portal)
+|  0x52  | 0E/2A  |  0x02  | `uint8_t`              | Day value of the last time this figure was reset (if never reset then the first time they were placed on a portal)
+|  0x53  | 0E/2A  |  0x03  | `uint8_t`              | Month value of the last time this figure was reset (if never reset then the first time they were placed on a portal)
+|  0x54  | 0E/2A  |  0x04  | `uint16_t`             | Year value of the last time this figure was reset (if never reset then the first time they were placed on a portal)
+|  0x56  | 0E/2A  |  0x06  | `uint16_t`             | PR event data
+|  0x58  | 0E/2A  |  0x08  | `uint32_t`             | "Wii" data
+|  0x5C  | 0E/2A  |  0x0C  | `uint32_t`             | "Xbox 360" data
+|  0x60  | 10/2C  |  0x00  | `uint8_t[15]`          | [Usage/owner info](#usage-info)
+|  0x70  | 11/2D  |  0x00  | `uint16_t`             | crc16-ccitt/false checksum of the bytes "06 01" followed by 0x3E bytes from 0x72
+|  0x72  | 11/2D  |  0x02  | `uint8_t`              | [Area Sequence](#area-sequence) for this data area
+|  0x78  | 11/2D  |  0x08  | `uint16_t`             | Gearbits (max is 33000). SuperChargers will refuse to update the Gearbits if it exceeds 33000 in game, even though the counter can go beyond
+
+### CYOS (Creation Crystals/Imaginators)
+
+CYOS stands for "Create Your Own Skylander", the internal name given to Imaginators, which are stored on Creation Crystals, 3D printed figures, and cards.
+
+NOTE: Some of this information may be incorrect and is actively being worked on.
+
+| St_Off | Block  | Bl_Off | Type                   | Description
+|--------|--------|--------|------------------------|---------------
+|  0x03  | 08/24  |  0x03  | `uint16_t`             | Money
+|  0x05  | 08/24  |  0x05  | `uint32_t`             | Cumulative time in seconds
+|  0x09  | 08/24  |  0x09  | `uint8_t`              | [Area Sequence](#area-sequence)
+|  0x0A  | 08/24  |  0x0A  | `uint16_t`             | crc16-ccitt/false checksum of 0x100 bytes starting from 0x40 (so blocks 0D/29 -> 22/3E excluding access control blocks)
+|  0x0C  | 08/24  |  0x0C  | `uint16_t`             | crc16-ccitt/false checksum of 0x30 bytes starting from 0x10 (so blocks 09/25 -> 0C/28 excluding access control blocks)
+|  0x0E  | 08/24  |  0x0E  | `uint16_t`             | crc16-ccitt/false checksum of the first 14 bytes of this struct + the bytes "05 00" at the end
+|  0x13  | 09/25  |  0x03  | `uint8_t`              | 2011 [Platform bitfield](#platform-bitfield)
+|  0x17  | 09/25  |  0x07  | `uint8_t`              | 2013 [Platform bitfield](#platform-bitfield)
+|  0x19  | 09/25  |  0x09  | `uint8_t`              | [Element](../source/EElementType.hpp) of the CYOS figure (non-Creation Crystal only)
+|  0x20  | 0A/26  |  0x00  | `uint8_t[16]`          | First 16 bytes of nickname
+|  0x30  | 0C/28  |  0x00  | `uint8_t[16]`          | Last 16 bytes of nickname
+|  0x40  | 0D/29  |  0x00  | `uint8_t`              | Minute value of the last time this figure was placed on the portal
+|  0x41  | 0D/29  |  0x01  | `uint8_t`              | Hour value of the last time this figure was placed on the portal
+|  0x42  | 0D/29  |  0x02  | `uint8_t`              | Day value of the last time this figure was placed on the portal
+|  0x43  | 0D/29  |  0x03  | `uint8_t`              | Month value of the last time this figure was placed on the portal
+|  0x44  | 0D/29  |  0x04  | `uint16_t`             | Year value of the last time this figure was placed on the portal
 |  0x4F  | 0D/29  |  0x0F  | `uint8_t`              | No. times owner changed. Normally increments by 1 when ownership is changed (capped at 255)
 |  0x50  | 0E/2A  |  0x00  | `uint8_t`              | Minute value of the last time this figure was reset (if never reset then the first time they were placed on a portal)
 |  0x51  | 0E/2A  |  0x01  | `uint8_t`              | Hour value of the last time this figure was reset (if never reset then the first time they were placed on a portal)
@@ -142,11 +180,14 @@ NOTE: Some of this information may be incorrect and is actively being worked on.
 |  0x53  | 0E/2A  |  0x03  | `uint8_t`              | Month value of the last time this figure was reset (if never reset then the first time they were placed on a portal)
 |  0x54  | 0E/2A  |  0x04  | `uint16_t`             | Year value of the last time this figure was reset (if never reset then the first time they were placed on a portal)
 |  0x60  | 10/2C  |  0x00  | `uint8_t[15]`          | [Usage/owner info](#usage-info)
-|  0x70  | 11/2D  |  0x00  | `uint16_t`             | crc16-ccitt/false checksum of the bytes "06 01" followed by 0x3E bytes from 0x72
-|  0x72  | 11/2D  |  0x02  | `uint8_t`              | [Area Sequence](#area-sequence) for this data area
-|  0x78  | 11/2D  |  0x08  | `uint16_t`             | Gearbits (max is 33000). SuperChargers will refuse to update the Gearbits if it exceeds 33000 in game, even though the counter can go beyond
+|  0x7C  | 11/2D  |  0x0C  | `uint8_t[4]`           | First 4 bytes of [CYOS data](#cyos-data)
+|  0x80  | 12/2E  |  0x00  | `uint8_t[16]`          | Next 16 bytes of [CYOS data](#cyos-data)
+|  0x90  | 14/2E  |  0x00  | `uint8_t[16]`          | Next 16 bytes of [CYOS data](#cyos-data)
+|  0xA0  | 15/2E  |  0x00  | `uint8_t[16]`          | Next 16 bytes of [CYOS data](#cyos-data)
+|  0xB0  | 16/2E  |  0x00  | `uint8_t[16]`          | Next 16 bytes of [CYOS data](#cyos-data)
+|  0xC0  | 18/2E  |  0x00  | `uint8_t`              | Final byte of [CYOS data](#cyos-data)
 
-### Not a Trap, Racing Pack, or Vehicle
+### None of the above data structures
 
 Note that tfbSpyroTag_MagicMomentAll and tfbSpyroTag_RemainingDataAll are used by the game internally.
 * The 0x40 bytes from offset 0x00 are the first 0x40 bytes of tfbSpyroTag_MagicMomentAll.
@@ -166,7 +207,7 @@ Note that tfbSpyroTag_MagicMomentAll and tfbSpyroTag_RemainingDataAll are used b
 |  0x10  | 09/25  |  0x00  | `uint24_t`             | [Flags1](#flags)
 |  0x13  | 09/25  |  0x03  | `uint8_t`              | 2011 [Platform bitfield](#platform-bitfield)
 |  0x14  | 09/25  |  0x04  | `uint16_t`             | 2011 [Hat value](#hat-value)
-|  0x16  | 09/25  |  0x06  | `uint8_t`              | `(1 << (dataRegionCount - 1)) - 1`. Since `dataRegionCount` is always set to 2 on core figures, this always evaluates to 1. When set, this value is bitwise OR'd with whatever was originally stored
+|  0x16  | 09/25  |  0x06  | `uint8_t`              | [Region Count Identifier](#region-count-identifier)
 |  0x17  | 09/25  |  0x07  | `uint8_t`              | 2013 [Platform bitfield](#platform-bitfield)
 |  0x18  | 09/25  |  0x08  | `uint64_t`             | Owner ID (used by SSA/Giants. Future games store what figures they own, instead of the figure storing who their owner is)
 |  0x20  | 0A/26  |  0x00  | `wchar_t[8]`           | First 16 bytes of nickname
@@ -178,13 +219,16 @@ Note that tfbSpyroTag_MagicMomentAll and tfbSpyroTag_RemainingDataAll are used b
 |  0x44  | 0D/29  |  0x04  | `uint16_t`             | Year value of the last time this figure was placed on the portal
 |  0x46  | 0D/29  |  0x06  | `uint32_t`             | Completed SSA Heroic Challenges
 |  0x4A  | 0D/29  |  0x0A  | `uint16_t`             | Hero points (max is 999 in SSA, 100 in Universe)
-|  0x4C  | 0D/29  |  0x0C  | `uint24_t`             | Something related to last used platform/game
+|  0x4C  | 0D/29  |  0x0C  | `uint24_t`             | Last game build diagnostics. First byte is the build year (from 2000); second byte is build month; third byte is build day
 |  0x4F  | 0D/29  |  0x0F  | `uint8_t`              | No. times owner changed. Normally increments by 1 when ownership is changed (capped at 255)
 |  0x50  | 0E/2A  |  0x00  | `uint8_t`              | Minute value of the last time this figure was reset (if never reset then the first time they were placed on a portal)
 |  0x51  | 0E/2A  |  0x01  | `uint8_t`              | Hour value of the last time this figure was reset (if never reset then the first time they were placed on a portal)
 |  0x52  | 0E/2A  |  0x02  | `uint8_t`              | Day value of the last time this figure was reset (if never reset then the first time they were placed on a portal)
 |  0x53  | 0E/2A  |  0x03  | `uint8_t`              | Month value of the last time this figure was reset (if never reset then the first time they were placed on a portal)
 |  0x54  | 0E/2A  |  0x04  | `uint16_t`             | Year value of the last time this figure was reset (if never reset then the first time they were placed on a portal)
+|  0x56  | 0E/2A  |  0x06  | `uint16_t`             | PR Event data
+|  0x58  | 0E/2A  |  0x08  | `uint32_t`             | "Wii" data
+|  0x5C  | 0E/2A  |  0x0C  | `uint32_t`             | "Xbox 360" data
 |  0x60  | 10/2C  |  0x00  | `uint8_t[15]`          | [Usage/owner info](#usage-info)
 |  0x70  | 11/2D  |  0x00  | `uint16_t`             | crc16-ccitt/false checksum of the bytes "06 01" followed by 0x3E bytes from 0x72
 |  0x72  | 11/2D  |  0x02  | `uint8_t`              | [Area Sequence](#area-sequence) for this data area
@@ -198,6 +242,7 @@ Note that tfbSpyroTag_MagicMomentAll and tfbSpyroTag_RemainingDataAll are used b
 |  0x80  | 12/2E  |  0x00  | `uint32_t`             | [Battlegrounds Flags](#battlegrounds-flags)
 |  0x84  | 12/2E  |  0x04  | `uint24_t`             | Completed SG Heroic Challenges
 |  0x87  | 12/2E  |  0x07  | `uint72_t`             | Giants [Quests](#quests)
+|  0x90  | 14/30  |  0x07  | `uint48_t`             | Next 6 bytes of Giants [Quests](#quests). Note that no data ever gets populated to these bytes, so are effectively unused
 |  0x97  | 14/30  |  0x07  | `uint72_t`             | SWAP Force [Quests](#quests)
 
 ### Experience
@@ -239,20 +284,27 @@ Note that vehicle experience in SuperChargers Racing uses the exact same experie
 
 ### Error byte
 
-The full purpose for this byte is unknown, but it does have a direct influence on the games. By default, for all Skylander figures, this byte is set to 0. If a toy is read and this byte is not equal to zero, the game will in some way refuse the toy, however the way the game behaves upon doing so varies and can sometimes act in an unintended manner.
+Used to reject tags for whatever reason; seems mostly tied to other franchises using the same RFID protocol to make sure they don't get interpreted as Skylander data.
+
+By default, for all Skylander figures, this byte is set to 0. If a toy is read and this byte is not equal to zero, the game will in some way refuse the toy, however the way the game behaves upon doing so varies and can sometimes act in an unintended manner.
 * In Skylanders Spyro's Adventure, Skylanders Giants, and Skylanders Trap Team, the toy will be considered unsupported and cannot be used in the game.
-* In Skylanders SWAP Force, Skylanders SuperChargers, and Skylanders Imaginators, if no other Skylanders have been placed on the portal prior, the game will consider the toy unsupported. If a Skylander has been placed prior, the game will  remember that character info from that figure index on the portal. If this toy is then placed on the portal with the exact same figure index (which can be done by unplugging and plugging back in the portal, or loading the same slot on emulated portals) that character will incidently be loaded instead - including halves of SWAP Force Skylanders and Senseis - regardless of the actual character on the tag or data on the previous tag. The new character will then act somewhat similar to Template Template, where changing Ownership and writing to the tag does not function.
+* In Skylanders SWAP Force, Skylanders SuperChargers, and Skylanders Imaginators, if no other Skylanders have been placed on the portal prior, the game will consider the toy unsupported. If a Skylander has been placed prior, the game will remember that character info from that figure index on the portal. If this toy is then placed on the portal with the exact same figure index (which can be done by unplugging and plugging back in the portal, or loading the same slot on emulated portals) that character will incidently be loaded instead - including halves of SWAP Force Skylanders and Senseis - regardless of the actual character on the tag or data on the previous tag. The new character will then act somewhat similar to Template Template, where changing Ownership and writing to the tag does not function.
 * In Skylanders SuperChargers Racing, the game will constantly bring up the corrupted toy prompt before immediately closing the prompt, and then reopening, halting any further progress.
 
 ### Hat value
 
-* Check the most newest hat value, if it's not 0, return that, otherwise check the next oldest hat value and repeat.
-* [Hat enum](../include/kTfbSpyroTag_HatType.hpp).
+* [Hat enum](../source/kTfbSpyroTag_HatType.hpp).
 * Note that the following ids are identical to the ids used in the file names of Skylanders Spyro's Adventure, Skylanders Giants, and Skylanders Trap Team minus 1. For example, The straw hat has id 9 on figures but has id 8 in the files. 
 * The unused hat ids are not used.
-* The padding hat ids were never meant to be used in the first place.
+* The padding hat ids were never intended to be used.
 
-| Hat ID |  Hat Name
+#### Lookup Algorithm
+* In Skylanders Giants and Trap Team, check the oldest hat value, if it's not 0, return that, otherwise check the second oldest hat value, repeat, and so on.
+* In Skylanders SWAP Force, SuperChargers, and Imaginators, the order is reversed: check the newest hat value, if it's not 0, return that, otherwise check the second newest hat value, repeat, and so on.
+* When returning the SuperChargers hat value, add 256 to get the true hat ID.
+* Note that SWAP Force, SuperChargers, and Imaginators also attempt to wipe all unread hat areas on every write.
+
+| Hat ID | Hat Name
 |--------|-------------------------------
 |  0000  | None
 |  0001  | Combat Hat
@@ -264,7 +316,7 @@ The full purpose for this byte is unknown, but it does have a direct influence o
 |  0007  | Propeller Cap
 |  0008  | Coonskin Cap
 |  0009  | Straw Hat
-|  0010  | Fancy Hat
+|  0010  | Fancy Hat (Monday)
 |  0011  | Top Hat
 |  0012  | Viking Helmet
 |  0013  | Spiked Hat
@@ -279,7 +331,7 @@ The full purpose for this byte is unknown, but it does have a direct influence o
 |  0022  | Cowboy Hat
 |  0023  | Rocker Hair
 |  0024  | Royal Crown
-|  0025  | Lil Devil
+|  0025  | Lil' Devil
 |  0026  | Eye Hat
 |  0027  | Fez
 |  0028  | Crown of Light
@@ -365,7 +417,7 @@ The full purpose for this byte is unknown, but it does have a direct influence o
 |  0108  | Roundlet Hat
 |  0109  | Capuchon
 |  0110  | Tricorn Hat
-|  0111  | Feathered Headdress
+|  0111  | Feathered Headdress (Peacock Hat)
 |  0112  | Bearskin Cap
 |  0113  | Fishbone Hat
 |  0114  | Ski Cap
@@ -382,7 +434,7 @@ The full purpose for this byte is unknown, but it does have a direct influence o
 |  0125  | Deely Boppers
 |  0126  | Beanie
 |  0127  | Leprechaun Hat
-|  0128  | Shark Hat
+|  0128  | Shark Hat (Sharkfin Hat)
 |  0129  | Life Preserver Hat
 |  0130  | Glittering Tiara
 |  0131  | Great Helm
@@ -395,7 +447,7 @@ The full purpose for this byte is unknown, but it does have a direct influence o
 |  0138  | Runic Headband
 |  0139  | Clockwork Hat
 |  0140  | Cactus Hat
-|  0141  | Skullhelm
+|  0141  | Skullhelm (Skyll)
 |  0142  | Gloop Hat
 |  0143  | Puma Hat
 |  0144  | Elephant Hat
@@ -446,7 +498,7 @@ The full purpose for this byte is unknown, but it does have a direct influence o
 |  0189  | Crazy Light Bulb Hat
 |  0190  | Rubber Glove Hat
 |  0191  | Rugby Hat
-|  0192  | Sharkfin Hat (Shark Hat)
+|  0192  | Metal Fin Hat
 |  0193  | Sleuth Hat
 |  0194  | Shower Cap
 |  0195  | Bobby
@@ -593,6 +645,21 @@ The full purpose for this byte is unknown, but it does have a direct influence o
 
 So for example, if the 2011 value is set to 3, then bits 0 and 1 are set, and therefore the figure has been used on Wii and Xbox 360.
 
+Note that SSA JP for the Wii U incidently sets the Wii platform usage flag instead of the Wii U one.
+
+### Region Count Identifier
+
+Used as a reset indicator to make sure all data regions are correctly wiped. Skylanders Giants added 0x10 bytes of Magic Moment info and 0x30 bytes of Remaining Data info, these 2 extension structs form the "second data region", with the original info from SSA being considered the "first data region".
+
+This amount is known as the `dataRegionCount`; 1 for SSA, 2 for all other games. Note that the Wii and Wii U versions of SSA JP act like all games after SSA, with 2 data regions.
+
+The `regionCountID` is encoded with the formula `(1 << (dataRegionCount - 1)) - 1` which returns a bit index for `dataRegionCount`s above 1 - this is stored at blocks 09/25, byte 0x06. All games after SSA will set this value every write.
+
+The game does a comparision with a bitwise OR if the bit is set to determine if all data regions have valid data.
+
+* For Spyro's Adventure, the `regionCountID` is unused, and will be set to 0 when the figure is reset. As SSA's reset routine doesn't wipe the second data region information from the figure, the second data region info will still persist on reset. Later games can verify that the data in the second data region is invalid by reading that the byte is 0, the bitwise OR check fails, and the second data region info is treated as reset/empty.
+* For Skylanders Giants and future games, the reset figure routine from these games correctly wipe the second data region information and set the `regionCountID` to the correct value to have it succeed on future checks. The check succeeds if ever written to by these games, and the second data region is always read correctly.
+
 ### Flags
 
 * [Upgrade](#upgrades) flags: `((Flags2 & 0xF) << 10) | (Flags1 & 0x3FF)`
@@ -641,7 +708,7 @@ Oddly, each level of the vehicle's shield and weapon occupies its own bit, even 
 * Bit 7: Path upgrade 2 purchased
 * Bit 8: Path upgrade 3 purchased
 * Bit 9: Soul Gem purchased
-* Bit 10: Wow Pow purchased
+* Bit 10: Wow Pow purchased (or Sky-Chi for Senseis)
 * Bit 11: Alternate path upgrade 1 purchased (used to retain details of upgrades on the other path when switching path as a repose or in SuperChargers)
 * Bit 12: Alternate path upgrade 2 purchased
 * Bit 13: Alternate path upgrade 3 purchased
@@ -696,6 +763,7 @@ Unknown. TODO in future
 | `SG >> 0x01`    | 33 | Skylands Salute
 | `SG >> 0x02`    | 34 | S.A.B.R.I.N.A
 | `SG >> 0x03`    | 35 | The Sky is Falling
+| `SG >> 0x04`    | 36 | Nort's Winter Classic
 | `SG >> 0x05`    | 37 | Break the Fakes!
 | `SG >> 0x06`    | 38 | Baking with Batterson
 | `SG >> 0x07`    | 39 | Blobber's Folly
@@ -721,7 +789,7 @@ Unknown. TODO in future
 Think of it as a 72 bit int.
 
 #### Giants Quests
-|  Bits  | Giants Name      
+|  Bits  | Giants Name
 |--------|----------------------
 |   0A   | Monster Masher
 |   04   | Battle Champ
@@ -748,7 +816,7 @@ Think of it as a 72 bit int.
 |   10   | Individual Quest
 
 #### SWAP Force Quests
-| Shift  | Mask | SWAP Force Name      
+| Shift  | Mask | SWAP Force Name
 |--------|------|----------------------
 |   00   | 03FF | Badguy Basher
 |   0A   | 000F | Fruit Frontiersman
@@ -785,7 +853,7 @@ Sky Captains (Sky villains)
 * Bit 3: Wolfgang in Sub Woofer
 * Bit 4: Pain-Yatta in unnamed vehicle (SSCR only)
 
-### Vehicle Decoration/Neon
+### Vehicle Decoration
 
 | ID | Deco/Neon Name
 |----|----------------
@@ -805,6 +873,27 @@ Sky Captains (Sky villains)
 | 0D | Ninja
 | 0E | Royal
 | 0F | Robot
+
+### Vehicle Neon
+
+| ID | Deco/Neon Name
+|----|----------------
+| 00 | None
+| 01 | Darkness
+| 02 | Eon
+| 03 | Ancient
+| 04 | Cap'N Cluck
+| 05 | Cartoon
+| 06 | Kaos
+| 07 | Police
+| 08 | Construction
+| 09 | Holiday
+| 0A | Ghost
+| 0B | Royal
+| 0C | Ninja
+| 0D | Thermal
+| 0E | Robot
+| 0F | Fire Truck
 
 ### Vehicle Topper
 
@@ -974,6 +1063,110 @@ Sky Captains (Sky villains)
 | 64 | Squeaky Toy
 | 65 | Jeer: Tessa
 
+### CYOS data
+
+0x45 byte long struct encompassing all of the CYOS data stored on the figure.
+
+The information stored by CYOS figures is not byte aligned, so each "part" has a given bit size in the struct; each "part" is stored sequentially.
+
+#### Storage Info
+
+| Shift | Bits | CYOS part
+|-------|------|---------------
+| 0000  |  10  | Primary Weapon
+| 000A  |  10  | Secondary Weapon (unused?)
+| 0014  |  10  | Backpack
+| 001E  |  10  | Headgear
+| 0028  |  10  | Leg Guards
+| 0032  |  10  | Arm Guards
+| 003C  |  10  | Shoulder Guards
+| 0046  |  10  | Ears
+| 0050  |  4   | Lower Body Scale
+| 0054  |  4   | Upper Body Scale
+| 0058  |  4   | Height
+| 005C  |  4   | Muscle Scale
+| 0060  |  4   | Head Scale
+| 0064  |  4   | Tail Width
+| 0068  |  10  | Head
+| 0072  |  10  | Torso
+| 007C  |  10  | Arms
+| 0086  |  10  | Legs/Tasset
+| 0090  |  7   | Tail
+| 0097  |  7   | Head Color 1
+| 009E  |  7   | Head Color 2
+| 00A5  |  7   | Head Color 3
+| 00AC  |  7   | Head Color 4
+| 00B3  |  7   | Head Color 5
+| 00BA  |  7   | "Ear" Color (unused?)
+| 00C1  |  7   | Arms Color 1
+| 00C8  |  7   | Arms Color 2
+| 00CF  |  7   | Arms Color 3
+| 00D6  |  7   | Arms Color 4
+| 00DD  |  7   | Arms Color 5
+| 00E4  |  7   | Torso Color 1
+| 00EB  |  7   | Torso Color 2
+| 00F2  |  7   | Torso Color 3
+| 00F9  |  7   | Torso Color 4
+| 0100  |  7   | Torso Color 5
+| 0107  |  7   | Legs/Tasset Color 1
+| 010E  |  7   | Legs/Tasset Color 2
+| 0115  |  7   | Legs/Tasset Color 3
+| 011C  |  7   | Legs/Tasset Color 4
+| 0123  |  7   | Legs/Tasset Color 5
+| 012A  |  7   | Eye Color 1 (Pupil)
+| 0131  |  7   | Eye Color 2 (Sclera)
+| 0138  |  7   | Tail Color 1
+| 013F  |  7   | Tail Color 2
+| 0146  |  7   | Ears Color 1
+| 014D  |  7   | Ears Color 2
+| 0154  |  7   | Ears Color 3
+| 015B  |  7   | Headgear Color 1
+| 0162  |  7   | Headgear Color 2
+| 0169  |  7   | Headgear Color 3
+| 0170  |  7   | Arm Guards Color 1
+| 0177  |  7   | Arm Guards Color 2
+| 017E  |  7   | Arm Guards Color 3
+| 0185  |  7   | Shoulder Guards Color 1
+| 018C  |  7   | Shoulder Guards Color 2
+| 0193  |  7   | Shoulder Guards Color 3
+| 019A  |  7   | Backpack Color 1
+| 01A1  |  7   | Backpack Color 2
+| 01A8  |  7   | Backpack Color 3
+| 01AF  |  7   | Leg Guards Color 1
+| 01B6  |  7   | Leg Guards Color 2
+| 01BD  |  7   | Leg Guards Color 3
+| 01C4  |  10  | Second Power Flags
+| 01CE  |  10  | Tertiary Power Flags
+| 01D8  |  7   | [Battle Class](#battle-classes)
+| 01DF  |  6   | Aura
+| 01E5  |  8   | Sound Effects
+| 01ED  |  6   | Eyes
+| 01F3  |  8   | Catchphrase 1
+| 01FB  |  8   | Catchphrase 2
+| 0203  |  8   | Music
+| 020B  |  8   | Voice
+| 0213  |  7   | Voice Filter
+| 021A  |  9   | Primary Power Flags
+
+#### Battle Classes
+
+| ID | Battle Class
+|----|--------------
+| 0  | None
+| 1  | Knight
+| 2  | Bowslinger
+| 3  | Quickshot
+| 4  | Ninja
+| 5  | Brawler
+| 6  | Smasher
+| 7  | Sorcerer
+| 8  | Swashbuckler
+| 9  | Sentinel
+| 10 | Bazooker
+| 11 | Kaos
+
+Certain CYOS pieces on the figure have IDs respective to the Battle Class; this is done using the formula `ID + ((battleClass - 1) * 100)`. Note that blank/not set pieces that abide by this will have the IDs above 1000.
+
 ### Credits:
 * Brandon Wilson:
   * The encryption method
@@ -990,7 +1183,14 @@ Sky Captains (Sky villains)
   * The PC, Nintendo 3DS, Xbox One, PS4, and Nintendo Switch values for the platform usage
 * Texthead:
   * Variant ID additions/corrections
-  * Additional Trap info
-  * Figured out Vehicles
   * Racing Pack additions/corrections
+  * Figured out Vehicles
+  * Figured out CYOS figures
+  * Additional Trap info
   * Heroic Challenges
+  * Hat fixes and info
+  * Region Count ID info
+* Maff:
+  * Help with CYOS pieces
+  * Discovered PR event, "Wii", and "Xbox 360" miscellaneous data
+  * Help with build diagnostic data
