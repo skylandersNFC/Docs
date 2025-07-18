@@ -32,8 +32,11 @@ Skylanders, Spyro, Activision, and other intellectual properties are owned by Ac
 #### [Skylanders 2016](#skylanders-2016-1)
 #### [SuperChargers Template Vehicles](#superchargers-template-vehicles-1)
 #### [Trap Team DEBUG Characters](#trap-team-debug-characters-1)
+
 ## Info
+
 ### Spyro's Adventure
+
 | Skylander                         | CharacterID | VariantID |
 | --------------------------------- | ----------- | --------- |
 | Whirlwind                         | 0           | 0         |
@@ -152,7 +155,9 @@ Skylanders, Spyro, Activision, and other intellectual properties are owned by Ac
 | Cynder (UNRELEASED Series 4)      | 32          | 14345     |
 | Cynder (UNRELEASED Eon's Elite)   | 32          | 14352     |
 | DEBUG Minion                      | 999         | 0         |
+
 ### Giants
+
 | Skylander                       | CharacterID | VariantID |
 | ------------------------------- | ----------- | --------- |
 | Jet-Vac                         | 100         | 4096      |
@@ -206,7 +211,9 @@ Skylanders, Spyro, Activision, and other intellectual properties are owned by Ac
 | Fright Rider                    | 115         | 4096      |
 | Fright Rider (Glow in the Dark) | 115         | 4113      |
 | Fright Rider (Halloween)        | 115         | 4117      |
+
 ### Toys For Bob Items/Traps
+
 | Skylander                             | CharacterID | VariantID |
 | ------------------------------------- | ----------- | --------- |
 | Anvil Rain                            | 200         | 0         |
@@ -290,7 +297,9 @@ Skylanders, Spyro, Activision, and other intellectual properties are owned by Ac
 | Mystery Chest (Gold)                  | 235         | 20483     |
 | Mystery Chest (Cursed Tiki Temple)    | 235         | 20503     |
 | Mystery Chest (Lost Imaginite Mines)  | 235         | 20505     |
+
 ### Toys For Bob Expansions
+
 | Skylander                | CharacterID | VariantID |
 | ------------------------ | ----------- | --------- |
 | Dragon's Peak            | 300         | 0         |
@@ -304,14 +313,18 @@ Skylanders, Spyro, Activision, and other intellectual properties are owned by Ac
 | Midnight Museum          | 308         | 12800     |
 | Gryphon Park Observatory | 310         | 20480     |
 | Enchanted Elven Forest   | 311         | 20480     |
+
 ### SSA Legendaries
+
 | Skylander               | CharacterID | VariantID |
 | ----------------------- | ----------- | --------- |
 | Legendary Bash          | 404         | 0         |
 | Legendary Spyro         | 416         | 0         |
 | Legendary Trigger Happy | 419         | 0         |
 | Legendary Chop Chop     | 430         | 0         |
+
 ### Trap Team
+
 | Skylander                    | CharacterID | VariantID |
 | ---------------------------- | ----------- | --------- |
 | Gusto                        | 450         | 12288     |
@@ -340,8 +353,8 @@ Skylanders, Spyro, Activision, and other intellectual properties are owned by Ac
 | Echo                         | 465         | 12288     |
 | Blastermind                  | 466         | 12288     |
 | Enigma                       | 467         | 12288     |
-| Déjà Vu                    | 468         | 12288     |
-| Legendary Déjà Vu          | 468         | 13315     |
+| Déjà Vu                      | 468         | 12288     |
+| Legendary Déjà Vu            | 468         | 13315     |
 | Cobra Cadabra                | 469         | 12288     |
 | King Cobra Cadabra           | 469         | 13314     |
 | Jawbreaker                   | 470         | 12288     |
@@ -367,7 +380,9 @@ Skylanders, Spyro, Activision, and other intellectual properties are owned by Ac
 | Spotlight                    | 483         | 12288     |
 | Knight Mare                  | 484         | 12288     |
 | Blackout                     | 485         | 12288     |
+
 ### Minis/Sidekicks
+
 | Skylander                 | CharacterID | VariantID |
 | ------------------------- | ----------- | --------- |
 | Bop                       | 502         | 12288     |
@@ -397,7 +412,9 @@ Skylanders, Spyro, Activision, and other intellectual properties are owned by Ac
 | Mini-Jini (Mini)          | 542         | 12288     |
 | Eye-Small (Sidekick)      | 543         | 4096      |
 | Eye-Small (Mini)          | 543         | 12288     |
+
 ### Imaginators
+
 | Skylander                                   | CharacterID | VariantID |
 | ------------------------------------------- | ----------- | --------- |
 | King Pen                                    | 601         | 20480     |
@@ -492,7 +509,9 @@ Skylanders, Spyro, Activision, and other intellectual properties are owned by Ac
 | Light Creation Crystal (Fanged)             | 689         | 21014     |
 | Light Creation Crystal (Legendary Fanged)   | 689         | 22038     |
 | Goldie                                      | 699         | 20480     |
+
 ### SWAP Force
+
 | Skylander                | CharacterID | VariantID |
 | ------------------------ | ----------- | --------- |
 | Jet                      | 1000        | 8192      |
@@ -591,7 +610,9 @@ Skylanders, Spyro, Activision, and other intellectual properties are owned by Ac
 | Rip Tide (Green?)        | 3014        | 8214      |
 | Punk Shock               | 3015        | 8192      |
 | Template Legacy          | 3999        | 8192      |
+
 ### Vicarious Visions Items/Vehicles
+
 | Skylander                            | CharacterID | VariantID |
 | ------------------------------------ | ----------- | --------- |
 | Battle Hammer                        | 3200        | 8192      |
@@ -638,14 +659,18 @@ Skylanders, Spyro, Activision, and other intellectual properties are owned by Ac
 | Barrel Blaster                       | 3240        | 16384     |
 | Dark Barrel Blaster                  | 3240        | 17410     |
 | Buzz Wing                            | 3241        | 16384     |
+
 ### SWAP Force Expansions/Battle Pieces
+
 | Skylander          | CharacterID | VariantID |
 | ------------------ | ----------- | --------- |
 | Sheep Wreck Island | 3300        | 8192      |
 | Tower of Time      | 3301        | 8192      |
 | Fiery Forge        | 3301        | 8710      |
 | Arkeyan Crossbow   | 3302        | 8710      |
+
 ### SuperChargers
+
 | Skylander                             | CharacterID | VariantID |
 | ------------------------------------- | ----------- | --------- |
 | Fiesta                                | 3400        | 16640     |
@@ -689,7 +714,9 @@ Skylanders, Spyro, Activision, and other intellectual properties are owned by Ac
 | Thrillipede                           | 3428        | 16640     |
 | Eggcited Thrillipede                  | 3428        | 17677     |
 | Nightfall (Defective)                 | 3527        | 16640     |
+
 ### Villain Drivers/Vehicles
+
 | Skylander             | CharacterID | VariantID |
 | --------------------- | ----------- | --------- |
 | Chef Pepper Jack      | 3440        | 16384     |
@@ -736,28 +763,36 @@ Skylanders, Spyro, Activision, and other intellectual properties are owned by Ac
 | The Gulper Vehicle    | 3495        | 16384     |
 | Noodles Vehicle       | 3496        | 16384     |
 | Doom Jet              | 3497        | 16384     |
+
 ### SuperChargers Trophies
+
 | Skylander   | CharacterID | VariantID |
 | ----------- | ----------- | --------- |
 | Sky Trophy  | 3500        | 16384     |
 | Land Trophy | 3501        | 16384     |
 | Sea Trophy  | 3502        | 16384     |
 | Kaos Trophy | 3503        | 16384     |
+
 ### Skylanders 2016
+
 | Skylander       | CharacterID | VariantID |
 | --------------- | ----------- | --------- |
 | Fusion          | 4500        | 20480     |
 | Synergy         | 4501        | 20480     |
 | Unity           | 4502        | 20480     |
 | BlueFalcon_Base | 4503        | 20480     |
+
 ### SuperChargers Template Vehicles
+
 | Skylander             | CharacterID | VariantID |
 | --------------------- | ----------- | --------- |
 | Template Vehicle      | 4999        | 16384     |
 | Template Land Vehicle | 5999        | 16384     |
 | Template Air Vehicle  | 6999        | 16384     |
 | Template Sea Vehicle  | 7999        | 16384     |
+
 ### Trap Team DEBUG Characters
+
 | Skylander    | CharacterID | VariantID |
 | ------------ | ----------- | --------- |
 | DEBUG Core   | 9990        | 12288     |

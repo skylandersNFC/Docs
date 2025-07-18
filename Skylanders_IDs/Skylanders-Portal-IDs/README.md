@@ -16,6 +16,7 @@ Note that the Wireless Dongles do have their own FCC IDs and model no. but have 
 Skylanders, Spyro, Activision, and other intellectual properties are owned by Activision Publishing Inc. or their respective owner(s); the information present here does not exist for any malicious intentions.
 
 ## Info
+
 | Portal                               | FCC ID      | ID                  |
 | ------------------------------------ | ----------- | ------------------- |
 | Spyro's Adventure (Wii/PS3 Wireless) | XLU83973790 | 0x01 0x29           |
