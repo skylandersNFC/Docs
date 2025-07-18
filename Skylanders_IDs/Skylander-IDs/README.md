@@ -1,18 +1,17 @@
-# Skylander-IDs
-
 Source: [https://github.com/Texthead1/Skylander-IDs](https://github.com/Texthead1/Skylander-IDs)
 
 Backup: [https://rentry.co/Skylander-IDs](https://rentry.co/Skylander-IDs)
 
-Last Updated: **Dec 5, 2024**
+Last Updated: **Apr 2, 2025**
 
 ---
 
+# Skylander IDs
 Character IDs and Variant IDs for each and every Skylander figure, character, and doohickey, including unreleased ones.
 
-Each Variant ID is a 16 bit unsigned short, representing a bitfield of 6 different flags used to determine the figure in-game. More information in regards to how a Variant ID is composed can be found [here](https://github.com/NefariousTechSupport/Runes/blob/master/Docs/SkylanderFormat.md#sub-type). For simplicity sake, both IDs are shown as denary (base-10) integers.
+Each Variant ID is a 16-bit unsigned short, representing a bitfield of 6 different flags used to determine the figure in-game. More information in regard to how a Variant ID is composed can be found [here](https://github.com/NefariousTechSupport/Runes/blob/master/Docs/SkylanderFormat.md#sub-type). For simplicity's sake, both IDs are shown as denary (base-10) integers.
 
-If you see any figures with a "?" and own them, or any that just are not listed, feel free get in touch by submitting an issue; same goes for if there are any problems with the currently recorded info, please let me know, as it's possible that mistakes may be present. IDs stored and compiled by Portal-To-Unity, an in-progress Skylanders figure identifier.
+If you see any figures with a "?" and own them, or any that just are not listed, feel free get in touch by submitting an issue; same goes for if there are any problems with the currently recorded info, please let me know, as it's possible that mistakes may be present. IDs stored and compiled by Portal-To-Unity, an in-progress Skylanders figure identifier. A known figure exempt from the list is the Legendary Sky Trophy, which I cannot personally verify at this moment in time, and may not have a unique variant ID.
 
 Skylanders, Spyro, Activision, and other intellectual properties are owned by Activision Publishing Inc. or their respective owner(s); the information present here does not exist for any malicious intentions.
 
@@ -33,12 +32,10 @@ Skylanders, Spyro, Activision, and other intellectual properties are owned by Ac
 #### [Skylanders 2016](#skylanders-2016-1)
 #### [SuperChargers Template Vehicles](#superchargers-template-vehicles-1)
 #### [Trap Team DEBUG Characters](#trap-team-debug-characters-1)
-
 ## Info
 ### Spyro's Adventure
-
-| Skylander | CharacterID | VariantID |
-|---------- |-------------|-----------|
+Skylander                         | CharacterID | VariantID
+----------------------------------|-------------|----------
 Whirlwind                         | 0           | 0
 Whirlwind (Series 2)              | 0           | 6145
 Polar Whirlwind                   | 0           | 7170
@@ -47,8 +44,8 @@ Horn Blast Whirlwind              | 0           | 10245
 Whirlwind (Eon's Elite)           | 0           | 14352
 Sonic Boom                        | 1           | 0
 Sonic Boom (Series 2)             | 1           | 6145
-Sonic Boom (Sparkle/Glitter)      | 1           | 6163
 Sonic Boom (Glow in the Dark)     | 1           | 6161
+Sonic Boom (Sparkle/Glitter)      | 1           | 6163
 Warnado                           | 2           | 0
 Warnado (LightCore)               | 2           | 8710
 Lightning Rod                     | 3           | 0
@@ -64,8 +61,8 @@ Dino-Rang                         | 6           | 0
 Dino-Rang (Eon's Elite)           | 6           | 18448
 Prism Break                       | 7           | 0
 Prism Break (LightCore)           | 7           | 4614
-Prism Break (Series 2)            | 7           | 6145
 Prism Break (LightCore Rare, ???) | 7           | 4628
+Prism Break (Series 2)            | 7           | 6145
 Hyper Beam Prism Break            | 7           | 10245
 Sunburn                           | 8           | 0
 Eruptor                           | 9           | 0
@@ -74,8 +71,8 @@ Eruptor (Series 2)                | 9           | 6145
 Eruptor (White Flocked)           | 9           | 6164
 Lava Barf Eruptor                 | 9           | 10245
 Volcanic Eruptor                  | 9           | 11266
-Eruptor (Eon's Elite)             | 9           | 14352
 Eruptor (UNRELEASED Macy Day?)    | 9           | 14340
+Eruptor (Eon's Elite)             | 9           | 14352
 Ignitor                           | 10          | 0
 Ignitor (Series 2)                | 10          | 6145
 Legendary Ignitor                 | 10          | 7171
@@ -90,7 +87,7 @@ Gill Grunt                        | 14          | 0
 Gill Grunt (Series 2)             | 14          | 6145
 Gill Grunt (Metallic?)            | 14          | 6167
 Anchors Away Gill Grunt           | 14          | 10245
-Tidal Wave Gill Grunt             | 14          | 14345
+Tidal Wave Gill Grunt             | 14          | 14341
 Gill Grunt (Eon's Elite)          | 14          | 14352
 Slam Bam                          | 15          | 0
 Slam Bam (Series 2)               | 15          | 6145
@@ -152,12 +149,12 @@ Cynder                            | 32          | 0
 Cynder (Series 2)                 | 32          | 6145
 Cynder (Glow in the Dark)         | 32          | 6161
 Phantom Cynder                    | 32          | 10245
+Cynder (UNRELEASED Series 4)      | 32          | 14345
+Cynder (UNRELEASED Eon's Elite)   | 32          | 14352
 DEBUG Minion                      | 999         | 0
-
 ### Giants
-
-| Skylander | CharacterID | VariantID |
-|---------- |-------------|-----------|
+Skylander                       | CharacterID | VariantID
+--------------------------------|-------------|----------
 Jet-Vac                         | 100         | 4096
 Jet-Vac (LightCore)             | 100         | 4614
 Legendary Jet-Vac               | 100         | 5123
@@ -169,11 +166,12 @@ Granite Crusher                 | 102         | 5634
 Flashwing                       | 103         | 4096
 Jade Flashwing                  | 103         | 5122
 Flashwing (LightCore)           | 103         | 8710
+Flashwing (UNRELEASED Series 2) | 103         | 14337
 Hot Head                        | 104         | 4614
 Hot Head (Sparkle/Glitter)      | 104         | 4627
 Hot Dog                         | 105         | 4096
+Hot Dog (Color Shift)           | 105         | 4117
 Molten Hot Dog                  | 105         | 5122
-Hot Dog (Colour Shift)          | 105         | 4117
 Fire Bone Hot Dog               | 105         | 10245
 Hot Dog (Red Frito-Lay)         | 105         | 10266
 Hot Dog (Green Frito-Lay)       | 105         | 10267
@@ -199,20 +197,18 @@ Sprocket (Heavy Metal?)         | 111         | 10265
 Tree Rex                        | 112         | 4614
 Gnarly Tree Rex                 | 112         | 5634
 Shroomboom                      | 113         | 4096
-Shroomboom (LightCore)          | 113         | 4614
 Shroomboom (Metallic)           | 113         | 4119
-Sure Shot Shroomboom            | 113         | 14337
+Shroomboom (LightCore)          | 113         | 4614
+Sure Shot Shroomboom            | 113         | 14341
 Eye-Brawl                       | 114         | 4614
 Eye-Brawl (Iridescent)          | 114         | 4628
 Eye-Brawl (Pumpkin)             | 114         | 4629
 Fright Rider                    | 115         | 4096
 Fright Rider (Glow in the Dark) | 115         | 4113
 Fright Rider (Halloween)        | 115         | 4117
-
 ### Toys For Bob Items/Traps
-
-| Skylander | CharacterID | VariantID |
-|---------- |-------------|-----------|
+Skylander                             | CharacterID | VariantID
+--------------------------------------|-------------|----------
 Anvil Rain                            | 200         | 0
 Hidden Treasure                       | 201         | 0
 Platinum Hidden Treasure (UNRELEASED) | 201         | 4096
@@ -294,11 +290,9 @@ Mystery Chest (Silver)                | 235         | 20482
 Mystery Chest (Gold)                  | 235         | 20483
 Mystery Chest (Cursed Tiki Temple)    | 235         | 20503
 Mystery Chest (Lost Imaginite Mines)  | 235         | 20505
-
 ### Toys For Bob Expansions
-
-| Skylander | CharacterID | VariantID |
-|---------- |-------------|-----------|
+Skylander                | CharacterID | VariantID
+-------------------------|-------------|----------
 Dragon's Peak            | 300         | 0
 Empire of Ice            | 301         | 0
 Pirate Seas              | 302         | 0
@@ -310,20 +304,16 @@ Sunscraper Spire         | 307         | 12800
 Midnight Museum          | 308         | 12800
 Gryphon Park Observatory | 310         | 20480
 Enchanted Elven Forest   | 311         | 20480
-
 ### SSA Legendaries
-
-| Skylander | CharacterID | VariantID |
-|---------- |-------------|-----------|
+Skylander               | CharacterID | VariantID
+------------------------|-------------|----------
 Legendary Bash          | 404         | 0
 Legendary Spyro         | 416         | 0
 Legendary Trigger Happy | 419         | 0
 Legendary Chop Chop     | 430         | 0
-
 ### Trap Team
-
-| Skylander | CharacterID | VariantID |
-|---------- |-------------|-----------|
+Skylander                    | CharacterID | VariantID
+-----------------------------|-------------|----------
 Gusto                        | 450         | 12288
 Thunderbolt                  | 451         | 12288
 Thunderbolt (Clear?)         | 451         | 12317
@@ -341,9 +331,9 @@ Ka-Boom                      | 459         | 12288
 Trail Blazer                 | 460         | 12288
 Torch                        | 461         | 12288
 Snap Shot                    | 462         | 12288
+Snap Shot (UNRELEASED Event) | 462         | 12292
 Dark Snap Shot               | 462         | 13314
 Instant Snap Shot            | 462         | 13327
-Snap Shot (UNRELEASED Event) | 462         | 12292
 Lob-Star                     | 463         | 12288
 Winterfest Lob-Star          | 463         | 13314
 Flip Wreck                   | 464         | 12288
@@ -377,11 +367,9 @@ Knight Light                 | 482         | 12288
 Spotlight                    | 483         | 12288
 Knight Mare                  | 484         | 12288
 Blackout                     | 485         | 12288
-
 ### Minis/Sidekicks
-
-| Skylander | CharacterID | VariantID |
-|---------- |-------------|-----------|
+Skylander                 | CharacterID | VariantID
+--------------------------|-------------|----------
 Bop                       | 502         | 12288
 Spry                      | 503         | 12288
 Hijinx                    | 504         | 12288
@@ -405,106 +393,108 @@ Barkley (Mini)            | 540         | 12288
 Gnarly Barkley            | 540         | 13314
 Thumpling (Sidekick)      | 541         | 4096
 Thumpling (Mini)          | 541         | 12288
-Minijini (Sidekick)       | 542         | 4096
-Minijini (Mini)           | 542         | 12288
+Mini-Jini (Sidekick)      | 542         | 4096
+Mini-Jini (Mini)          | 542         | 12288
 Eye-Small (Sidekick)      | 543         | 4096
 Eye-Small (Mini)          | 543         | 12288
-
 ### Imaginators
-
-| Skylander | CharacterID | VariantID |
-|---------- |-------------|-----------|
-King Pen                                   | 601         | 20480
-Dark King Pen                              | 601         | 21506
-Tri-Tip                                    | 602         | 20480
-Legendary Tri-Tip                          | 602         | 21507
-Chopscotch                                 | 603         | 20480
-Candy-Coated Chopscotch                    | 603         | 21525
-Boom Bloom                                 | 604         | 20480
-Pit Boss                                   | 605         | 20480
-Legendary Pit Boss                         | 605         | 21507
-Barbella                                   | 606         | 20480
-Barbella (Pink?)                           | 606         | 20513
-Air Strike                                 | 607         | 20480
-Egg Bomber Air Strike                      | 607         | 21517
-Ember                                      | 608         | 20480
-Dec-Ember (???)                            | 608         | 20484
-Ambush                                     | 609         | 20480
-Dr. Krankcase                              | 610         | 20480
-Hood Sickle                                | 611         | 20480
-Steel Plated Hood Sickle                   | 611         | 21506
-Taw Kwon Crow                              | 612         | 20480
-Mystical Tae Kwon Crow                     | 612         | 21506
-Golden Queen                               | 613         | 20480
-Dark Golden Queen                          | 613         | 21506
-Wolfgang                                   | 614         | 20480
-Dark Wolfgang                              | 614         | 21506
-Pain-Yatta                                 | 615         | 20480
-Pain-Yatta (Rock Candy?)                   | 615         | 20513
-Mysticat                                   | 616         | 20480
-Starcast                                   | 617         | 20480
-Starcast (Clear/Happy Birthday Ben?)       | 617         | 20513
-Buckshot                                   | 618         | 20480
-Heartbreaker Buckshot (UNRELEASED)         | 618         | 21516
-Aurora                                     | 619         | 20480
-Solar Flare Aurora                         | 619         | 21506
-Flare Wolf                                 | 620         | 20480
-Hard-Boiled Flare Wolf                     | 620         | 21517
-Chompy Mage                                | 621         | 20480
-Jingle Bell Chompy Mage                    | 621         | 21518
-Bad Juju                                   | 622         | 20480
-Mystical Bad Juju                          | 622         | 21506
-Grave Clobber                              | 623         | 20480
-Blaster-Tron                               | 624         | 20480
-Ro-Bow                                     | 625         | 20480
-Chain Reaction                             | 626         | 20480
-Chain Reaction (Orange?)                   | 626         | 20513
-Kaos                                       | 627         | 20480
-Wild Storm                                 | 628         | 20480
-Tidepool                                   | 629         | 20480
-Crash Bandicoot                            | 630         | 20480
-Dr. Neo Cortex                             | 631         | 20480
-Create Your Own Skylander (CYOS, only?)    | 661         | 20484
-Magic Creation Crystal (Pyramid)           | 680         | 20996
-Magic Creation Crystal (Lantern)           | 680         | 21000
-Magic Creation Crystal (Legendary Lantern) | 680         | 22024
-Magic Creation Crystal (Claw)              | 680         | 21019
-Water Creation Crystal (Armor)             | 681         | 21012
-Water Creation Crystal (Fanged)            | 681         | 21016
-Water Creation Crystal (Rocket)            | 681         | 21020
-Air Creation Crystal (Angel)               | 682         | 20994
-Air Creation Crystal (Lantern)             | 682         | 20999
-Air Creation Crystal (UNRELEASED Acorn)    | 682         | 21010
-Undead Creation Crystal (Lantern)          | 683         | 21001
-Undead Creation Crystal (Fanged)           | 683         | 21015
-Undead Creation Crystal (Claw)             | 683         | 21017
-Tech Creation Crystal (UNRELEASED Pyramid) | 684         | 20997
-Tech Creation Crystal (Reactor)            | 684         | 21005
-Tech Creation Crystal (Armor)              | 684         | 21013
-Fire Creation Crystal (UNRELEASED Angel)   | 685         | 20995
-Fire Creation Crystal (Reactor)            | 685         | 21007
-Fire Creation Crystal (Acorn)              | 685         | 21009
-Earth Creation Crystal (UNRELEASED Rune)   | 686         | 21004
-Earth Creation Crystal (Armor)             | 686         | 21011
-Earth Creation Crystal (Rocket)            | 686         | 21021
-Life Creation Crystal (Acorn)              | 687         | 21008
-Life Creation Crystal (Legendary Acorn)    | 687         | 22032
-Life Creation Crystal (Claw)               | 687         | 21018
-Life Creation Crystal (Rocket)             | 687         | 21022
-Life Creation Crystal (Rune)               | 687         | 21023
-Dark Creation Crystal (Pyramid)            | 688         | 20998
-Dark Creation Crystal (Rune)               | 688         | 21002
-Dark Creation Crystal (Reactor)            | 688         | 21006
-Light Creation Crystal (UNRELEASED Angel)  | 689         | 20993
-Light Creation Crystal (Rune)              | 689         | 21003
-Light Creation Crystal (Fanged)            | 689         | 21014
-Light Creation Crystal (Legendary Fanged)  | 689         | 22038
-Goldie                                     | 699         | 20480
-
+Skylander                                   | CharacterID | VariantID
+--------------------------------------------|-------------|----------
+King Pen                                    | 601         | 20480
+Dark King Pen                               | 601         | 21506
+Tri-Tip                                     | 602         | 20480
+Legendary Tri-Tip                           | 602         | 21507
+Chopscotch                                  | 603         | 20480
+Candy-Coated Chopscotch                     | 603         | 21525
+Boom Bloom                                  | 604         | 20480
+Pit Boss                                    | 605         | 20480
+Legendary Pit Boss                          | 605         | 21507
+Barbella                                    | 606         | 20480
+Barbella (Pink?)                            | 606         | 20513
+Air Strike                                  | 607         | 20480
+Egg Bomber Air Strike                       | 607         | 21517
+Ember                                       | 608         | 20480
+Dec-Ember (???)                             | 608         | 20484
+Ambush                                      | 609         | 20480
+Dr. Krankcase                               | 610         | 20480
+Hood Sickle                                 | 611         | 20480
+Steel Plated Hood Sickle                    | 611         | 21506
+Taw Kwon Crow                               | 612         | 20480
+Mystical Tae Kwon Crow                      | 612         | 21506
+Golden Queen                                | 613         | 20480
+Dark Golden Queen                           | 613         | 21506
+Wolfgang                                    | 614         | 20480
+Dark Wolfgang                               | 614         | 21506
+Pain-Yatta                                  | 615         | 20480
+Pain-Yatta (Rock Candy?)                    | 615         | 20513
+Mysticat                                    | 616         | 20480
+Starcast                                    | 617         | 20480
+Starcast (Clear/Happy Birthday Ben?)        | 617         | 20513
+Buckshot                                    | 618         | 20480
+Heartbreaker Buckshot (UNRELEASED)          | 618         | 21516
+Aurora                                      | 619         | 20480
+Solar Flare Aurora                          | 619         | 21506
+Flare Wolf                                  | 620         | 20480
+Hard-Boiled Flare Wolf                      | 620         | 21517
+Chompy Mage                                 | 621         | 20480
+Jingle Bell Chompy Mage                     | 621         | 21518
+Bad Juju                                    | 622         | 20480
+Mystical Bad Juju                           | 622         | 21506
+Grave Clobber                               | 623         | 20480
+Blaster-Tron                                | 624         | 20480
+Ro-Bow                                      | 625         | 20480
+Chain Reaction                              | 626         | 20480
+Chain Reaction (Orange?)                    | 626         | 20513
+Kaos                                        | 627         | 20480
+Wild Storm                                  | 628         | 20480
+Tidepool                                    | 629         | 20480
+Crash Bandicoot                             | 630         | 20480
+Dr. Neo Cortex                              | 631         | 20480
+Create Your Own Skylander (Card)            | 661         | 20481
+Create Your Own Skylander (Foil Card)       | 661         | 20482
+Create Your Own Skylander (Special Card)    | 661         | 20483
+Create Your Own Skylander (3D Print)        | 661         | 20484
+Create Your Own Skylander (Medium 3D Print) | 661         | 20485
+Create Your Own Skylander (Large 3D Print)  | 661         | 20486
+Create Your Own Skylander (Unique 3D Print) | 661         | 20487
+Magic Creation Crystal (Pyramid)            | 680         | 20996
+Magic Creation Crystal (Lantern)            | 680         | 21000
+Magic Creation Crystal (Legendary Lantern)  | 680         | 22024
+Magic Creation Crystal (Claw)               | 680         | 21019
+Water Creation Crystal (Armor)              | 681         | 21012
+Water Creation Crystal (Fanged)             | 681         | 21016
+Water Creation Crystal (Rocket)             | 681         | 21020
+Air Creation Crystal (Angel)                | 682         | 20994
+Air Creation Crystal (Lantern)              | 682         | 20999
+Air Creation Crystal (UNRELEASED Acorn)     | 682         | 21010
+Undead Creation Crystal (Lantern)           | 683         | 21001
+Undead Creation Crystal (Fanged)            | 683         | 21015
+Undead Creation Crystal (Claw)              | 683         | 21017
+Tech Creation Crystal (UNRELEASED Pyramid)  | 684         | 20997
+Tech Creation Crystal (Reactor)             | 684         | 21005
+Tech Creation Crystal (Armor)               | 684         | 21013
+Fire Creation Crystal (UNRELEASED Angel)    | 685         | 20993
+Fire Creation Crystal (Reactor)             | 685         | 21007
+Fire Creation Crystal (Acorn)               | 685         | 21009
+Earth Creation Crystal (UNRELEASED Rune)    | 686         | 21004
+Earth Creation Crystal (Armor)              | 686         | 21011
+Earth Creation Crystal (Rocket)             | 686         | 21021
+Life Creation Crystal (Acorn)               | 687         | 21008
+Life Creation Crystal (Legendary Acorn)     | 687         | 22032
+Life Creation Crystal (Claw)                | 687         | 21018
+Life Creation Crystal (Rocket)              | 687         | 21022
+Life Creation Crystal (Rune)                | 687         | 21023
+Dark Creation Crystal (Pyramid)             | 688         | 20998
+Dark Creation Crystal (Rune)                | 688         | 21002
+Dark Creation Crystal (Reactor)             | 688         | 21006
+Light Creation Crystal (UNRELEASED Angel)   | 689         | 20995
+Light Creation Crystal (Rune)               | 689         | 21003
+Light Creation Crystal (Fanged)             | 689         | 21014
+Light Creation Crystal (Legendary Fanged)   | 689         | 22038
+Goldie                                      | 699         | 20480
 ### SWAP Force
-
-| Skylander | CharacterID | VariantID |
-|---------- |-------------|-----------|
+Skylander                | CharacterID | VariantID
+-------------------------|-------------|----------
 Jet                      | 1000        | 8192
 Ranger                   | 1001        | 8192
 Legendary Ranger         | 1001        | 9219
@@ -514,8 +504,8 @@ Stone (Bronze?)          | 1003        | 8214
 Zone                     | 1004        | 8192
 Dark Zone                | 1004        | 9218
 Kraken                   | 1005        | 8192
-Jade Kraken              | 1005        | 9218
 Kraken (Gold?)           | 1005        | 8196
+Jade Kraken              | 1005        | 9218
 Bomb                     | 1006        | 8192
 Bomb (Gold?)             | 1006        | 8214
 Drilla                   | 1007        | 8192
@@ -533,8 +523,8 @@ Quickdraw Shake          | 1013        | 9218
 Blade                    | 1014        | 8192
 Nitro Blade              | 1014        | 9218
 Buckler                  | 1015        | 8192
+Buckler (Color Shift)    | 1015        | 8216
 Dark Buckler             | 1015        | 9218
-Buckler (Colour Shift)   | 1015        | 8216
 Template (Bottom)        | 1999        | 8192
 Boom                     | 2000        | 8192
 Free                     | 2001        | 8192
@@ -545,8 +535,8 @@ Doom (Gold?)             | 2003        | 8214
 Blast                    | 2004        | 8192
 Dark Blast               | 2004        | 9218
 Fire                     | 2005        | 8192
-Jade Fire                | 2005        | 9218
 Fire (Gold?)             | 2005        | 8196
+Jade Fire                | 2005        | 9218
 Stink                    | 2006        | 8192
 Stink (Silver?)          | 2006        | 8214
 Grilla                   | 2007        | 8192
@@ -564,8 +554,8 @@ Quickdraw Rattle         | 2013        | 9218
 Freeze                   | 2014        | 8192
 Nitro Freeze             | 2014        | 9218
 Wash                     | 2015        | 8192
+Wash (Color Shift)       | 2015        | 8216
 Dark Wash                | 2015        | 9218
-Wash (Colour Shift)      | 2015        | 8216
 Template (Top)           | 2999        | 8192
 Scratch                  | 3000        | 8192
 Pop Thorn                | 3001        | 8192
@@ -574,7 +564,7 @@ Dark Slobber Tooth       | 3002        | 9218
 Scorp                    | 3003        | 8192
 Scorp (Green?)           | 3003        | 8214
 Fryno                    | 3004        | 8192
-Hod Wild Fryno           | 3004        | 13313
+Hog Wild Fryno           | 3004        | 14341
 Smolderdash              | 3005        | 8192
 Smolderdash (LightCore)  | 3005        | 8710
 Snowderdash (???)        | 3005        | 8729
@@ -601,11 +591,9 @@ Rip Tide                 | 3014        | 8192
 Rip Tide (Green?)        | 3014        | 8214
 Punk Shock               | 3015        | 8192
 Template Legacy          | 3999        | 8192
-
 ### Vicarious Visions Items/Vehicles
-
-| Skylander | CharacterID | VariantID |
-|---------- |-------------|-----------|
+Skylander                            | CharacterID | VariantID
+-------------------------------------|-------------|----------
 Battle Hammer                        | 3200        | 8192
 Sky Diamond                          | 3201        | 8192
 Platinum Sheep                       | 3202        | 8192
@@ -618,8 +606,8 @@ Reef Ripper                          | 3222        | 16384
 Burn-Cycle                           | 3223        | 16384
 Burn-Cycle (Patina)                  | 3223        | 16414
 Hot Streak                           | 3224        | 16384
-Dark Hot Streak                      | 3224        | 17410
 Hot Streak (Event Exclusive Edition) | 3224        | 16388
+Dark Hot Streak                      | 3224        | 17410
 Instant Hot Streak                   | 3224        | 17423
 Golden Hot Streak                    | 3224        | 17438
 Shark Tank                           | 3225        | 16384
@@ -631,6 +619,7 @@ Dive Bomber                          | 3231        | 16384
 Spring Ahead Dive Bomber             | 3231        | 17410
 Instant Dive Bomber                  | 3231        | 17423
 Sky Slicer                           | 3232        | 16384
+Instant Sky Slicer (Imaginators)     | 3232        | 17423
 Clown Crusier                        | 3233        | 16384
 Dark Clown Crusier                   | 3233        | 17410
 Gold Rusher                          | 3234        | 16384
@@ -641,6 +630,7 @@ Sun Runner                           | 3236        | 16384
 Legendary Sun Runner                 | 3236        | 17311
 Sea Shadow                           | 3237        | 16384
 Dark Sea Shadow                      | 3237        | 17410
+Instant Sea Shadow (Imaginators)     | 3237        | 17423
 Splatter Splasher                    | 3238        | 16384
 Power Blue Splatter Splasher         | 3238        | 17410
 Soda Skimmer                         | 3239        | 16384
@@ -648,20 +638,16 @@ Nitro Soda Skimmer                   | 3239        | 17410
 Barrel Blaster                       | 3240        | 16384
 Dark Barrel Blaster                  | 3240        | 17410
 Buzz Wing                            | 3241        | 16384
-
 ### SWAP Force Expansions/Battle Pieces
-
-| Skylander | CharacterID | VariantID |
-|---------- |-------------|-----------|
+Skylander          | CharacterID | VariantID
+-------------------|-------------|----------
 Sheep Wreck Island | 3300        | 8192
 Tower of Time      | 3301        | 8192
 Fiery Forge        | 3301        | 8710
 Arkeyan Crossbow   | 3302        | 8710
-
 ### SuperChargers
-
-| Skylander | CharacterID | VariantID |
-|---------- |-------------|-----------|
+Skylander                             | CharacterID | VariantID
+--------------------------------------|-------------|----------
 Fiesta                                | 3400        | 16640
 Frightful Fiesta                      | 3400        | 17685
 High Volt                             | 3401        | 16640
@@ -670,7 +656,8 @@ Power Blue Splat                      | 3402        | 17666
 Stormblade                            | 3406        | 16640
 Snow-Brite Stormblade                 | 3406        | 16654
 Smash Hit                             | 3411        | 16640
-Steel Plated Smash Hit                | 3412        | 16640
+Steel Plated Smash Hit                | 3411        | 17666
+Spitfire                              | 3412        | 16640
 Dark Spitfire                         | 3412        | 17666
 Instant Spitfire                      | 3412        | 17679
 Hurricane Jet-Vac                     | 3413        | 16640
@@ -682,18 +669,18 @@ Dark Super Shot Stealth Elf           | 3415        | 17666
 Instant Super Shot Stealth Elf        | 3415        | 17679
 Shark Shooter Terrafin                | 3416        | 16640
 Bone Bash Roller Brawl                | 3417        | 16640
-Legendary Bone Bash Roller Brawl      | 3417        | 17667
 Bone Bash Roller Brawl (Dark Bronze?) | 3417        | 16670
+Legendary Bone Bash Roller Brawl      | 3417        | 17667
 Big Bubble Pop Fizz                   | 3420        | 16640
 Birthday Bash Big Bubble Pop Fizz     | 3420        | 17678
 Lava Lance Eruptor                    | 3421        | 16640
 Lava Lance Eruptor (Patina?)          | 3421        | 16670
-Deep Dive Gill Grunt                  | 3422        | 16670
-Turbo Charge Donkey Kong              | 3423        | 16670
+Deep Dive Gill Grunt                  | 3422        | 16640
+Turbo Charge Donkey Kong              | 3423        | 16640
 Dark Turbo Charge Donkey Kong         | 3423        | 17666
-Hammer Slam Bowser                    | 3424        | 16670
+Hammer Slam Bowser                    | 3424        | 16640
 Dark Hammer Slam Bowser               | 3424        | 17666
-Dive-Clops                            | 3425        | 16670
+Dive-Clops                            | 3425        | 16640
 Missile-Tow Dive-Clops                | 3425        | 17678
 Instant Dive-Clops                    | 3425        | 17679
 Astroblast                            | 3426        | 16640
@@ -702,11 +689,9 @@ Nightfall                             | 3427        | 16640
 Thrillipede                           | 3428        | 16640
 Eggcited Thrillipede                  | 3428        | 17677
 Nightfall (Defective)                 | 3527        | 16640
-
 ### Villain Drivers/Vehicles
-
-| Skylander | CharacterID | VariantID |
-|---------- |-------------|-----------|
+Skylander             | CharacterID | VariantID
+----------------------|-------------|----------
 Chef Pepper Jack      | 3440        | 16384
 Stratosphere          | 3441        | 16384
 Cap'n Cluck           | 3442        | 16384
@@ -751,38 +736,30 @@ Chill Bill Vehicle    | 3494        | 16384
 The Gulper Vehicle    | 3495        | 16384
 Noodles Vehicle       | 3496        | 16384
 Doom Jet              | 3497        | 16384
-
 ### SuperChargers Trophies
-
-| Skylander | CharacterID | VariantID |
-|---------- |-------------|-----------|
+Skylander   | CharacterID | VariantID
+------------|-------------|----------
 Sky Trophy  | 3500        | 16384
 Land Trophy | 3501        | 16384
 Sea Trophy  | 3502        | 16384
 Kaos Trophy | 3503        | 16384
-
 ### Skylanders 2016
-
-| Skylander | CharacterID | VariantID |
-|---------- |-------------|-----------|
+Skylander       | CharacterID | VariantID
+----------------|-------------|----------
 Fusion          | 4500        | 20480
 Synergy         | 4501        | 20480
 Unity           | 4502        | 20480
 BlueFalcon_Base | 4503        | 20480
-
 ### SuperChargers Template Vehicles
-
-| Skylander | CharacterID | VariantID |
-|---------- |-------------|-----------|
+Skylander             | CharacterID | VariantID
+----------------------|-------------|----------
 Template Vehicle      | 4999        | 16384
 Template Land Vehicle | 5999        | 16384
 Template Air Vehicle  | 6999        | 16384
 Template Sea Vehicle  | 7999        | 16384
-
 ### Trap Team DEBUG Characters
-
-| Skylander | CharacterID | VariantID |
-|---------- |-------------|-----------|
+Skylander    | CharacterID | VariantID
+-------------|-------------|----------
 DEBUG Core   | 9990        | 12288
 DEBUG Giant  | 9991        | 12288
 DEBUG Ranger | 9992        | 12288
