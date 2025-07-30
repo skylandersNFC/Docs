@@ -4,17 +4,17 @@ _This article covers only cards used for Skylanders (Mifare S50 1K)._
 
 ## **Type 0**: **GEN1** UID Locked Cards: *
 
-    63 blocks (excluding Block 0) can be re-written multiple times if you have the custom keys for this UID.
+    63 blocks (excluding Block 0) can be re-written multiple times.
     UID cannot be changed. 
     Answers to Chinese magic backdoor commands: NO 
 
-|Protocol | UID Length | Size | Mechanism | Android NFC | ACR122U |
+|Protocol | UID Length | Size | Software | Android NFC | ACR122U |
 |-----    |------------|------|-----------|-------------|-----------------|
-Mifare S50 | 4 Byte | 1kb 16 sectors 64 blocks | [Use SkyUID](https://github.com/skylandersNFC/SkyUID-Generator/) | Can't change UID (locked) | Can't change UID (locked) |
+Mifare S50 | 4 Byte | 1kb 16 sectors 64 blocks | [YAMT](https://github.com/skylandersNFC/Yet-Another-Mifare-Tool/) / [MCT](https://play.google.com/store/apps/details?id=de.syss.MifareClassicTool) | Can't change UID (locked) | Can't change UID (locked) |
 
-_Advantages of Gen1 Classic Cards:_
+_Advantages of Gen1 Classic UID Locked Cards:_
 
-    More global support software wise.
+    For Skylanders - none.
 
 _Disadvantages of Gen1 Classic Cards:_
 
@@ -24,42 +24,42 @@ _Disadvantages of Gen1 Classic Cards:_
 * Those are the official Mifare Classic S50 1K 4 Byte access cards.
 * They are NOT Magic Cards.
 
-## **Type 1**: **GEN1 A** UID Changeable Cards: *
+## **Type 1**: **GEN1A** UID Changeable Cards: *
 
     All blocks (including Block 0) can be re-written multiple times 
     Uses "backdoor" technique to change/rewrite UID. 
     UID can be changed multiple times. 
-    Answers to Chinese magic backdoor commands (GEN 1a): YES 
+    Answers to Chinese magic backdoor commands (GEN 1A): YES 
 
-|Protocol | UID Length | Size | Mechanism | Android NFC | ACR122U |
+|Protocol | UID Length | Size | Software | Android NFC | ACR122U |
 |-----    |------------|------|-----------|-------------|-----------------|
-Mifare S50 | 4 Byte | 1kb 16 sectors 64 blocks | Backdoor Command | Don't Support UID Changing | Support UID changing |
+Mifare S50 | 4 Byte | 1kb 16 sectors 64 blocks | [YAMT](https://github.com/skylandersNFC/Yet-Another-Mifare-Tool/) / [MCT](https://play.google.com/store/apps/details?id=de.syss.MifareClassicTool) | Don't Support UID Changing | Support UID changing |
 
-_Advantages of Gen1a Magic Cards:_
+_Advantages of Gen1A Magic Cards:_
 
-    Super fast to change the UID
-    Recoverable after invalid data written
-    Cost-effective for Mifare S50 cloning
+    Super fast to change the UID.
+    Recoverable after invalid data written.
+    Cost-effective for Mifare S50 cloning.
 
 _Disadvantages of Gen1a Magic Cards:_
 
-    Some access systems may not allow this magic card to pass because of it can be identified with its built-in controller.
+    For Skylanders - none.
 
 * UID Changeable cards are used to duplicate Mifare Classic S50 1K 4 Byte access cards.
 * Those are also know as **Chinese Magic Cards**.
-* Generation 1a tags are unlockable with code 0x43 0x40.
-* There is also Generation 1b tags that are generation 1a tags with custom unlock code.
+* Generation 1A tags are unlockable with code 0x43 0x40.
+* There is also Generation 1B tags that are generation 1A tags with custom unlock code.
 
 ## **Type 2**: **GEN2** CUID Cards: *
 
-    All blocks (including Block 0) can be re-written multiple times 
+    All blocks (including Block 0) can be re-written multiple times.
     Not easily detectable by a system with "anti-clone" feature 
     IMPORTANT: Card will die if an invalid Block 0 is written 
     Answers to Chinese magic backdoor commands: NO 
 
-|Protocol | UID Length | Size | Mechanism | Android NFC | ACR122U |
+|Protocol | UID Length | Size | Software | Android NFC | ACR122U |
 |-----    |------------|------|-----------|-------------|-----------------|
-Mifare S50 | 4 Byte | 1kb 16 sectors 64 blocks | Keys authentication | Support UID Changing | Support UID changing |
+Mifare S50 | 4 Byte | 1kb 16 sectors 64 blocks | [YAMT](https://github.com/skylandersNFC/Yet-Another-Mifare-Tool/) / [MCT](https://play.google.com/store/apps/details?id=de.syss.MifareClassicTool) | Support UID Changing | Support UID changing |
 
 _Advantages of Gen2 Magic Cards:_
 
