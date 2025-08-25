@@ -1,0 +1,15 @@
+h6, h5, h4, h3, h2, h1 {
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+h2 {
+	color:red;
+}
+
+video {
+    width: 1280px;
+    border-radius: 10px; 
+    overflow: hidden;
+}

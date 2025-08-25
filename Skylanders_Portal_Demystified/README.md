@@ -1,0 +1,341 @@
+# The Skylanders Portal Demystified
+
+If you haven't heard of the game Skylanders: Spyro's Adventure, google 
+it.
+
+It's a video game for the PC/Mac, Wii, PS3, Xbox 360, and 3DS which 
+comes with a USB "Portal of Power", a small platform that wirelessly 
+reads and writes to Skylanders toys. Whatever toy you put on there, the 
+character it represents will magically appear in-game where you can play
+ with it, upgrade its stats, etc. Character data is saved wirelessly 
+back to the toy itself.
+
+This page attempts to explain how this all works (as I understand it so 
+far).
+
+the portal
+
+There are two main versions of the portal that I've encountered so far 
+-- the wired one (PC/Mac, Xbox 360) and the wireless one (PS3/Wii/3DS).
+
+
+
+They work basically the same way -- the portal (or wireless USB 
+receiver, in the case of the wireless ones) constantly transmits status 
+data back to the host, and also responds to read/write toy data 
+requests.
+
+The protoocol couldn't be simpler -- the first byte of the data is a 
+character representing the command, and then the data comes after it. 
+For the wired version, 0B 14 is placed before the command character.
+
+The commands are:
+```
+R -- run? restart? I don't know. It's necessary to send this to start 
+the status responses flying across. Responds with empty R packet.
+
+A -- activate? I don't know. I send it after the R, but I don't know 
+that it's really necessary. Responds with empty A packet.
+
+S -- status. This is the packet the portal/dongle keeps sending back to 
+the host (PC/360/PS3/Mac/Wii/whatever). Toy placement/removal is 
+reported here, but I haven't looked into it all that closely yet.
+
+C -- color. The next 3 bytes after this are the RGB values for the color
+ you want to set. No response sent back.
+ 
+Z -- sleeping. The dongle for the wireless version reports this when it 
+can't find the portal.
+
+Q -- query. This is sent when you want to request a block of data from 
+the toy. Responds with Q packet of the requested data.
+
+W -- write. This is sent when you want to write data to a block on the 
+toy. Responds with empty R packet.
+```
+
+The PC/Xbox 360 version of the portal reports vendor ID 0x1430, product 
+ID 0x1F17. The Wii wireless version of the portal reports vendor ID 
+0x1430, product ID 0x0150. This is probably the same as the others, but 
+I'm not sure.
+
+The wired version contains two interrupt endpoints, incoming is 0x01 and
+ outgoing is 0x02. Commands are sent/received over these. Responses are 
+always 0x20 bytes and padded with zeroes.
+
+The wireless version's dongle is a standard HID device, so it only 
+contains one incoming endpoint (0x01). Statuses and responses are 
+received over this endpoint, but to send commands, it's done through a 
+standard USB control request (bmRequestType 0x21, bRequest 0x09, wValue 
+0x0200, wIndex zero). It's also possible for the Wii to send requests 
+0x0A and 0x0B with no data attached, I don't know yet what these are.
+Both commands and responses are always 0x20 bytes, padded with zeroes.
+
+
+```
+Request	Format/Details
+
+R	52
+A	41 <1 byte, unknown, always 0x01>
+S	53 <4 bytes, status data?> <1 byte, auto-incrementing sequence>
+C	43 <3 bytes, R/G/B value>
+Z	5A
+W	57 10 <block number> <0x10 bytes of data>
+Q       51 <20 + skylander number> <block number> <0x10 bytes of data>
+```
+
+Basically when a new Skylander is placed on the portal the portal sends a status
+signal, S, that a new Skylander has arrived with the ID # of the new Skylander.
+(10 = Read first Skylander placed after portal turned on, response is labelled as 20, 
+11 = Second Skylander/ response = 21, etc.)
+
+To read and write Skylanders via Q and W you must specify which Skylander you
+want the portal to work with.  The code here doesn't much bother with this, it assumes
+you plug the portal in and just edit a single Skylander.
+
+E.g. to read the first skylander placed on the portal use:
+
+```
+Q	51 10 <block number> <0x10 bytes of data>
+```
+
+Q should come back with a response of the form
+51 20 <block number> <data>  for an OLD skylander (1st on portal)
+
+A response like 51 01 ... indicates an error.
+
+If you find that the write isn't working (especially on the wired 
+version), pad the request out to 0x20 bytes and specify 0x20 instead of 
+0x10 with the command. It's dumb like that (off-by-one bug, I suspect); I
+ haven't tested if that would break the wireless version or not.
+
+The wireless version has a tendency to just not respond, so if you write
+ your own application that does this stuff, try commands multiple times,
+ and if writing data, query the block immediately afterward to make sure
+ the write took. The game and web site do this as well.
+
+Be aware that the Xbox 360 version has an Infineon security chip (method
+ 3, version 1.00), so if you intend to emulate the portal on the Xbox 
+360, you're going to have to resort to some weird trickery.
+
+raw toy data
+The character itself can store up to 1KB of data, separated into 64 
+16-byte "blocks" (64 * 16 = 1024 bytes). A group of 4 blocks is 
+(traditionally) a "sector." All data is stored Little Endian.
+
+Below is a decrypted dump of one of my characters, Gill Grunt (some 
+sensitive information masked out with "XX"):
+
+```
+Block 00: XX XX XX XX CA 81 01 0F C3 85 14 91 55 50 10 11
+Block 01: 0E 00 00 00 XX XX XX XX XX XX XX XX 00 00 58 E3
+Block 02: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+Block 03: 00 00 00 00 00 00 0F 0F 0F 69 00 00 00 00 00 00
+Block 04: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+Block 05: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+Block 06: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+Block 07: 00 00 00 00 00 00 7F 0F 08 69 00 00 00 00 00 00
+Block 08: 00 00 00 00 00 6D 01 00 00 78 2E DF 3F 18 2C DD
+Block 09: 00 00 00 01 00 00 00 00 AF 2A BC 87 21 A8 63 9A
+Block 0A: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+Block 0B: 00 00 00 00 00 00 7F 0F 08 69 00 00 00 00 00 00
+Block 0C: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+Block 0D: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01
+Block 0E: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+Block 0F: 00 00 00 00 00 00 7F 0F 08 69 00 00 00 00 00 00
+Block 10: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+Block 11: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+Block 12: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+Block 13: 00 00 00 00 00 00 7F 0F 08 69 00 00 00 00 00 00
+Block 14: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+Block 15: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+Block 16: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+Block 17: 00 00 00 00 00 00 7F 0F 08 69 00 00 00 00 00 00
+Block 18: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+Block 19: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+Block 1A: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+Block 1B: 00 00 00 00 00 00 7F 0F 08 69 00 00 00 00 00 00
+Block 1C: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+Block 1D: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+Block 1E: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+Block 1F: 00 00 00 00 00 00 7F 0F 08 69 00 00 00 00 00 00
+Block 20: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+Block 21: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+Block 22: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+Block 23: 00 00 00 00 00 00 7F 0F 08 69 00 00 00 00 00 00
+Block 24: 00 00 00 00 00 70 01 00 00 79 F8 ED 3F 18 C8 7A
+Block 25: 00 00 00 01 00 00 00 00 AF 2A BC 87 21 A8 63 9A
+Block 26: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+Block 27: 00 00 00 00 00 00 7F 0F 08 69 00 00 00 00 00 00
+Block 28: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+Block 29: 35 14 16 0A DB 07 00 00 00 00 00 00 00 00 00 01
+Block 2A: 35 14 16 0A DB 07 00 00 00 00 00 00 00 00 00 00
+Block 2B: 00 00 00 00 00 00 7F 0F 08 69 00 00 00 00 00 00
+Block 2C: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+Block 2D: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+Block 2E: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+Block 2F: 00 00 00 00 00 00 7F 0F 08 69 00 00 00 00 00 00
+Block 30: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+Block 31: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+Block 32: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+Block 33: 00 00 00 00 00 00 7F 0F 08 69 00 00 00 00 00 00
+Block 34: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+Block 35: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+Block 36: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+Block 37: 00 00 00 00 00 00 7F 0F 08 69 00 00 00 00 00 00
+Block 38: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+Block 39: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+Block 3A: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+Block 3B: 00 00 00 00 00 00 7F 0F 08 69 00 00 00 00 00 00
+Block 3C: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+Block 3D: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+Block 3E: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+Block 3F: 00 00 00 00 00 00 7F 0F 08 69 00 00 00 00 00 00
+```
+
+Part of the character data is encrypted, and nearly all of it is 
+protected by several CRC16 checksums.
+
+Blocks 0x00 and 0x01 are special. These two blocks contain part of the 
+decryption key, as well as other data unique to the character (such as 
+the toy's unique serial number, trading card ID, etc.).
+
+The last block of every sector (so blocks 0x03, 0x07, 0x0B, 0x0F, etc.) 
+are known as "access control blocks", indicating the read/write status 
+of that sector. It is mostly zeroes except for a 4-byte value at offset 
+0x06 of the access control block. Take block 0x03, for example:
+```
+00 00 00 00 00 00 0F 0F 0F 69 00 00 00 00 00 00
+```
+If you notice 0x06 bytes into it, you see 0F 0F 0F 69. This tells you 
+whether the first sector (blocks 0x00 to 0x03) is read-only.
+
+```
+Read-only access: 0F 0F 0F 69
+Read-write access: 7F 0F 08 69
+Full access (whatever that means): FF 07 80 69
+```
+
+Almost all blocks have read-write access except for the first sector. 
+
+This does NOT indicate whether it's physically protected, it's more of a
+ guideline. :) Not all four blocks are necessarily writable; I'm not 
+sure what's actually enforcing the protection on the others, perhaps the
+ portal itself.
+
+There are two main data "areas" where arbitrary data can be written. 
+Each contain a block-sized header: the first data area's header is block
+ 0x08, and the second header is block 0x24. At offset 0x09 of the data 
+area header block, there is an 8-bit sequence number that somehow 
+indicates which block is complete/most recent/valid/whatever.
+
+As far as I can tell, everything else is free to use.
+
+data encryption
+Every block from 0x08 onward (with the exception of the access control 
+blocks) is encrypted using a key unique to that block. The algorithm is 
+128-bit AES, ECB mode and zero-byte padding. As that's a symmetric key 
+algorithm, the same key is used to both encrypt and decrypt.
+
+The key itself is the MD5 hash of the following 0x56 bytes:
+
+<first 0x20 bytes of sector 0> <1-byte block index> 
+<0x35-byte constant>
+
+```
+unsigned char hashConst[] = {
+		0x20, 0x43, 0x6F, 0x70, 0x79, 0x72, 0x69, 0x67, 0x68, 0x74, 0x20, 0x28, 0x43, 0x29, 0x20, 0x32, // Copyright (C) 2
+		0x30, 0x31, 0x30, 0x20, 0x41, 0x63, 0x74, 0x69, 0x76, 0x69, 0x73, 0x69, 0x6F, 0x6E, 0x2E, 0x20, // 010 Activision. 
+		0x41, 0x6C, 0x6C, 0x20, 0x52, 0x69, 0x67, 0x68, 0x74, 0x73, 0x20, 0x52, 0x65, 0x73, 0x65, 0x72, // All Rights Reser
+		0x76, 0x65, 0x64, 0x2E, 0x20};                                                                  // ved.
+```
+
+data checksums
+
+The checksums are a mess. There are four "types" of checksums:
+Type 0: this is a CRC16 checksum of the first 0x1E bytes of sector 0. 
+The checksum itself is stored in block 0x01, offset 0x0E.
+Type 1: this is a CRC16 checksum of the data area header. As there are 
+two data areas, there are two of these checksums. One is at block 0x08, 
+offset 0x0E, and the other is at block 0x24, offset 0x0E.
+Type 2: this is a CRC16 checksum of the data area. As there are two data
+ areas, there are two of these checksums. One is at block 0x08, offset 
+0x0C, and the other is at block 0x24, offset 0x0C.
+Type 3: this is another CRC16 checksum of the data area, except padded 
+with zeroes. As there are two data areas, there are two of these 
+checksums. One is at block 0x08, offset 0x0A, and the other is at block 
+0x24, offset 0x0A.
+As type 0 is a checksum of a *supposedly* read-only sector, it's not all
+ that important. It's also very straightforward to understand.
+
+The type 1 checksum is a checksum of just one block, the data area 
+header (0x08 and 0x24). As it's also stored WITHIN the data area header,
+ a default value must be supplied for the checksum before actually 
+calculating it. That value is 0x0005.
+
+The type 2 checksum is actually only a checksum of the first 4 blocks 
+(EXCLUDING the data area header, and the access control blocks).
+
+The type 3 checksum is a checksum of the next 4 blocks (EXCLUDING the 
+data area header, and the access control blocks), and then 0x0E blocks 
+of zeroes.
+
+When computing the checksums, they have to be done in the following order.
+Compute checksum 3 and 2, then increment the area sequence number by 1,
+then compute checksum 1.
+
+Just to re-iterate, the encryption is applied AFTER all this checksum 
+mess is done.
+
+character data contents
+Even though there are two "data areas" (headers at blocks 0x08 and 0x24,
+ data starts at blocks 0x09 and 0x25), some data is stored outside of 
+the area, so here's a breakdown of the whole 1KB:
+
+```
+Block   Block   Offset  Size 	Description
+Area 0  Area 1	        (bytes)
+0x00	N/A		0x00	0x02	Unique serial number for the toy.
+0x00	N/A		0x04	0x0E	Unknown.
+0x01	N/A		0x00	0x02	Identifier for the character/toy type. In the dump 
+above, you can see it's 0E 00 (Little Endian), or 0x000E (Gill Grunt).
+0x01	N/A		0x04	0x08	Trading card ID.
+0x01	N/A		0x0C	0x02	Unknown. Zeroes for me.
+0x01	N/A		0x0E	0x02	Type 0 CRC16 checksum.
+0x08	0x24	0x00	0x03	24-bit experience/level value. Maximum unknown. Set 
+this really high to max out the level.
+0x08	0x24	0x03	0x02	16-bit money value. Maximum 65000. Set it higher and
+ the game rounds down to 65000.
+0x08	0x24	0x05	0x02	Unknown.
+0x08	0x24	0x07	0x02	Unknown. Zeroes for me.
+0x08	0x24	0x09	0x01	8-bit sequence value for this data area. I'm not 
+totally sure how it works yet, but I think the area with the higher 
+value is the "primary" one at the moment.
+0x08	0x24	0x0A	0x02	Type 3 CRC16 checksum.
+0x08	0x24	0x0C	0x02	Type 2 CRC16 checksum.
+0x08	0x24	0x0E	0x02	Type 1 CRC16 checksum.
+0x09	0x25	0x00	0x02	Skills given by Fairy. Bit 7 = path chosen. FD0F = Left, FF0F = Right
+0x09	0x25	0x02	0x01	Unknown. Zeroes for me.
+0x09	0x25	0x03	0x01	8-bit value, bitmap of platforms the character has 
+touched. Bit 0 is the Wii and bit 1 is the Xbox 360, evidently.
+0x09	0x25	0x04	0x01	ID of hat the character is currently wearing.
+0x09	0x25	0x06	0x02	Unknown. Zeroes for me.
+0x09	0x25	0x08	0x08	Unknown. I've seen FF BF 1B 7F FF 2F B9 7E and FF 83
+ EE 7E FF 19 30 7F.
+0x0A	0x26	0x00	0x10	First half of Unicode name of character, 
+zero-terminated, maximum 14 characters.
+0x0C	0x28	0x00	0x10	Second half of Unicode name of character, 
+zero-terminated, maximum 14 characters.
+0x0D	0x29	0x00	0x06	Unknown. Some kind of sequence number?
+0x0D	0x29	0x06	0x04	32 bits flagging heroic challenges completed. 
+0x0D	0x29	0x0A	0x02	16-bit hero points value. Maximum 100.
+0x0D	0x29	0x0C	0x03	Unknown. Zeroes for me.
+0x0D    0x29    0x0E    0x01    Unknown. 01 for me.
+0x10    0x2C    0x00    0x0C    Unknown. Zeroes for me.
+```
+
+If you want to understand more about how the protocol works go to the Spyro website and
+download the portal driver from there (this is included with the binary as spyrowebworldportaldriver.exe).
+
+This will install code to C:\Program Files\FS\Spyro Portal. Run FlashPortal.exe and SpyroLibrary.dll through a
+.NET decompiler like .NET Reflector to see how Activision communicates with the portal.
