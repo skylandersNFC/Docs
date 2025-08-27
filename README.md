@@ -32,6 +32,8 @@
 
 **[Skylanders_Coin_Cards_Printing](https://skylandersnfc.github.io/Docs/Skylanders_Coin_Cards_Printing)** (Shizzy)
 
+**[Skylanders_Discord_Servers](https://skylandersnfc.github.io/Docs/Skylanders_Discord_Servers)** (SkylandersNFC)
+
 **[Skylanders_How_Many_NFC_Cards](https://skylandersnfc.github.io/Docs/Skylanders_How_Many_NFC_Cards)** (SkylandersNFC)
 
 **[Skylanders_NFC_Explained](https://skylandersnfc.github.io/Docs/Skylanders_NFC_Explained)** (SkylandersNFC)
