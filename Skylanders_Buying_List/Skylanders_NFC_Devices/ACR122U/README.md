@@ -6,9 +6,11 @@
 
 ### << Drivers >>
 
-**ASC Driver 4.2.8.0:** [https://www.acs.com.hk/en/driver/3/acr122u-usb-nfc-reader/](https://www.acs.com.hk/en/driver/3/acr122u-usb-nfc-reader/)
+**Drivers Official Website:** [https://www.acs.com.hk/en/driver/3/acr122u-usb-nfc-reader/](https://www.acs.com.hk/en/driver/3/acr122u-usb-nfc-reader/)
 
-**Mirror:** [ACS Unified Driver MSI Win 4280.zip](https://skylandersnfc.github.io/Docs/Skylanders_Buying_List/Skylanders_NFC_Devices/ACR122U/drivers/ACS_Unified_Driver_MSI_Win_4280.zip)
+**Drivers Website Backup:** [acs.com.hk/en/driver/3/acr122u-usb-nfc-reader/](https://skylandersnfc.github.io/Docs/ACR122U_Manual_Driver/acs.com.hk/)
+
+**Windows MSI Driver Mirror:** [ACS Unified Driver MSI Win 4280.zip](https://skylandersnfc.github.io/Docs/Skylanders_Buying_List/Skylanders_NFC_Devices/ACR122U/drivers/ACS_Unified_Driver_MSI_Win_4280.zip)
 
 ### << Software >>
 
