@@ -12,7 +12,7 @@
 
 **Windows MSI Driver Mirror:** [ACS_Unified_Driver_MSI_Win_4280.zip](https://skylandersnfc.github.io/Docs/Skylanders_Buying_List/Skylanders_NFC_Devices/ACR122U/drivers/ACS_Unified_Driver_MSI_Win_4280.zip)
 
-**ACR122U Manual Driver Installation:** [ACS-Unified-Driver-Win-4280](https://github.com/skylandersNFC/Docs/tree/main/ACR122U_Manual_Driver)
+**ACR122U Manual Driver Installation:** [ACS-Unified-Driver-Win-4280](https://skylandersnfc.github.io/Docs/ACR122U_Manual_Driver/)
 
 ### << Software >>
 
