@@ -1,0 +1,210 @@
+.debug-info {
+    width:100%;
+    background: #f9f9f9;
+    border: 1px solid #e6e6e6;
+}
+.debug-info tr > td:first-child {
+    font-weight: 700;
+    width: 100px;
+    text-align: right;
+    color: red;
+}
+.debug-info td {
+    padding: 2px 5px;
+    margin: 0;
+    font-size: 12px;
+    font-family: monospace;
+    vertical-align: top;
+}
+.debug-info td hr{
+	margin:0;
+}
+
+
+.chat-floating-container {
+  font-family: 'Montserrat', sans-serif;
+  position: fixed;
+  bottom: 100px;
+  right: 0;
+  background-color: #ddd;
+  border-radius: 20px 0 0 20px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transform: translateX(73%);
+  z-index: 2;
+  padding-right: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  opacity: 1;
+  transition: transform 0.5s ease, opacity 1s ease;
+}
+.chat-floating-container:not(.fade-out):hover {
+    transform: translateX(0%);
+}
+
+.chat-floating-container.fade-out {
+  opacity: 0;
+  transform: translateX(0%);
+}
+
+/* Image for the icon, make it circular */
+.chat-floating-container .icon-img {
+  width: 70px;
+  height: 70px;
+}
+
+/* Text is hidden initially */
+.chat-floating-container .help-text {
+  margin-left: 10px;
+  color: #2e3134;
+  white-space: nowrap;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+
+
+/* On hover, show the text */
+.chat-floating-container:hover .help-text {
+  opacity: 1;
+}
+
+
+
+/* Chatbox styles */
+.chatbox {
+  font-family: 'Montserrat', sans-serif;
+  position: fixed;
+  bottom: 100px;
+  right: 20px;
+  width: 400px;
+  height: 320px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  opacity: 0; /* Start off hidden */
+  visibility: hidden; /* Prevent interaction */
+  transition: opacity 1s ease, visibility 0.1s ease; /* Smooth transition */
+  display: flex; /* Use flex to maintain layout but control visibility */
+  flex-direction: column;
+  z-index: 3;
+}
+
+/* Show chatbox when active */
+.chatbox.active {
+  opacity: 1; /* Fade in */
+  visibility: visible; /* Make visible for interaction */
+}
+
+.chatbox-header {
+  background-color: #e41e26;
+  color: white;
+  padding: 10px 10px 10px 20px;
+  border-radius: 20px 20px 0 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.chatbox-body {
+  background:#FFF;
+  flex: 1;
+  overflow-y: auto;
+  border-radius:0 0 20px 20px;
+  font-size: 13px;
+  padding:30px 10px 30px 10px;
+}
+.chat-message {
+  font-size: 13px;
+}
+
+
+.close-btn {
+  cursor: pointer;
+  font-size: 30px;
+  color: white;
+}
+
+/* Profile image and message styling */
+.chat-message {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.profile-img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.chat-message p {
+  margin: 0;
+  font-size: 14px;
+}
+
+
+
+
+/* Premade links section with alignment */
+.premade-links {
+  display: flex;
+  justify-content: flex-start; /* Aligns links to the left */
+  flex-wrap: wrap; /* Ensures links are wrapped in two columns */
+  gap: 10px; /* Adds consistent spacing between items */
+  padding-left: 60px;
+  padding-top: 30px;
+  padding-right: 10px;
+}
+
+/* Each link item, aligned with the chat message */
+.link-item {
+  width: 48%;
+  text-align: center;
+  margin-bottom: 10px;
+  border: 1px solid #e41e26;
+  border-radius: 25px;
+  color: #e41e26;
+  cursor: pointer;
+  padding: 15px;
+  position: relative; 
+}
+.link-item a {
+  color: #e41e26;
+  text-decoration: none;
+  position: absolute; 
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  border-radius: 25px;
+}
+
+/* Hover effect for links */
+.link-item:hover {
+  background-color: rgba(255, 0, 0, 0.1); /* Slight background color change on hover */
+}
+
+/*
+     FILE ARCHIVED ON 03:45:06 Sep 20, 2025 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 07:30:38 Sep 20, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.49
+  exclusion.robots: 0.02
+  exclusion.robots.policy: 0.009
+  esindex: 0.009
+  cdx.remote: 6.288
+  LoadShardBlock: 59.576 (3)
+  PetaboxLoader3.datanode: 81.52 (4)
+  load_resource: 201.842
+  PetaboxLoader3.resolve: 38.833
+*/
