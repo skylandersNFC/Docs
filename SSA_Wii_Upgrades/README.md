@@ -1,6 +1,6 @@
 # SSA Wii Upgrades, Heroics and Hats Information by Kory_
 
-[![Preview](https://raw.githubusercontent.com/skylandersNFC/Docs/main/SSA_Wii_Upgrades/images/Preview.jpg)](https://skylandersnfc.github.io/Docs/SSA_Wii_Upgrades/SSA_Wii_Upgrades_Heroics_and_Hats_Information)
+[![Preview](https://raw.githubusercontent.com/skylandersNFC/Docs/main/SSA_Wii_Upgrades/images/Preview.jpg)](https://skylandersnfc.github.io/Docs/SSA_Wii_Upgrades/SSA_Wii_Upgrades_Heroics_and_Hats_Information.pdf)
 
 **PDF:** **[SSA Wii Upgrades Heroics and Hats Information](https://skylandersnfc.github.io/Docs/SSA_Wii_Upgrades/SSA_Wii_Upgrades_Heroics_and_Hats_Information.pdf)**
 
