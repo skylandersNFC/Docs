@@ -1,5 +1,7 @@
 # Skylanders NFC Documents
 
+**[ACR122U_Driver_Backup](https://skylandersnfc.github.io/Docs/ACR122U_Driver_Backup)** (SkylandersNFC)
+
 **[ACR122U_Manual_Driver](https://skylandersnfc.github.io/Docs/ACR122U_Manual_Driver)** (SkylandersNFC)
 
 **[Android_Imaginators_Gen2](https://skylandersnfc.github.io/Docs/Android_Imaginators_Gen2)** (SkylandersNFC)
