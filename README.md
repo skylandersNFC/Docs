@@ -18,7 +18,7 @@
 
 **[Play_with_Heartbreaker](https://skylandersnfc.github.io/Docs/Play_with_Heartbreaker)** (SkylandersNFC)
 
-**[SSA_Wii_Upgrades_Heroics_and_Hats_Information](https://skylandersnfc.github.io/Docs/SSA_Wii_Upgrades_Heroics_and_Hats_Information)** (Kory_)
+**[SSA_Wii_Upgrades](https://skylandersnfc.github.io/Docs/SSA_Wii_Upgrades)** (Kory_)
 
 **[Skylander_Format](https://skylandersnfc.github.io/Docs/Skylander_Format)** (NefariousTechSupport)
 
