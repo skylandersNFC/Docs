@@ -1,6 +1,6 @@
 # ACR122U Manual Driver Installation
 
-## 01. Manual Driver Download: [acs.com.hk (Backup)](https://skylandersnfc.github.io/Docs/ACR122U_Manual_Driver/acs.com.hk)
+## 01. Manual Driver Download: [acs.com.hk (Official)](https://www.acs.com.hk/en/driver/3/acr122u-usb-nfc-reader/) / [acs.com.hk (Backup)](https://skylandersnfc.github.io/Docs/ACR122U_Driver_Backup/acs.com.hk)
 ![Manual Driver](https://raw.githubusercontent.com/skylandersNFC/Docs/main/ACR122U_Manual_Driver/img/Manual_Driver.png)
 
 ## 02. Extract the ZIP archive and check that this file is present:
