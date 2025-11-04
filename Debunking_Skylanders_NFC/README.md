@@ -48,7 +48,7 @@ However, we have a new software called **[Yet Another Mifare Tool (YAMT)](https:
 
 ---
 
-For **NS106** there is a tutorial here : **[NS106 - Write Skylanders on UID Re-Writable and UID Locked Cards](https://skylandersnfc.github.io/Docs/NS106_UID_ReWritable_and_Locked_Cards/)**
+For **NS106** there is a tutorial here : **[NS106 - Write Skylanders on UID Re-Writable and UID Locked Cards](https://skylandersnfc.github.io/NFC-Copy/)**
 
 ---
 
@@ -106,3 +106,4 @@ With **Gen2** cards you can get **older Skylanders** and **Imaginators**, but yo
 You can use Android Native NFC with UID Locked cards (all cards will be considered UID locked here). This method allows you to flash **older Skylanders (not Imaginators)** on Gen1 cards if you prepare the dumps with **[SkyUID](https://github.com/skylandersNFC/SkyUID-Generator)**, **[TheSkyLib](https://github.com/skylandersNFC/TheSkyLib)** or **[SkyDumps Generator](https://skylandersnfc.github.io/SkyDumps-Generator/)**.
 
 On **Android**, you can flash Imaginators on Gen2 cards by watching this tutorial: **[Write Imaginators on Android Phones with Gen2 Tags](https://skylandersnfc.github.io/Docs/Android_Imaginators_Gen2/)**
+
