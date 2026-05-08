@@ -169,14 +169,6 @@
 
 ----
 
-> **How do I fix the "Please insert the original disc instead of a backup (1000)" error? (Method by u/Giocher85)**
-> 1. Download the game ISO.
-> 2. Install the game. You can either extract the contents of the ISO using a tool like 7-zip, mount the ISO through a drive emulator like WinCDEmu or Daemon Tools, or just straight up burn it on a real cd. I recommend the former option, as you probably already have a zip archiver installed on your pc. If you’ve extracted the ISO’s contents, run “setup.exe”. If you have mounted/burnt the ISO, just run it.
-> 3. Once the installation is finished, paste iphlpapi.dll into the game’s main folder. You can download it from mega [here](https://mega.nz/file/db5VXCxY#UtGUsbD-EuA_D8mUAWwPrdr13jKKdUBm10yS_P6UJHc). This is a generic securom cracker made by a user that went by the name virusek. You may need to set an antivirus exception.
-> 4. Plug in the portal and just run the game as you had an original CD in your drive. Note: if you’re on win8 or 10, you may need to run the game in win7 or XP compatibility mode.
-
-----
-
 # LEGO Dimensions ROMs
 
 **Wii U: [Lego Dimensions (US) [WUA]](https://archive.org/details/lego-dimensions-us)**
