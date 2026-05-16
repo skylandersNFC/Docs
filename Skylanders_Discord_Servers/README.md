@@ -11,3 +11,5 @@ Here’s a curated list of Discord servers for **Skylanders**.
 ## 🔹 [Skylandeer's Portal Master](https://discord.gg/FeuVrsuDJe)
 
 ## 🔹 [Skylanders Reverse Engineering](https://discord.gg/8Ya7m6485d)
+
+## 🔹 [Skylander 3D Printing Project](https://discord.gg/hGBDHKDT34)
