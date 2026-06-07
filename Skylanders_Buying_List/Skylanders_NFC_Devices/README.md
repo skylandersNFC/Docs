@@ -26,9 +26,9 @@
 
 **Price:**
 - **~6$** _(for existing AliExpress users)_
-- **~1$** _(welcome deal for new users)_
+- **~5$** _(welcome deal for new users)_
 
-**Buy:** [https://www.aliexpress.com/item/1005005262748046.html](https://www.aliexpress.com/item/1005005262748046.html)
+**Buy:** [https://www.aliexpress.com/item/1005009620997397.html](https://www.aliexpress.com/item/1005009620997397.html)
 
 **Software:** [PN532 V2.0](https://skylandersnfc.github.io/Docs/Skylanders_Buying_List/Skylanders_NFC_Devices/PN532/)
 
