@@ -53,9 +53,9 @@
 ### Gen1 UID Re-Writable Chips
  ![Smart Chips](https://raw.githubusercontent.com/skylandersNFC/Docs/main/Skylanders_Buying_List/Skylanders_NFC_Cards/images/Gen1_Smart_Chips.jpg)
 
-**Price:** ~3$ for 20 tags
+**Price:** ~3$ for 18 tags
 
-**Buy:** [https://www.aliexpress.com/item/1005005553042139.html](https://www.aliexpress.com/item/1005005553042139.html)
+**Buy:** [https://www.aliexpress.com/item/1005008393719327.html](https://www.aliexpress.com/item/1005008393719327.html)
 
 **Note:** _Those are mainly for Skylanders figures repair._
 
