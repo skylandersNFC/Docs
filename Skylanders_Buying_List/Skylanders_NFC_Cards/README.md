@@ -5,9 +5,11 @@
 ### Gen1A UID Re-Writable Cards
 ![Amazon Cards](https://raw.githubusercontent.com/skylandersNFC/Docs/refs/heads/main/Skylanders_Buying_List/Skylanders_NFC_Cards/images/Gen1_Amazon_Cards.jpg)
 
-**Price:** ~35$ for 100 tags
+**Price:** 30-35$ for 100 tags
 
-**Buy:** [https://www.amazon.com/dp/B09N9J4FJX](https://www.amazon.com/dp/B09N9J4FJX)
+**JASAG 100pcs:** [https://www.amazon.com/dp/B09N9J4FJX](https://www.amazon.com/dp/B09N9J4FJX)
+
+**HERNAS 100pcs:** [https://www.amazon.com/dp/B0FQPDYMQV](https://www.amazon.com/dp/B0FQPDYMQV)
 
 **Note:** _You can change the amazon link from co.uk, to .de or whatever your region is. It should still work._
 
